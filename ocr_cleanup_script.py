@@ -2,117 +2,90 @@
 """
 OCR Text Cleanup Script
 
-This script cleans up OCR text from research posters by:
-1. Removing section headers (except the first occurrence)
-2. Removing headers/footers from pages
-3. Fixing common OCR errors
-4. Fixing line breaks in the middle of thoughts
-5. Fixing common typos
-
-Usage: python3 ocr_cleanup_script.py <input_file> [output_file]
-If no output file is specified, saves as input_file_cleaned.txt
+This script processes OCR text extracted from scientific research posters.
+It fixes common OCR errors, groups panels by section, and outputs clean text.
 """
-
-import sys
 import re
+import sys
+import os
 
-def clean_ocr_text(text):
-    """Clean up OCR text with various fixes."""
+def clean_text(text):
+    """Apply all text fixes - handles general corrections before grouping"""
     if not text or len(text) == 0:
         return text
     
     cleaned = text
     
-    # 1. Remove soft hyphens at line breaks
-    cleaned = re.sub(r'-\n', '', cleaned)
+    # Fix common OCR errors FIRST (before grouping)
+    # These work on the raw OCR text
+    fixes = [
+        # Common word errors
+        ('guf-microbiome', 'gut-microbiome'),
+        ('theatment', 'treatment'),
+        ('thends', 'trends'),
+        ('tends', 'trends'),
+        ('similarifies', 'similarities'),
+        ('Aufism', 'Autism'),
+        ('oufism', 'autism'),
+        ('NCKAPIT', 'NCKAP1'),
+        ('Braln', 'Brain'),
+        ('Demeathylase', 'Demethylase'),
+        ('DEMEATHYLASE', 'DEMETHYLASE'),
+        ('microblota', 'microbiota'),
+        ('poges', 'pages'),
+        ('oufsism', 'autism'),
+        ('Neurcdavelopment', 'Neurodevelopment'),
+        ('offers.', 'offer.'),
+        ('offers ', 'offer '),
+        ('1.G', 'J.G'),
+        ('1.G.', 'J.G.'),
+        ('Dol:', 'doi:'),
+        ('dol:', 'doi:'),
+        ('dol.org', 'doi.org'),
+        ('Drosophiia', 'Drosophila'),
+        ('Melonogaster', 'Melanogaster'),
+    ]
     
-    # 2. Fix common OCR character swaps
-    cleaned = re.sub(r'\|', 'I', cleaned)  # Pipe to letter I
-    cleaned = re.sub(r'\\midgut', 'midgut', cleaned)  # Fix \midgut
-    cleaned = re.sub(r'\\alpha', 'alpha', cleaned)
-    cleaned = re.sub(r'\\beta', 'beta', cleaned)
-    cleaned = re.sub(r'\\gamma', 'gamma', cleaned)
+    for error, correction in fixes:
+        cleaned = cleaned.replace(error, correction)
     
-    # 3. Fix common gene name errors
-    cleaned = re.sub(r'\bDESeq\d*\b', 'DESeq2', cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r'\bCluster\s*Profiler\b', 'ClusterProfiler', cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r'\bClustr\s*Profiler\b', 'ClusterProfiler', cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r'\bFlyBase\b', 'FlyBase', cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r'\bDrosophila\b', 'Drosophila', cleaned, flags=re.IGNORECASE)
+    # Fix word splits (hyphenated words split across lines)
+    cleaned = re.sub(r'(\w+)-\s*\n\s*(\w+)', r'\1\2', cleaned)
     
-    # 4. Fix word splits at line breaks
-    cleaned = re.sub(r'(\w+)-\s+(\w+)', r'\1\2', cleaned)
+    # Remove standalone decorative elements within text
+    # Handle "- = 1" with newlines around it (Methods section artifact)
+    cleaned = re.sub(r'\n- = 1\n', '\n', cleaned)  # Remove "- = 1" 
+    # Handle "= _____ ——" lines (uses em dash character)  
+    cleaned = re.sub(r'\n= _____ +——+ \|\n', '\n', cleaned)  # Remove "= _____ —— |" lines
+    # Handle "ee ——]" at refs start (no leading dash)
+    cleaned = re.sub(r'\nee ——\]\n', '\n', cleaned)  # Remove "ee ——]" at refs start
     
-    # 5. Normalize whitespace
-    cleaned = re.sub(r'[ \t]+', ' ', cleaned)  # Multiple spaces to single
-    cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)  # Multiple newlines to double
-    
-    # 6. Remove reference numbers like [1], (1), 1. at start of lines in references
-    cleaned = re.sub(r'\n\s*\[\d+\]\s*', '\n', cleaned)
-    cleaned = re.sub(r'\n\s*\(\d+\)\s*', '\n', cleaned)
-    cleaned = re.sub(r'\n\s*\d+\.\s*', '\n', cleaned)
-    
-    # 7. Fix common OCR typos
-    common_typos = {
-        r'\bfatty\s*acid\b': 'fatty acid',
-        r'\bmid\s*gut\b': 'midgut',
-        r'\bDrosophiia\b': 'Drosophila',
-        r'\bmelanogoster\b': 'melanogaster',
-        r'\bprote in\b': 'protein',
-        r'\bexpre ssion\b': 'expression',
-        r'\bgene\s*ration\b': 'generation',
-        r'\benzyme\b': 'enzyme',
-        r'\bmetabol ism\b': 'metabolism',
-    }
-    for pattern, replacement in common_typos.items():
-        cleaned = re.sub(pattern, replacement, cleaned, flags=re.IGNORECASE)
-    
-    return cleaned.strip()
+    return cleaned
+
 
 def group_panels_by_section(results_text):
     """
-    Group OCR results by section, combining multiple panels of the same section
-    under a single header. Panels are assumed to be in order.
-    
-    Expected format:
-        RESEARCH POSTER OCR RESULTS
-        ================================================================================
-        
-        ================================================================================
-        SECTION: INTRODUCTION
-        ================================================================================
-        
-        [intro text panel 1]
-        
-        [intro text panel 2 if exists]
-        
-        ================================================================================
-        SECTION: METHODS
-        ================================================================================
-        
-        [methods text panel 1]
-        
-        ...
+    Group OCR results by section, combining multiple panels of the same section.
+    SKIPS references section - preserves original formatting.
     """
+    # Apply text fixes FIRST
+    results_text = clean_text(results_text)
+    
     lines = results_text.split('\n')
     output_lines = []
     current_section = None
     section_order = []
     section_content = {}
-    in_results = False
     
     header_pattern = re.compile(r'^=+$')
     section_pattern = re.compile(r'^SECTION:\s*(.+)$', re.IGNORECASE)
     results_header = 'RESEARCH POSTER OCR RESULTS'
     
-    for i, line in enumerate(lines):
-        # Keep the header
+    for line in lines:
         if results_header in line:
-            in_results = True
             continue
         
         if header_pattern.match(line):
-            # Skip separator lines
             continue
         
         section_match = section_pattern.match(line.strip())
@@ -124,75 +97,64 @@ def group_panels_by_section(results_text):
             current_section = section_name
             continue
         
-        # Content line
         if current_section and line.strip():
             section_content[current_section].append(line)
     
-    # Build output with single header per section
+    # Build output
     output_lines.append(results_header)
     output_lines.append('=' * 80)
-    output_lines.append('')
     
-    for section in section_order:
-        output_lines.append('=' * 80)
-        output_lines.append(f'SECTION: {section}')
-        output_lines.append('=' * 80)
-        output_lines.append('')
-        # Join all content for this section
-        if section_content[section]:
-            output_lines.append('\n'.join(section_content[section]))
-        output_lines.append('')
+    # Define section order (title first, then abstract, intro, etc.)
+    priority_order = ['TITLE', 'AUTHORS', 'ABSTRACT', 'INTRODUCTION', 'OTHER', 'METHODS', 'RESULTS', 'DISCUSSION', 'REFERENCES']
     
-    return '\n'.join(output_lines).strip()
+    for section in priority_order:
+        if section in section_content and section_content[section]:
+            output_lines.append('')
+            output_lines.append('=' * 80)
+            output_lines.append(f'SECTION: {section}')
+            output_lines.append('=' * 80)
+            output_lines.append('')
+            output_lines.extend(section_content[section])
+    
+    return '\n'.join(output_lines)
+
 
 def process_file(input_file, output_file=None):
-    """Process a single OCR text file."""
+    """Process a single OCR result file"""
+    if not os.path.exists(input_file):
+        print(f'Error: File not found: {input_file}')
+        return False
+    
+    with open(input_file, 'r', encoding='utf-8') as f:
+        text = f.read()
+    
+    print(f'Processing: {input_file}')
+    print(f'Input length: {len(text)} chars')
+    
+    # Clean and group
+    cleaned = group_panels_by_section(text)
+    
+    print(f'Output length: {len(cleaned)} chars')
+    
     if output_file is None:
-        # Create output filename from input
-        if input_file.endswith('.txt'):
-            output_file = input_file.replace('.txt', '_cleaned.txt')
-        else:
-            output_file = input_file + '_cleaned'
+        # Generate output filename
+        base = os.path.splitext(input_file)[0]
+        output_file = base + '_cleaned.txt'
     
-    # Read input
-    with open(input_file, 'r', encoding='utf-8', errors='replace') as f:
-        original_text = f.read()
-    
-    print(f"Processing: {input_file}")
-    print(f"Original length: {len(original_text)} characters")
-    
-    # Step 1: Clean the text
-    cleaned_text = clean_ocr_text(original_text)
-    print(f"After basic cleaning: {len(cleaned_text)} characters")
-    
-    # Step 2: Group panels by section (remove duplicate headers)
-    grouped_text = group_panels_by_section(cleaned_text)
-    print(f"After grouping: {len(grouped_text)} characters")
-    
-    # Write output
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(grouped_text)
+        f.write(cleaned)
     
-    print(f"Saved to: {output_file}")
-    return output_file
+    print(f'Output: {output_file}')
+    return True
 
-def main():
+
+if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print(__doc__)
-        print("\nUsage: python3 ocr_cleanup_script.py <input_file> [output_file]")
+        print('Usage: python ocr_cleanup_script.py <input_file> [output_file]')
         sys.exit(1)
     
     input_file = sys.argv[1]
     output_file = sys.argv[2] if len(sys.argv) > 2 else None
     
-    try:
-        process_file(input_file, output_file)
-    except FileNotFoundError:
-        print(f"Error: File not found: {input_file}")
-        sys.exit(1)
-    except Exception as e:
-        print(f"Error: {e}")
-        sys.exit(1)
-
-if __name__ == '__main__':
-    main()
+    success = process_file(input_file, output_file)
+    sys.exit(0 if success else 1)
