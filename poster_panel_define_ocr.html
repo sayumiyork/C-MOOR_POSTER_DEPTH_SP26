@@ -172,7 +172,7 @@
             image:null, scale:1, zoom:100, panX:0, panY:0,
             currentType:'introduction', isDrawing:false, startX:0, startY:0,
             isPanning:false, panels:[], currentVersion:'original',
-            originalText:'', cleanedText:''
+            originalText:'', cleanedText:'', currentFilename:''
         };
         const canvas = document.getElementById('posterCanvas');
         const ctx = canvas.getContext('2d');
@@ -190,27 +190,23 @@
             });
         });
         
-        // Upload handlers - make sure they work
-        function triggerFileInput() {
-            fileInput.value = '';
-            fileInput.click();
-        }
-        
+        // Upload handlers
+        function triggerFileInput() { fileInput.click(); }
         document.getElementById('uploadBtn').addEventListener('click', triggerFileInput);
         document.getElementById('uploadBtn2').addEventListener('click', triggerFileInput);
         uploadArea.addEventListener('click', e => { if (e.target === uploadArea || e.target.tagName === 'P') triggerFileInput(); });
-        
-        fileInput.addEventListener('change', e => { 
-            if (e.target.files && e.target.files.length > 0) {
-                handleFile(e.target.files[0]);
-            }
-        });
+        fileInput.addEventListener('change', e => { if (e.target.files && e.target.files.length > 0) handleFile(e.target.files[0]); });
         uploadArea.addEventListener('dragover', e => { e.preventDefault(); uploadArea.style.borderColor = '#00d4ff'; });
         uploadArea.addEventListener('dragleave', e => { e.preventDefault(); uploadArea.style.borderColor = '#333'; });
         uploadArea.addEventListener('drop', e => { e.preventDefault(); uploadArea.style.borderColor = '#333'; if (e.dataTransfer.files.length > 0) handleFile(e.dataTransfer.files[0]); });
         
         function handleFile(file) {
             if (!file.type.startsWith('image/')) { alert('Please select an image file.'); return; }
+            // Set default filename from uploaded file
+            let baseName = file.name.replace(/\.[^.]+$/, '');
+            state.currentFilename = baseName;
+            document.getElementById('outputFilename').value = baseName + '.txt';
+            
             const reader = new FileReader();
             reader.onload = e => {
                 const img = new Image();
@@ -341,7 +337,7 @@
                 ctx.fillRect(panel.x1, panel.y1, 120, 20);
                 ctx.fillStyle = COLORS[panel.type];
                 ctx.font = 'bold 12px sans-serif';
-                ctx.fillText(`${i + 1}. ${NAMES[panel.type] || panel.type}`, panel.x1 + 5, panel.y1 + 14);
+                ctx.fillText((i + 1) + '. ' + (NAMES[panel.type] || panel.type), panel.x1 + 5, panel.y1 + 14);
             });
         }
         
@@ -350,13 +346,13 @@
             document.getElementById('panelCount').textContent = state.panels.length;
             if (state.panels.length === 0) { list.innerHTML = '<p class="empty-state">No panels drawn yet</p>'; return; }
             list.innerHTML = state.panels.map((p, i) => 
-                `<div class="panel-item">
-                    <span class="panel-num" style="background:${COLORS[p.type]}">${i + 1}</span>
-                    <select onchange="changePanelType(${i}, this.value)">
-                        ${Object.keys(NAMES).map(t => `<option value="${t}" ${p.type === t ? 'selected' : ''}>${NAMES[t]}</option>`).join('')}
-                    </select>
-                    <button class="remove-btn" onclick="removePanel(${i})">✕</button>
-                </div>`
+                '<div class="panel-item">' +
+                    '<span class="panel-num" style="background:' + COLORS[p.type] + '">' + (i + 1) + '</span>' +
+                    '<select onchange="changePanelType(' + i + ', this.value)">' +
+                        Object.keys(NAMES).map(t => '<option value="' + t + '"' + (p.type === t ? ' selected' : '') + '>' + NAMES[t] + '</option>').join('') +
+                    '</select>' +
+                    '<button class="remove-btn" onclick="removePanel(' + i + ')">✕</button>' +
+                '</div>'
             ).join('');
         }
         
@@ -383,7 +379,7 @@
                 const Tesseract = window.Tesseract;
                 const results = [];
                 for (let i = 0; i < state.panels.length; i++) {
-                    status.textContent = `Processing panel ${i + 1}/${state.panels.length}...`;
+                    status.textContent = 'Processing panel ' + (i + 1) + '/' + state.panels.length + '...';
                     const panel = state.panels[i];
                     const padding = 5;
                     const x1 = Math.max(0, panel.x1 - padding), y1 = Math.max(0, panel.y1 - padding);
@@ -398,17 +394,48 @@
                     tempCtx.drawImage(state.image, x1, y1, width, height, 0, 0, tempCanvas.width, tempCanvas.height);
                     const dataUrl = tempCanvas.toDataURL('image/png');
                     const result = await Tesseract.recognize(dataUrl, 'eng', {
-                        logger: m => { if (m.status === 'recognizing text') status.textContent = `Panel ${i + 1}/${state.panels.length}: ${Math.round(m.progress * 100)}%`; }
+                        logger: m => { if (m.status === 'recognizing text') status.textContent = 'Panel ' + (i + 1) + '/' + state.panels.length + ': ' + Math.round(m.progress * 100) + '%'; }
                     });
                     results.push({panel: i + 1, type: panel.type, label: NAMES[panel.type] || panel.type, text: result.data.text.trim()});
                 }
+                
+                // Group panels by section type, maintaining order
+                const sections = {};
+                results.forEach(r => {
+                    if (!sections[r.type]) sections[r.type] = [];
+                    sections[r.type].push({panel: r.panel, text: r.text});
+                });
+                
+                // Build original text with single header per section
                 let originalText = 'RESEARCH POSTER OCR RESULTS\n' + '='.repeat(80) + '\n\n';
-                results.forEach(r => { originalText += `${'='.repeat(80)}\nSECTION: ${r.label.toUpperCase()}\n${'='.repeat(80)}\n\n${r.text}\n\n`; });
+                const seenTypes = [];
+                results.forEach(r => {
+                    if (!seenTypes.includes(r.type)) {
+                        seenTypes.push(r.type);
+                        originalText += '='.repeat(80) + '\nSECTION: ' + r.label.toUpperCase() + '\n' + '='.repeat(80) + '\n\n' + r.text + '\n\n';
+                    } else {
+                        // Additional content for same section
+                        originalText += r.text + '\n\n';
+                    }
+                });
                 state.originalText = originalText.trim();
-                state.cleanedText = cleanOcrText(state.originalText);
+                
+                // Build cleaned text with same grouping
+                let cleanedText = 'RESEARCH POSTER OCR RESULTS\n' + '='.repeat(80) + '\n\n';
+                seenTypes.length = 0;
+                results.forEach(r => {
+                    if (!seenTypes.includes(r.type)) {
+                        seenTypes.push(r.type);
+                        cleanedText += '='.repeat(80) + '\nSECTION: ' + r.label.toUpperCase() + '\n' + '='.repeat(80) + '\n\n' + cleanOcrText(r.text) + '\n\n';
+                    } else {
+                        cleanedText += cleanOcrText(r.text) + '\n\n';
+                    }
+                });
+                state.cleanedText = cleanedText.trim();
+                
                 showVersion('original');
                 status.className = 'ocr-status success visible';
-                status.textContent = `Done! ${state.panels.length} panels processed.`;
+                status.textContent = 'Done! ' + state.panels.length + ' panels processed.';
                 document.getElementById('downloadOrigBtn').disabled = false;
                 document.getElementById('downloadCleanBtn').disabled = false;
             } catch (error) {
@@ -432,13 +459,31 @@
             return cleaned;
         }
         
-        function downloadOriginal() { downloadText(state.originalText, document.getElementById('outputFilename').value || 'output.txt'); }
+        function getOutputFilename() {
+            const name = document.getElementById('outputFilename').value.trim();
+            if (name) return name;
+            // Default to poster filename if available
+            if (state.currentFilename) return state.currentFilename + '.txt';
+            return 'output.txt';
+        }
+        
+        function downloadOriginal() {
+            const filename = getOutputFilename();
+            downloadText(state.originalText, filename);
+        }
+        
         function downloadCleaned() {
-            let filename = document.getElementById('outputFilename').value || 'output.txt';
+            let filename = getOutputFilename();
+            // Add _cleaned before extension
             const parts = filename.split('.');
-            filename = parts.length > 1 ? parts.slice(0, -1).join('.') + '_cleaned.txt' : filename + '_cleaned.txt';
+            if (parts.length > 1) {
+                filename = parts.slice(0, -1).join('.') + '_cleaned.' + parts[parts.length - 1];
+            } else {
+                filename = filename + '_cleaned';
+            }
             downloadText(state.cleanedText, filename);
         }
+        
         function downloadText(text, filename) {
             if (!text) return;
             const blob = new Blob([text], {type: 'text/plain'});
