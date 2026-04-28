@@ -1,161 +1,181 @@
-# Getting Started — Poster Panel OCR Tool
+# Poster Panel OCR — User Guide
 
-**A step-by-step guide for new users**
+## Getting Started
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- No installation required — runs entirely in browser
+- No internet required after initial page load (for offline use)
+
+### How to Access
+1. Open `poster_panel_define_ocr.html` in your web browser
+2. The app will load and display the upload area
 
 ---
 
-## What Is This Tool?
+## Step-by-Step Tutorial
 
-The Poster Panel OCR Tool extracts text from research posters. Unlike a simple screenshot OCR, this tool lets you define sections by drawing panels around areas, so the text stays organized by topic.
+### Step 1: Upload Your Poster
+1. **Drag and drop** your poster image onto the upload area, OR
+2. Click the **📤 Upload Poster** button to select a file
 
-**Key benefit:** Text from different sections (Introduction, Methods, Results, etc.) stays separate instead of getting jumbled together.
+The app will automatically fit the poster to the viewing area.
 
----
+### Step 2: Select a Section Type
+Before drawing, select the section type for your panel:
 
-## Quick Start (5 Minutes)
+1. Look at the **section buttons** in the control bar
+2. Click the button matching your content type (e.g., "Introduction")
+3. The button will highlight with a thicker border
 
-### Step 1: Open the Tool
+**Section Types:**
+| Button | Use For |
+|--------|---------|
+| Title | Poster title and subtitle |
+| Authors | Author names and affiliations |
+| Abstract | Abstract text |
+| Intro | Introduction/background |
+| Methods | Methodology |
+| Results | Results and data |
+| Discussion | Discussion and conclusions |
+| Refs | References/bibliography |
+| Other | Anything else |
 
-1. Navigate to the folder: `Documents/C-MOOR Poster OCR - Instance 2/`
-2. Open the file `poster_panel_define_ocr.html` by double-clicking it
-3. The tool opens in your default web browser
-
-> **Note:** If you see a blank white screen, try refreshing the page or using a different browser (Chrome, Firefox, Edge recommended).
-
-### Step 2: Upload Your Poster
-
-1. Click **📤 Upload** button in the top toolbar, OR
-2. Drag and drop your poster image directly onto the upload area
-
-**Supported formats:** JPG, PNG, WebP, GIF
-
-### Step 3: Zoom and Navigate
-
-| Action | How |
-|--------|-----|
-| Zoom in | Click ➕ or drag slider right |
-| Zoom out | Click ➖ or drag slider left |
-| Pan | Right-click and drag |
-
-### Step 4: Select a Section Type
-
-Before drawing, click one of the colored buttons to select what section you're defining:
-
-| Button | Section | When to Use |
-|--------|---------|-------------|
-| 🔴 Title | Title | The poster's main title at the top |
-| 🟠 Authors | Authors | Author names and affiliations |
-| 🟢 Abstract | Abstract | Abstract text (if separate from intro) |
-| 🟡 Intro | Introduction | Background, objectives |
-| 🟢 Methods | Methods | How the research was done |
-| 🔵 Results | Results | Data, figures, findings |
-| 🟣 Discussion | Discussion | Analysis and conclusions |
-| ⚪ Refs | References | Citations |
-| ⚫ Other | Other | Anything else (acknowledgements, etc.) |
-
-### Step 5: Draw Panels Around Sections
-
-1. Click and hold your mouse on one corner of a text area
-2. Drag to the opposite corner
-3. Release — a colored rectangle appears
+### Step 3: Draw Panels Over Content
+1. **Click and drag** on the poster image to draw a rectangle
+2. Release the mouse to complete the panel
+3. The panel appears with a colored border matching its section type
+4. A number label appears in the top-left corner
 
 **Tips:**
-- Draw tightly around the text, excluding headers/footers
-- You can draw multiple panels for the same section (e.g., two Introduction panels)
-- The panel is automatically labeled with its section type
+- Draw panels only over text content you want to extract
+- Exclude images, graphs, and decorative elements
+- You can draw multiple panels for the same section
 
-### Step 6: Run OCR
+### Step 4: Adjust Panel Position (if needed)
+To change a panel's section type:
+1. Find the panel in the **📋 Panels** list (bottom of screen)
+2. Use the dropdown to select a different section type
+3. The panel color will update automatically
 
-1. Click **🚀 Run OCR** button
-2. Wait for processing (progress shows in status area)
-3. Results appear in the sidebar
+To remove a panel:
+- Click the **✕** button next to the panel in the list
 
-### Step 7: Review and Download
+### Step 5: Zoom and Pan
+**Zoom:**
+- Use the **slider** in the header (10%–400%)
+- Or click **➕** / **➖** buttons for 25% increments
+- Or hold **Ctrl** and scroll your mouse wheel
 
-1. Toggle between **Original** and **Cleaned** tabs to see both versions
-2. Click **📥 Original** to download raw OCR text
-3. Click **📥 Cleaned** to download corrected text
+**Pan:**
+- Click and drag with **middle mouse button** to pan around the image
+- Useful when zoomed in on large posters
+
+### Step 6: Adjust OCR Quality (Optional)
+For posters with small text, increase the upscale factor:
+
+1. Move the **Upscale slider** (1x–8x, default 4x)
+2. Higher values = better accuracy on small text
+3. Higher values = slower processing
+
+### Step 7: Run OCR
+1. Ensure you have drawn at least one panel
+2. Click the **🚀 Run OCR** button
+3. Wait for processing to complete
+4. Results appear in the **📄 Results** section
+
+### Step 8: View and Download Results
+**Toggle between versions:**
+- Click **Original** to see raw OCR output
+- Click **Cleaned** to see corrected text
+
+**Download:**
+- Click **📥 Original** to download raw text
+- Click **📥 Cleaned** to download cleaned text
+
+Files are automatically named based on your poster's filename.
 
 ---
 
-## Understanding the Results
+## Tips for Best Results
 
-### Original Version
-Raw text extracted from your poster. May contain:
-- Broken words (e.g., `fer-\nment`)
-- OCR errors (e.g., `f` instead of `t`)
-- Preserves exact layout and structure
+### Panel Drawing
+✅ **DO:**
+- Draw panels tightly around text
+- Include some margin (1-2%) around text
+- Use separate panels for different sections
+- Review and correct section assignments
 
-### Cleaned Version
-Post-processed text with automatic corrections:
-- Words rejoined
-- Common OCR errors fixed
-- Scientific terms standardized (e.g., `DESeq` → `DESeq2`)
+❌ **DON'T:**
+- Include images or graphs (will add noise)
+- Leave gaps in text coverage
+- Draw panels outside visible content area
 
----
+### OCR Quality
+✅ **For best results:**
+- Use highest quality image available
+- Increase upscale factor for small text
+- Ensure good contrast in original image
+- Avoid blurry or low-resolution images
 
-## Tips for Best Accuracy
-
-### Do:
-- ✅ Use high-resolution poster images
-- ✅ Draw panels tightly around text
-- ✅ Exclude headers, footers, and logos
-- ✅ Keep figures and captions in the same panel
-- ✅ Review the Cleaned output before publishing
-
-### Don't:
-- ❌ Don't include section headers inside panels
-- ❌ Don't overlap panels
-- ❌ Don't use blurry or compressed images
+### Section Organization
+- **One panel per section** = cleaner output
+- **Multiple panels per section** = content combined automatically
+- Panels processed in **drawing order**
+- First panel of each section gets the header
 
 ---
 
 ## Troubleshooting
 
-### "Panel draws far from where I click"
-This is a known browser issue. Try:
-1. Refresh the page
-2. Upload the poster again
-3. Make sure you're not zoomed in too far
+### "Panel draws in wrong position"
+- Press **Ctrl+D** to show debug info
+- Check that `getPos` coordinates match where you clicked
+- Ensure you're not zoomed in a different zoom level
 
-### "OCR doesn't recognize my poster"
-- Ensure the poster is a clear image (not a PDF scan)
-- Try a higher resolution version
-- Make sure text is readable in the image
+### "OCR results are empty or poor quality"
+- Try increasing the **Upscale slider** to 6x or 8x
+- Ensure the panel covers text clearly
+- Check that text has good contrast
 
-### "Wrong text extracted"
-- The panel may include unintended areas
-- Try redrawing with tighter bounds
-- Some very small text may not OCR well
+### "App runs slowly"
+- Reduce upscale factor for faster processing
+- Process fewer panels at a time
+- Use a smaller image file
 
----
-
-## Privacy
-
-**Your posters never leave your computer.** This tool runs entirely in your browser:
-- No upload to any server
-- No internet connection required after loading
-- Your data stays on your device
+### "Can't download results"
+- Ensure at least one panel was processed
+- Check that results appear in the Results section
+- Try a different browser if downloads fail
 
 ---
 
-## Keyboard Reference
+## Keyboard Shortcuts
 
-| Action | Mouse |
-|--------|-------|
-| Draw panel | Left-click + drag |
-| Pan | Right-click + drag |
-| Zoom | Ctrl/Cmd + scroll |
-
----
-
-## Getting Help
-
-If you encounter issues:
-1. Refresh the page and try again
-2. Try a different browser
-3. Ensure your poster image is clear and high-resolution
+| Key | Action |
+|-----|--------|
+| Ctrl+D | Toggle debug panel |
+| Ctrl+Scroll | Zoom in/out on canvas |
 
 ---
 
-*For more details, see the Feature Guide.*
+## Privacy and Data
+
+**Your data never leaves your browser:**
+- All processing happens locally
+- No files are uploaded to any server
+- Poster images stay on your computer
+- OCR results are only stored in memory
+
+This makes the app suitable for processing sensitive research materials.
+
+---
+
+## Need Help?
+
+If you encounter issues not covered here:
+
+1. Enable **Debug mode** (Ctrl+D) to see coordinate calculations
+2. Check the Results panel for error messages
+3. Try refreshing the page and starting over
+4. Ensure your browser is up to date
