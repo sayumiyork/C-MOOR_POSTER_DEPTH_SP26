@@ -1,0 +1,134 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Drd Genes and the D1/D2 Receptors: How the Function of Drd Genes
+and Striatal Expression in Mice Relates to Schizophrenia in Humans
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Addisyn Braga, Harshpreet Kaur, Lydia Crespin, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Ir ths study, we corrpaned the Dro] and Dra gestes across regions in
+the mause ard horen brain Both cepiors se expressed
+significordly higher in the stristum than in the prefrontal cortex,
+consent with Cher rofes mn motor corto) snd reward processing,
+These gece arcade the D1 and D2 receptors, which form the core of
+the boss goangls drect end indbect gothrways and are known
+contnbuton to schooptnens pethapfywolegy Speaficety, the Drgl
+Crd, und their tuman ortholeg DOR ytilige saneing pathways that
+overlies with mecharssa thet regulote neurons structure This slucy
+Fghlighis the relaticrahip between receptor signaling, reguonsl gene
+expression, ard paychiolric desase rrechanmms. These cross-speces
+camparmans supear! the use of Mouse dopamine fecottaol genes in
+moceing human disorders such as schezophene,
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+A orucial newotiaremcey for Motor contrel methation reeaurd
+Processing, and cognitvd function iB dopamine Dogamine signakng
+dysraguution =m dosely Mnked 10 meunopeechitne dheorcdins
+Partculrk sohzaphena, whee tolisons hallucnatons, and poor
+Gaacutive Tunclon ae Cauted by Gece sinatal D2 ecaptor activity
+Naar ly al artip@eahotc MedCatons tarpet D2 racopions, undenscoong
+the ymporance of dogaming scepter Ddogy for understanding
+disease maechanseyd DORs intrace lube Signaling pathways affect the
+RIUCIue and plasticity of colle and May INE[RcE wih madhanioms
+Slated ta bean gowiagment and mental sscoptiblitg Drafl acthates
+Cf proteins to Increase CAMP and proemale aedtatony signaling Dead
+aClvates Ci LONG 10 reduce cAMP Gnd regulate inhibstary Signaling,
+MOotar Cortral Na dopaminergic Seadback.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+Vl Loo) Dy researching SOgaminengic genes with Sbomtary
+Mcse Wa chose Dr DI Based 0m 1's Tunction and Toe the fagr that ©
+weirs MTs Dal by Gong isse
+® Hurrin Prgisin Alas. Oo ire The furs onho keg gene fr D0
+® Mouse Conome Informatics was 10 ssa ch the tunction of OO)
+avd DnOg
+. And Tera Glatformn [Rcodmg for The genes)
+[Programming WoguageI
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Dral Plot Acress Region/DESeq2? Differential expression Graph
+
+Dral is a dogamine receptor, which Is a C prosein coupled receptor that
+Activates the © proteins to Increase CAMP in response to dopamine. Mouse
+modes lacking Ord! are widkedy used to Investigate mechanisms underlying
+movement disorders, addiction, and neuropsychiatric conditions As this
+graph shows, ts highly expressed in the Stratum wih a p values of
+14450620. 31
+
+Drd2 Plot Across Region/ DESeq2 Differential expression Graph
+
+Dred gene encodes the Sopaming receptor D2 Ded? signafing shapes
+MISLAQTION, ward sensitivity, arming, 4nd behav ond 1eeponses 10
+peycncstimulanta The DROZ gone produces tha dopaerena D2 receptor, 3
+Protein that Moo iates Sona Ming signaling in tha brain by controling its
+SYNGE, SOR0e and rekess Thee graph shows how Ded K 3is0 mora
+arxpressed in tha Srl with a p valug of 8923466032
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Cur FOoirags show hat Deal ard Ded? exgowisiany ane haggihy
+PRCIOSOd in The SIEuTum compared with The prefrontal cores Ths
+MOGICNE Sxprestion pattern reinforces the rks of DIE and
+D2-mpchatect pat hwans 10 Motor Cutt, and sewed procesung, which
+ares human studies demorsirating dysregulted strimal D2
+recepior actaly Grell Contr ieses 10 fyrretoers of schigoptvena GY
+Although DOS % not § Sopamne receptor, Is mvoivement mn
+ectracil hy binr Friis se SLGOESTS THEE € may MTuencs Nar one siructure
+ard Synaptic STAtity, 1elevant to brie wunaa bility, Cormeen ng DOE)
+alergudck Ord! and Did éxprassion ations rated The possiity that
+IMMOrACTOnE Doltweeint doguerinarge Sgnebng and @ructurad
+POMGCRIOG Pal PravinyS CONTrGUTe 10 Siseate ros Through our research
+wo alse fours That ried how mike symptoms To humans when
+WXDHIRNONG Gentine NeTa actnity of thesd 1GCRERoms. such as
+Dahavorfimrsiaacal stu Gly MmMoetally and endo Tysiem
+roguLIoN GT new 4)
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+In Ou research we've found that altered DI ana D2 Capa ane
+linked ta syrmEtonms of eh Rophinon ia, Whale acesshve a natal activity af
+LPese /RCOptan can couse olsons halcnations, and active
+function Seoedors A collagen-activatad recenior tyroend kinase thar
+comrak tesue dovalopmant, extracellular mari ramocedng, and ool
+adhesion & encoded by the human DOR jDscoacin Domain Recepear
+1 gone. DORIS numcsiiuar signaling pathwagt Sect tha structug
+and plaicty of celk and may Intact with mecharers wiated to
+brain dewiopmoent and mental Lscoptiblity The cross soeces
+POISROCTIVG IS IMPOrant Dacaute & Inks mokculer Snaling pathways
+broader machaneme of cortcal and subcortical orgarszation and
+pEsticty Undérzanthng these pathways and how they affect tha
+Drain can help us Betton UNdErELand Now OOo endatvwe dseates and
+[02d 10 more effective mMedcations
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+en
+ee eee ett ts
+EE

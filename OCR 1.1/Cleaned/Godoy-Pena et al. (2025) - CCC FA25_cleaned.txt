@@ -1,0 +1,164 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Regulation of Sleep Quality: Analysis of Gene Expression Using
+Bulk RNA-seq Data
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Michelle Godoy-Pena, Kayla Thomason, Malei Guzman, Willow Ledesma
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+The main purpose of this study was to determine what genes
+dictate the kind of sleep drosophila flies get, and connect ittoa
+gut-brain region. Finding orthologs to further the evidence of
+certain genes was necessary. The other two orthologs we found
+to strengthen our hypothesis were from humans and mice. We
+first searched for a wide range of genes that were known to
+influence the drosophila fly's circadian rhythm. The genes
+CCHai1-R/CCHa2-R was already well researched and well
+known for the effects it had on the drosophila flies quantity and
+quality of sleep, so we decided to use that as well as the gene
+NPF for further investigation. We then used Human Protein
+Atlas and Mouse Genome Informatics to find the orthologs to
+our chosen genes. The human and mouse ortholog to
+CCHai1-R/CCHa2-R is BRS3. The human ortholog to NPF is
+NPY and the mouse ortholog is NPY1R. We first found that both
+NPF and CCHa1-R/CCHaz2-R were highly expressed in the
+copper region of the drosophila fly midgut, which is responsible
+for molecule breakdown and modification. We also found that
+those genes had the same effect on human and mouse sleep as it
+was shown in drosophila flies, which proved that these genes are
+specific to dictating the kind of sleep an organism receives.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Sleep and diet play crucial roles in human health, affecting
+energy levels, cognitive function, and overall well-being.
+Numerous studies have demonstrated a strong correlation
+between poor diet, low sleep quality, and reduced energy
+levels. To explore the genetic factors behind this
+relationship, we analyzed gene expression in the midgut of
+Drosophila Melanogaster and compared these genes to
+their orthologs in the human and Mus Musculus brain.
+These well-studied orthologs, combined with their short
+life cycles and cost-effective maintenance, make
+Drosophila Melanogaster and Mus Musculus excellent
+model systems for human disease, ideal for studying gene
+function and analyzing biological processes. Ultimately,
+our goal was to identify similarities in these expression
+patterns to gain a better understanding of how these genes
+may influence sleep quality.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+— . BNAseq
+- Analyzed from a set containing ~17000 fly genes
+- Quantified gene expression regarding CCHa2-R
+- Found expression pattems from fly midgut
+- ANVIL
+EhBase
+- Obtained gene IDs, functional annotations, and profiles
+- Confirmed CCHa2-R presence in the copper midgut region
+Homan atlas
+- Used to analyze human ortholog
+- Determine its place and effect in the human system
+sonal Lk £ Medici
+- Showed where the human genes are expressed
+- Found and sourced several graphs regarding the human gene expression
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+CCHal-R (fy)
+FBen050106
+
+Receives signals from the sut and
+tells the brain that the fly has
+enouzh nutrition Regulates
+arousal and sleep.
+
+NPF (fiy)
+FBen0037405
+
+This Neuropeptide in flies
+promotes feeding, reduces stress
+and influences sleep-wake
+behaviors.
+
+CCHa2-R (iv)
+FBgn0033058
+
+Detects nutrient hormone CCHal
+from zut'fat in the body.
+Coardmates feeding, msulin i i activity sispali
+
+NPRIR (mouse)
+ENSMUSG000000
+36437
+
+Protein coding gene that enables
+[padj value of 1. 0712e-24]
+
+Er:3 (mouse)
+031130
+
+Signaling receptors that binds to
+activity.
+[padj value of 0.0099]
+
+NPYIR (human)
+
+This i 2 peptide receptor that
+enables Neuropeptide activity.
+
+BRS3 (fuman)
+
+Found in male testes, sperm call
+division and maturation. Itisa
+receptor that binds bombesin liks
+peptides to regulate metabolic rate,
+ghecose metabolism and
+hypertension
+
+Resales: The figures zbovs 2s the game plot across regions for the genes respomsible for sleep regulation = fies compared to the
+artaclogs in mice and humans, In fies, the genes ave mostly expressed in the mide, Copper (Cu) region, and in the mics is
+mainly expressed in the brain. Figs I is the gene plot across the regions of the CCHAL-R Gene m flies, 2 i maxinly expressed i
+midga(Cu region), with 2 gene Gene count of more tham 300 Figure 1 is the geome plot across regions of the CCH-IR. gene nn
+flies, it 1s manly expressed in the midge (Cu Region), with a Gens count of more fham 35. Figure 3 is the gens plot across regions
+for Brel, and artholog for figure I and 2, = mice. It & mostly expressed in the Prefrontal Cortex (PFC) of mice, with 2 Gens
+Count of mors tam 15000 and 2 pad) value of 0.0099. Figur 4 i= the NPF Gene expression in Flies, #5 mxinly expressed =the
+Cu regics with 2 Gane count of more than 500. Figure 5 is the game plot across regions for the NPYIR gens, an ortholog for
+Higure 4, in 2uce, it i fomd mainly in the PFC of anice with 2 Gens count of mors than 15000000, 2d 2 pad) wakas of 10712e-24.
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+The CCH-2R gene in flies is mainly expressed in the midgut, and the
+neuropeptides are located in the Ca region. CCHa2-R is a nutrient
+hormone found in the gut/fat of the body. NPF (Neuropeptide F) in flies
+High expression levels of CCHaz resulted in better quality of sleep. The
+brain communicates with the Ca region of the midgut in order to get
+enough nutrients to have a restful sleep cycle. Some limitations of
+knowledge about CCHaz2 in the Drosophila model and the Mus musculus
+model is that there were no effects in the females which suggests that
+there is a sex-dependent regulatory function during the sleep cycle for
+these genes. An example is NPF, which is located in the male flies brain
+neurons. Researchers need to include female organisms in their studies
+and experiments. Without it we won't know how high levels of CCHa2
+affect a large portion of the population's sleep quality.

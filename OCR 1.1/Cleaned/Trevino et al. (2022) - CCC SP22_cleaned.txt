@@ -1,0 +1,209 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+‘Drosophila Melanogaster a Good Model System of Zellweger Spectrum Disorder
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Yani Trevino, RYAN RAMIREZ, VAN NGUYEN, RosA ALCAZAR
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Zellweger Spectrum Disorder (ZSD) is a genetic disorder that is caused by the mutation
+of 1 out of 13 different genes involved in the formation and function of peroxisomes.
+ZSD typically affects people in the earliest stages of life and in severe cases even leads to
+death in the first year of life. Understanding the disorder is important to the individuals
+affected and Drosophila can be a great tool to doing so. To gain insight on the effect, we
+looked for differential expression of 6 different genes in humans that are orthologous to
+flies. Five out of six orthologous fly genes were found to have high levels of differential
+expression in the fly midgut. The similarities between the phenotypes of the 6 mutated
+fly genes and the phenotypes of humans who have been diagnosed with ZSD suggests
+that flies would be a good model system for studying ZSD.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+ZSD is a rare inherited disorder characterized by the absence/reduction of functional
+peroxisomes in cells, which are essential for beta-oxidation of very-long-chain fatty acids
+(Elumalai, 2021). A defect of functional peroxisomes results in several metabolic
+abnormalities and the disease currently has no curative therapy (Klouwer, 2015). Genes
+ABCD1, ACBDS, ACOX1, DNM1L, HSD17B4, and SCP2 are listed as peroxisomal disorders
+related to the differential diagnosis of ZSD in humans. (Steinberg, 2003). The modeling of
+human intestinal diseases is possible in Drosophila because of the high degree of
+conservation between Drosophila and mammals with respect to the signaling pathways
+that control intestinal development, regeneration and disease (Apidianakis, 2011).
+Drosophila has been considered as model of ZSD, however previous models utilized a series
+of PEX genes within their research (Mast FD, 2011). Multiple phenotypic similarities have
+been expressed between Drosophila and humans. Drosophila have experienced abnormal
+neuroanatomy, neurophysiology, locomotor behavior, and developmental rate, in addition
+to decreased feeding behavior, retinal issues, and the potential to have a decreased life
+span or lethality. Humans have experienced intellectual disabilities, vision problems,
+hearing loss, hypotonia, poor stimuli response, feeding difficulties, developmental delays,
+leukodystrophy, liver and kidney dysfunction, and heart defects (NORD, 2020). Human
+infants with severe ZSD are significantly impaired and typically die during the first year of
+life, usually having made no developmental progress (Steinberg, 2003). Severe malnutrition
+has been reported in children afflicted with ZSD and was coincided with dysmorphic
+features. Undernourishment may be due to palate malformation (Cardoso, 2016). Could
+deformities be due to malnutrition? Is there a role of nutrient absorption in the defects?
+a TE BB 1 0 © eee I
+
+Figure 1. Dysmorphic features of a severely malnourished 4-month old infant diagnosed with
+ZSD (Cardoso, 2016).
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+The Drosophila Melanogaster (DM) would be a good model system into gaining insight
+about Zellweger Spectrum Disorder. Drosophila Melanogaster would be a good model
+organism because the organism conserves many of the same biological processes as
+humans and has genes that are orthologous to that of human. Additionally, approximately
+75% of disease causing genes in humans have an homolog gene in flies (Pandey, 2011).
+There are functional similarities between the DM midgut and the human small intestine
+where nutrient absorption happens (Apidianakis, 2011). If we find differences in gene
+expression in the midgut, there may be a role in nutrient absorption in ZSD phenotypes in
+PETE
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+eo Use C-MOOR tutorials on Sciserver.org to determine differential gene expression in the
+Marianes and Spradling dataset (Marianes, 2013)
+e Used additional databases including: Human Protein Atlas and FlyBase ID
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+ABCD1
+
+Abcd1
+
+ATP binding
+cassette
+subfamily D
+member 1
+
+Abnormal neuroanatomy
+Retinal abnormality
+
+I ACBDS
+
+I CG8814
+
+No Name
+
+" No significant findings
+
+I Acox1
+
+I ACOX1
+
+Acyl-CoA
+oxidase 1
+
+Abnormal developmental
+rate, locomotor behavior,
+neuroanatomy,
+neurophysiology
+Decreased feeding
+behavior Short lived Some die during larval
+stage
+
+DNM1L
+
+Drp1
+
+fim
+protein 1
+
+e Abnormal locomotor
+behavior, neuroanatomy,
+europhysiology, size eo Chemical resistant e Increased cell number and
+size e Some die during
+embryonic stage
+
+HSD17B4
+
+Mfe2
+
+Peroxisomal
+Multifunctional
+enzyme type 2
+
+p Abnormal size
+
+SCP2
+
+ScpX
+
+Peroxisomal
+Multifunctional
+enzyme type 2
+
+» No significant findings
+
+Table 1. Human Gene Orthologs and DM genes with Phenotypes and graphs of the Differential
+Gene Expression in the DM Midgut Region. The DM genes shown are involved in peroxisomal
+disorders and are differentially expressed in the midgut of Drosophila.
+
+Figure 2. Similarities
+between the mammalian
+and Drosophila
+intestines (Apidianakis,
+2011).
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+We wanted to investigate whether malnutrition can be attributed to problems in
+absorption. We examined the expression pattern between ABCD1, ACBDS,
+ACOX1, DNM1L, HSD17B4, and SCP2. Differential expression can be seen in region
+al and p2_4 across the majority of graph. The differential expression shown
+suggests that the genes work together in the posterior end of the midgut. Because
+the graphs display similar differential expression, the genes may work together
+for an unknown function. We may have identified a novel link between
+gastrointestinal phenotypes in humans to Drosophila. We propose it may be
+involved in lipid metabolism because the gene SCP2 in humans is involved in lipid
+metabolism and highly expressed in Zellweger syndrome (The Human Protein
+Atlas). The most significant phenotypes of the 6 alleles researched showed
+problems with vision, developmental rate, lifespan, locomotor behavior,
+neurophysiology, feeding behavior (FlyBase). All of these observed phenotypes
+correlate with the traits that lead to the diagnosis of ZSD in humans. Considering
+that the differential expression was found in 5 out of the 6 genes involved in
+peroxisomal disorders and the similarity that exists between phenotypes in
+mutated fly genes and humans with ZSD, the Drosophila Melanogaster would be a
+good candidate into researching Zellweger Spectrum disorder.
+
+Image 1. The midgut divided into 3 regions and then further subdivided into specified regions. (Marianes, 2013). Further research the gap of knowledge between absorption of nutrients in the DM posterior and the same role in the human small intestine. Possible experimental routes: e Order specific defect in stock center oe Observe phenotypes per each individual gene in DM fly groups e Perform RNAI later in life to create a manipulated organism that genetically has
+less gene activity instead of no activity. This prevents lethality in order to observe
+phenotypes that may arise. Identify the ZSD related genes between human and DM more carefully, examining gene expression and phenotypes that are most similar. Identify potential gene correlation to nutrient absorption.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Apidianakis Y, Rahme LG. Drosophila melanogaster as a model for human intestinal infection and pathology. Dis Model Mech.
+2011;48(1):21-30, doi:10.1242/dmm. 003970 2. Elumalai V, Pasrija D. Zellweger Syndrome. 2021 Aug 9. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022
+Jan—-. PMID: 32809511. 3. Klouwer FC, Berendse K, Ferdinandusse S, Wanders RJ, Engelen M, Poll-The BY. Zellweger spectrum disorders: clinical overview
+and management approach. Orphanet J Rare Dis. 2015 Dec 1;10:151. doi: 10.1186/513023-015-0368-9, PMID; 26627182; PMCID:
+PMCA4666198. 4. Marianes A, Spradling AC. Physiological and stem cell compartmentalization within the Drosophila midgut. Elife. 2013 Aug
+27;2:200886. doi: 10.7554 /elife.00886. PMID: 23991285; PMCID: PMC3755342. 5. NORD. (2020, August 18). Zellweger Spectrum Disorders. NORD (National Organization for Rare Disorders). Retrieved April 15,
+2022, from https://rarediseases.org/rare-diseases/zellweger-spectrum-disorders/ 6. Pandey UB, Nichols CD. Human disease models in Drosophila melanogaster and the role of the fly in therapeutic drug discovery,
+Pharmacol Rev. 2011 Jun;63(2):411-36. doi: 10.1124/pr.110.003293. Epub 2011 Mar 17. PMID: 21415126; PMCID: PMC3082451. 7. Steinberg SJ), Raymond GV, Braverman NE, et al. Zellweger Spectrum Disorder, 2003 Dec 12 [Updated 2020 Oct 29], In: Adam MP,
+Ardinger HH, Pagon RA, et al, editors. GeneReviews® [Internet]. Seattle (WA): University of Washington, Seattle; 1993.2022.
+Available from: https://www.ncbi.nlm.nih.gov/books/NBK1448/ 8. Mast FD, Li J, Virk MK, Hughes SC, Simmonds AJ, Rachubinski RA. A Drosophila model for the Zellweger spectrum of peroxisome
+biogenesis disorders. Dis Model Mech. 2011 Sep;4(5):659-72. doi: 10,1242/dmm.007419. Epub 2011 Jun 13. PMID: 21669930;
+PMCID: PMC3180231. 9, Cardoso, P., Amaral, M., E,, Lemos, S., & Garcia, P. (2016). Zellweger syndrome with severe malnutrition, immunocompromised
+state and opportunistic infections. BMJ case reports, 2016, 10.1136/bcr-214283. https://dol.org/10.1136/ber-2015-214283

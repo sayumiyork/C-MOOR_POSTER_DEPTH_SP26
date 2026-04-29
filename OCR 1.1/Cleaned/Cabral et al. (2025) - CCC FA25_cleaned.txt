@@ -1,0 +1,115 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Denise Cabral, Dion Bedolla, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+The methyl-CpG binding protein 2 (MECP2) gene is essential for neuronal nervous system. It is a critical regulator of neuronal gene expression as it is a key role
+in modulating the expression of gamma-aminobutyric acid type A receptor subunit
+beta 3 (Gabrb3) and brain derived neurotrophic factor (Bdnf). Mutstions in MECP2
+are linked to Rett syndrome and related neurodevelopmental disorders; however, the
+characterized. In this study, we used RNA-seq dsta from the C-MOOR dstabsse to
+including the hippocampus, cerebellum, cortex, striatum, and thalamus. Expression
+levels were quantified and visualized using normalized counts and differential
+expression analysis. The results indicate that MECP2 is broadly expressed
+throughout the mouse brain, with notably higher expression in the cortex and
+hippocampus compared to subcortical regions. The Gabrb3 genes match expression
+in the same regions, while Bdnf shows higher expression in the prefrontal cortex
+These findings support the hypothesis that MECP2 expression is associated in many
+regions involved in learning, memory, and higher-order cognitive processing, not just
+one and is one of the most important regulators for other genes. In summary, this
+insight into how dysregulstion of this gene may contribute to neurological dysfunction.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+supports synaptic communication. The methyl-CpG binding protein 2 gene (MECP2)
+is a critical regulator that binds methylated DNA and modulates transcriptional
+programs. This information was found on the "Mouse Genome Informatics” website.
+MECP2 dysfunction is known to cause Rett syndrome and contribute to a range of
+neurological impairments, demonstrating its essential role in normal brain function.
+Among many genes influenced by MECP2, two have essential roles: Gabrb2 which
+encodes the beta3 subunit of the GABA A receptor and Bdnf, 2 major neurotrophin
+relative expression levels of MECP2 across different brain regions remain an
+important area of investigation, as regional differences in expression may help
+explain the specific neural circuits affected by MECP2-associated disorders. Mus musculus (the lsboratory mouse) is a widely used model organism for studying
+human neurological genes due to its conserved genome, well-characterized brain
+anatomy, and suitability for high-throughput molecular studies such as RNA-seq.
+However, a comprehensive understanding of how MECP2 expression varies across
+mouse brain regions is still incomplete. How does MECP2 expression differ across major mouse brain regions in RNA-seq
+datasets compared fo Bdnf and Gabrb3? MECP2 expression will be highest in cortical and hippocampal regions. Being
+strongly expressed in the striatum and prefrontal cortex. Numerous studies have
+evaluated how its loss alters expression of Bdnf and Gabrb3 in these same regions.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+Mouse Genome Informatics was used for orthologs between human and Mus
+musculus genomes Human Protein Atlas was used to better understand the genes and their Anvil was used to create the figures in the results. It was also originally used to find
+the data needed to find genes that had significant differences in regions compared.
+We used National library of Medicine and National Institutes of Health to read a
+vanety of journals on the genes and Rett syndrome
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+MECP2 is highly expressed in both prefrontal cortex and striatum. Loss of this gene affects gene
+programs and circuit function in those regions. The prefrontal cortex shows strong activity dependent Bdnf regulation. There is high expression here
+due to sensory and association areas. In the sirnistum there is moderste expression (much less than
+the PFC) due to (function) need of striatal neuron survival. There is high expression of Gabrb2 in the prefrontal cortex and the striatum. These areas needs this
+gene for cortical excitation and inhibition balance and for GABA A signaling for motor control and
+reward pathways
+
+Figure 1: The Gabrb3 gene is expressed in both
+regions, but is more expressed in the striatum (STR)
+than the prefrontal cortex.
+
+Figure 2 The mecp2 gene (ENSMUSG00000031393) being .
+expressed between two regions of the mouse brain. Region one being
+the striatum (STR), and the second being the Prefrontal Cortex (PFC).
+The results are very similar levels of expression between the two
+regions
+
+tere
+Figure 3: Shows the expression of Bdnf across two regions of the brain.
+[tis highly expressed in the Prefrontal Cortex (PFC).
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Because MECP2 is expressed across the brain, its loss disrupts activity in Cells with faulty MECP2 showed changes in how tightly DNA was packed. Areas
+normally kept “closed” by MECF2 became more open, suggesting that MECP2
+was no longer controling gene activity properly. People with harmful MECP2
+mutations showed common Rett syndrome traits, such as slowed development.
+Mutations that caused the biggest drop in MECP2 function were linked to more
+severe sympioms. This body of work in mice places MECP2 st the center of a regulatory network
+that keeps Bdnf and Gabrb3 balanced along with other genes in the brain.
+Together they provide a picture of how normal and abnormal functions work and
+can help shape opportunities for future research. Further experiments in MECP2
+expression can one day be characterized and may open up understanding of
+new pathways and its influence on other neurological dysfunctions.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+Amir, R., Van den Veyver, I, Wan, M. ef al Rett syndrome is caused by mutations in
+X-linked MECF2, encoding methyl-CpG-binding protein 2.Nat Genet 23, 185-138 (1809).
+bitps idol orgl10 1032/12210 Joanna Dragich, Isa Houwink-Manville, Carolyn Schanen, Rett syndrome: a surprising
+result of mutation in MEGP2, Human Molecular Genetics, Volume 9, Issue 18, 1 October
+Chao, H. T., Zoghbi, H. Y., & Rosenmund, C. (2007). MeCP2 controls excitatory synaptic strength by regulating glutamatergic synapse number.
+Neuron, 56(1), 58-65. Tudor, M., Akbarian, S., Chen, R. Z., & Jaenisch, R. (2002). Transcriptional profiling of 3 mouse model for Rett syndrome reveals akered neuronal
+Chang, Q.. Khare, G., Dani, VV, et al. (2006). The disease progression of Mecp2 mutant mice is affected by the level of BONF
+Expression. Neuron, 48(3), 341-243. Enitez-Burraco, A., et al. (2020). Neurogenetics, 21(1), 27-40. The Genome Education Partnership. (n.d). Mouse gut-brain axis, differential expression.
+GEMS: Genomics Education Modules.

@@ -1,0 +1,146 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Tyrosine Kinase Expression in the Midgut Suggests a Role in the Copper Region
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Marissa Meraz, Kyle Stansell, Sevag Poladian, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+We researched genes in the Drosophila melanogaster
+midgut that were differentially expressed and came
+across the Src42A gene, a gene that is part of the
+tyrosine kinase family (1). Tyrosine kinases are enzymes
+related to cell growth and development. The FRK gene,
+which is the human ortholog of Src42A, is involved in
+tumor-suppression and is localized to the small
+intestine. (2). Upon further research, we identified other
+drosophila genes (PDGFRA, RET, ABL) that were also
+part of the tyrosine kinase family. Our research sought
+out to see how these genes are expressed in the
+Drosophila midgut. We expected the FRK gene, along
+with the others, to be equally expressed across the
+drosophila midgut because we assumed that all
+subregions of the midgut partake in tumor-suppression.
+Ultimately, our research led us to discover that these
+genes were differentially expressed in a statistically
+significant manner.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Drosophila Melanogaster is a subspecies of fruit flies that
+has been extensively researched due to a plethora of
+qualities that make it a model organism. Paramount
+among these qualities is the fact that about 75% of
+disease-related genes in drosophila contain paralogs in
+humans, thus allowing researchers to learn more
+thoroughly about the mechanisms of various diseases in
+humans by studying the analogous diseases in
+drosophila. The midgut of Drosophila has been
+thoroughly researched, and genes relating to the midgut
+have been discovered to be differentially expressed
+among its various subregions (3). This has allowed
+researchers to infer the function of a particular gene
+based on its expression level in each subregion of the
+midgut. Once a gene has been tied to a specific function,
+it is possible to determine its role in combating diseases.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+Flybase: Flybase is a database containing a plethora of genetic
+information pertaining to the various species of drosophila (fruit
+flies). We utilized Flybase to conduct research on the SRC gene in
+drosophila melanogaster.
+
+The Human Protein Atlas: The Human Protein Atlas is a repository for
+human gene expression data. We utilized HPA to research the human
+ortholog (FRK) of the SRC gene found in drosophila melanogaster.
+SciServer: SciServer is a collaborative database that allows scientists
+to share, analyze, and discuss their findings. We utilized SciServer to
+teach us the basics of coding, which allowed us to generate graphs
+showing the expression levels of various genes across subregions of
+the midgut.
+
+PubMed: PubMed is a search engine that accesses a variety of
+references and abstracts pertaining to the life sciences and
+biomedical topics. We utilized PubMed to research articles pertaining
+to the FRK gene to learn about its role in tumor suppression.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1: The SRC gene (FRK is the human ortholog) shows
+a high expression in the Cu region. When comparing the
+differential expression of the SRC gene in the Cu and al
+regions of the drosophila midgut, we produced a padjust
+value of 2.614213e-18, which suggests that the differential
+expression between these two regions is statistically
+significant.
+
+Figure 4: The expression data shows that the FRK gene
+has the highest expression in the small intestine of
+humans (2). This signifies that the FRK gene relates to
+the Drosophila midgut.
+
+Figure 5-7: Three other genes (ABL, PDGFRA, and RET), which are also part of the tyrosine
+kinase family in Drosophila, have a similar pattern of having the highest expression in the Cu
+region. This finding is interesting given that we assumed that genes related to cell growth and
+development would be equally expressed across all regions of the midgut.
+
+Figure 6: This image is a pictorial depiction of the Drosophila melanogaster midgut. The breakdown of the various subregions
+is shown. Image shows the Copper (Cu) region that our research focuses on (3).
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Our data refutes our hypothesis. Our hypothesis proposed that a
+gene that functions as a tumor suppressor (such as FRK/SRC) would
+be expressed relatively equally among all regions of the midgut. This
+is because all regions of the midgut divide and therefore need a
+mechanism to stop uncontrolled cell division. We, however, found
+that the SRC gene and other genes in the tyrosine kinase family have
+high specificity to the Cu region of the midgut. This led us to deduce
+that the FRK gene has a specialized function in the Cu region of the
+drosophila midgut. The pathways of tumor-suppressor genes that
+stem from the tyrosine-kinase family and are localized to the Cu
+region of the midgut can be further studied to infer the particular
+function they perform in the Cu region, which leads to their higher
+expression in that region.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Gramates LS, Agapite J, Attrill H, Calvi BR, Crosby M, dos Santos G
+Goodman JL, Goutte-Gattat D, Jenkins V, Kaufman T, Larkin A,
+Matthews B, Millburn G, Strelets VB, and the FlyBase Consortium
+(2022) FlyBase: a guided tour of highlighted features. Genetics, Volume
+220, Issue 4, April 2022, iyac035
+
+2. Human Protein Atlas: https://www.proteinatlas.org/ : FRK:
+https://www.proteinatlas.org/ENSG00000111816-FRK
+
+3. Marianes, A. and A. C. Spradling (2013) "Physiological and stem cell
+compartmentalization within the Drosophila midgut.” elife,
+doi:10.7554/elife.00886
+
+4. Medves S, Demoulin JB. Tyrosine kinase gene fusions in cancer:
+translating mechanisms into targeted therapies. J Cell Mol Med. 2012
+Feb;16(2):237-48. doi: 10.1111/.1582-4934.2011.01415x. PMID:
+21854543; PMCID: PMC3823288.

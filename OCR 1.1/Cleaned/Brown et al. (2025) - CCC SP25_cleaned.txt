@@ -1,0 +1,139 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Analysis Of Gene Expression Of Acids Reflux Related Genes Across The Midgut
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Carson Brown, Danna Gutierrez, Gauri Paul, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+This study explores gene expression related to acid reflux-associated pathways in the Drosophila
+melanogaster midgut, it focus on acidification processes that influence metabolic gene regulation. These
+processes are closely regulated by gut-brain sensory signaling, which adapts feeding behavior throughout the
+fly’s life cycle. Fundamental to this investigation is the gene vhal6-1 (FBgn0262736) with the human gene
+ortholog being ATP6VOC, which encodes a subunit of the vacuolar H'-ATPase (V-ATPase), necessary for
+acidifying the midgut—especially within the copper (Cu) cell region. The gene functions by translating
+V-ATPase, which is a channel protein that encourage multiple functions. Within this we identified paralogs to
+our gene of research, in order to understand its expression throughout the phagosome pathway. This localized
+acidification plays a vital role in digestion and maintaining metabolic homeostasis. Loss of vhal6-1 function
+disrupts pH balance in the gut and leads to metabolic dysfunction. Concerning ts regulation by neural and
+hormonal signaling pathways, vhal6-1 emerges as a core integrator of digestive processes and systemic
+metabolic control, when identified along the phagosome pathway. These findings highlight conserved
+biological mechanisms that may provide clarification into human gastric acid disorders such as acid reflux.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Acid reflux is a condition shown in millions of people in the world and results in pain in the esophagus due to the backflow of stomach
+acid. To better comprehend the molecular mechanisms behind this condition, our study analyzes gene expression patterns in various
+regions of the Drosophila melanogaster gut, to concentrate on the copper (Cu) region. We chose Drosophila as our model organism due to
+its well-annotated genome and the conservation of many biological pathways with humans, making it a powerful system for studying gut
+signaling processes relevant to acid reflux. We hypothesize that Vhal6-1 (Vacuolar H+ ATPase 16kD subunit 1), our gene of interest, will
+show the highest expression in the Cu region. This is based on its known role in important signaling pathways and previous research
+highlighting the Cu region's significance in gut function and regulation. After further analyzing the pathways we found Vhal6-1 to be
+found in the phagosome pathway. Phagosomes function by filtering biological debris in the cell, which can be reduced with the mhibition
+of our gene. Although Vhal6-1 doesn’t technically have a direct human relative, the pathways it is involved in are highly related in order
+to explore the processes involving acid reflux due to the genetic and cellular processes. Our research focus is to apply the unknown in the
+current discussion and lay the foundations for future studies that could eventually lead to more understanding and treatment of acid reflux.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+e We began our research by exploring the National Library of Medicine, where we
+identified acid reflux as a topic of interest. This focus led us to investigate the gene
+Vhal6-1 (Vacuolar H-ATPase 16kD subunit 1). e Next, we utilized FlyBase to examine the orthologous relationships between
+Drosophila melanogaster and human genes, enabling a comparative analysis. e To determine the specific regions of the gut expressing our gene of interest, we
+incorporated the use of SciServer—a platform that allowed us to run analyses using
+R code and access relevant expression data. ® Another tool we used was KEGG, a research tool to identify metabolic pathways of
+human genes and their relations, with our focus being on the human ortholog
+ATP6VOC and our pathway being fatty acid degradation ® To investigate our human gene we incorporated The Human Protein Atlas in our
+research to better understand the gene expression in human cells
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1: The graph illustrates that
+Vhal6-1(FBgn0262736) is predominantly expressed in the
+copper (Cu) region with a gene count greater than 1000000
+
+Figure 2: This graph illustrates that VhaPPA 1-1
+(FBgn0028662), a paralog to Vhal6-1 is
+exponentially expressed in the copper region with a
+gene count greater than 150,000
+
+Figure 3: This graph is representing the
+expression data of ATPsynC (FBgn0039830)
+showing its high expression in the copper
+region with a gene count greater than 150,000
+
+Figure 4: Shows the size count of
+differentially expressed genes by category
+on a cluster plot focusing on the
+phagosome pathway with our gene
+(Vhal6-1) highlighted.
+
+Figure 5: image from KEGG that
+represents the Metabolic pathway of
+human ortholog, ATP6VOC (gene
+1D527) and represents the function of
+phagosome pathways.
+
+Figure 6: Shows different pathways
+across all the whole gut or subsections
+of the gut, with our main focus being on
+the al and Cu regions
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+There is clear evidence that the effects of acid reflux are influenced by
+genetic factors. Our research focused on identifying specific regions
+within the Drosophila melanogaster midgut that express human-relevant
+genes associated with this condition. We discovered that the gene Vhal 6-1
+is expressed in the al and Cu regions of the midgut, areas involved in the
+phagosome pathway. This expression highlights a potential genetic
+contributor to pH regulation in the gut, which may underlie the acidic
+conditions characteristic of acid reflux.Additional genes found to be
+expressed in this region—VhaPPAl-1 (Figure 2) and ATPsynC (Figure
+3)—are paralogs of Vhal6-1, further supporting the functional
+significance of this pathway. The human ortholog of Vhal6-1 is
+ATP6VOC, suggesting a conserved mechanism between species. Our
+findings provide valuable insight into the genetic basis of acid reflux and
+its expression in the midgut using the Drosophila model, thereby
+contributing to our understanding of its connection to metabolic disorders.
+Understanding how the phagosome pathway and Cu region influence gene
+expression may help clarify the genetic regulation of gut homeostasis.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+de Vries DR, Ter Linde 11, van Herwaarden MA, Schwartz MP, Shephard P, Geng MM, Smowt AJ, Samsom M. In
+GERD patients, mucosal repair associated genes are spregulated in non-inflamed oesophageal epithelium. J Cell Mol
+Med. 2000 May; IMSE936-47. dod; 10.1111) 1582-4934 2008 006265. Epub 2008 Dec 24. PMID: 1941 38%), PMCID: PMC3IR23409, The Human Protein Atlas, “ATPEVOC Protein Expression Sunumary - the Human Protein Atlas.” HPA, www proteinatlas org ENSGON00 1 $5583. ATPOVOC, Accessed I May 2025, FlyBase. "Viacuolar H+ ATPase 16kD Subunit 1.” FlyBase Gene Report: DMELVHAIG-1, 26 Sept. 2026,
+Pabane QLp Tpuets Fiignt LN Tih, Guo Y, Kaiser K, Wieczorek H, Dow JA. The Drosophila melanogaster pene via ld encoding a 14-4Da Fosubunit of the
+vacuolar ATPase. Gene. 1996 Jun 260172(2):239-43. doa: 10.1016:0375-11 1XN96)00057-1. PMID: 8652310, Russell DG, Vanderven BC, Glennie S, Mwandumba H, Heydorman RS. The macrophage marches on its phagosome:
+dynamic assays of phagosome function. Nat Rev Immunol. 2000 Aug 9K) $94-600. doi: 10103802591. Epub 2000 Jul
+10. PMID: 19590530; PMCID: PMC2770640,
+Lin WS, Huang CW, Song YS, Yen JH, Kuo PC, Yeh SR, Lin HY, Fu TF, Wa MS, Wang HD, Wang PY. Reduced Gut
+Acidity Induces an Obese-Like Phenotype in Drosophila melanogaster and in Mice, PLoS One. 2015 Oct
+S0(10):e0139722. doi: 10.1371 poumal pone 0139722. PMID; 26436771: PMCID: PMCI593636. Marianes A, Spradling AC. Physiological and stem cell compantmentalization within the Drosophila midgut. Elife.
+2003 Aug 27. 2:000886, dos: 10.7554/cLafe 00KKS, PMID: 23901288; PMCID: PMCIT55342.
+Overend G, Luo Y, Henderson L, Douglas AE, Davies SA, Dow JA. Molecular mechanism and functional significance
+of acid generation in the Drosophila midgut. Sci Rep. 2006 Jun 2:6:27242. dod: 10.103Ksrep2 7242. PMID: 27250760;
+PMCID: PMCA890030,
+Fo BE 0 19° "wr \ "J

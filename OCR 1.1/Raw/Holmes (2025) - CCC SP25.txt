@@ -1,0 +1,186 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Melanogenesis within the Drosophila Midgut:
+Neuromelanin and Dopamine
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Jesse Holmes, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+This research was focused in genes connected to melanogenesis (synthesis of
+melanin) and its antioxidant uses. It more specifically deals with
+melanogenesis within the midgut of Drosophila and the connection to
+melanogenesis in humans. Within Drosophila a gene that regulates its mating
+behaviors and pigmentation is known as “Y™ or “yellow”. It belongs to a
+family of genes that regulate pigmentation and dopamine. When the yellow
+gene is silenced it will cause a lack of pigmentation and alterations to mating
+behavior. (Massey, 2019) The research in this poster focused in on the Fe
+section of the Drosophila midgut. Once the data we obtained from Marianes’
+study was processed using SciServers we determined that the yellow gene
+was significantly expressed in the Fe region. A paralog and ortholog gene
+found along the way was a gene called RGN/SMP30. It regulated calcium ion
+levels which is integral to melanogenesis. This was expressed highly in the |
+human gastrointestinal tract. Through connecting our results to findings from
+Hedges’ research on irons effect on melanogenesis in human brains we
+conclude that the reason yellow was highly expressed in the Fe region was
+likely to coat dopamine to protect it from oxidative stress (neuromelanin).
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+There is an intricate relationship to melanin expression and dopamine in
+most organisms. Humans have many specialized expressions of
+melanogenesis, some of which for skin, others for more neural functions.
+Drosophila have a unique expression of genes regulating melanogenesis too.
+The “yellow” gene regulates cuticle and larval mouthpart pigmentation.
+Yellow likely has neural functions too. (Biessman H. 1985) Many papers
+referenced go over the many details of a type of melanin called
+neuromelanin. Neuromelanin is a type of melanin used to coat
+neurotransmitters such as dopamine to protect it from oxidative stress. It is
+my hypothesis that the Yellow gene is expressed highly in the Fe region of
+the midgut because it has other characteristics beyond pigmentation, likely
+involving neuromelanin. We will use R data analysis on Marianes’ dataset of
+the Drosophila midgut to determine any significance of the Yellow gene's
+differential expression between the regions. Through that we will do further
+research into its significant paralogs and orthologs.
+
+- Using the R coding language from a notebook located on Sci-Severs.
+
+- Sci-Servers database on fly midgut expression from Marianes’ research
+
+- Various research papers published on the National Library of Medicine so
+we can see how melanin and dopamine operates in certain environments
+
+- Graphs Supporting Connection such as Figure 4 and 5 coming from
+referenced research articles
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1: Yellow/"Y™ gene expression |
+across regions of midgut showing
+differential expression in the Fe region
+of the Drosophila midgut
+
+Yellow: A gene in Drosophila that is
+known to affect the pigmentation of the
+adult cuticle and larval mouthparts. It also
+has an effect on mating behavior.
+
+Figure 2: RGN/SMP30 paralog
+expression throughout Drosophila
+midgut showing no differential
+expression
+
+RGN/SMP30: Regulates calcium ions
+used for synthesis of proteins. Not direct]
+involved with melanogenesis but can
+impact it through calcium levels. Calcium
+is necessary for melanogenesis.
+
+Figure 3: Human ortholog RGN/SMP30 gene
+expression throughout human tissue. Sourced
+from Human Protein Atlas.
+Expression in Human Tissue: Here the SMP30
+
+paralog and ortholog 1s highly expressed in the
+Endocrine tissues, Gastrointestinal tract, and the
+Liver. This shows a hint into Yellows role and
+why it is even expressed in the Drosophila
+midgut to begin with.
+
+Figure 4: Iron Concentration vs Rate of Melanogenesis
+
+Hedges’ Graph: This figure created by Hedges from
+his study shows the rate of melanogenesis when
+compared to Fe concentration within the human
+brain. This is in relation to dopamine production too.
+Hedges theorized that this is because of the need to
+protect dopamine from oxidative stress. This is
+melanin acting as an antioxidant, protecting
+dopamine from oxidizing in the presence of Fe ions. |
+believe that this may be the case as to why Yellow is
+expressed in the Fe region of the midgut within
+Drosophila.
+
+Figure 5: Rate Of Melanogenesis with Fe vs Control
+
+Hedges’ Graph: This figure shows the rate of
+melanogenesis between their control, concentrated Fe
+group, and their desferrioxamine (DES) group. DES
+removes excess iron from the area it inhabits. This
+shows that there is a strong correlation between Fe
+concentrations increasing melanogenesis rates and its
+removal decreases melanogenesis rates. It is my
+theory that something similar is occurring inside the
+Fe region of the Drosophila midgut.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Neuromelanin production is amplified by iron ions which is a probable
+reason as to why it is expressed in the iron region of the Drosophila midgut.
+The paralog and human ortholog, RGN/SMP30, is not differentially
+expressed but its presence can be theorized to be involved in regulating
+calcium levels throughout the midgut to allow for biosynthesis of melanin
+and other chemicals. My hypothesis is generally supported but it can be
+further confirmed and potentially debunked with more intensive studies. It is
+probable that dopamine is produced in multiple spots within the midgut and
+gets coated in the Fe region to protect it from oxidative stress. This is not
+absolutely proven but there is good evidence to support it such as Figure 4
+and 5 which shows the rate of melanogenesis within the human brain in the
+presence of iron. (Hedges 2020) This can be completely different in other
+systems such as the gut but it potentially could be a similar process. The only
+change in the system within the human brain production of neuromelanin was
+the change in iron ion concentration. (Hedges 2020) Dysregulated
+Le omalania expression is linked to many human neurodegenerative
+disorders such as Parkinson's. (Moreno-Garcia 2021) This could explain the
+flies inability to properly mate. Research into neuromelanin within
+Drill can gives us a better idea into the genes directly involved. It can
+potentially help us identify patterns for human research into
+neurodegenerative symptoms caused by dysregulated neuromelanin.
+i
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+. Massey, Jonathan H et al. “The yellow gene influences Drosophila male mating
+ccess through sex comb melanization.” eLife vol. 8 49388. 15 Oct. 2019,
+doi: 10.7554/eLife.49388
+2 Hedges, David M et al. “Spontaneous Formation of Melanin from Dopamine in
+the Presence of Iron.” Antioxidants (Basel, Switzerland) vol. 9,12 1285. 16 Dec
+£2020, doi:10.3390/antiox9121285
+
+3. Moreno-Garcia A, Kun A, Calero M, Calero O. The Neuromelanin Paradox anc
+Its Dual Role in Oxidative Stress and Neurodegeneration. Antioxidants (Basel).
+2021 Jan 16;10(1):124. doi: 10.3390/antiox 10010124. PMID: 33467040;
+PMCID: PMC7829956.
+
+4. SatoY, Uchida E, Aoki H, Hanamura T, Nagamine K, Kato H, Koizumi T,
+Ishigami A. Acerola (Malpighia emarginata DC.) Juice Intake Suppresses
+UVB-Induced Skin Pigmentation in SMP30/GNL Knockout Hairless Mice.
+PLoS One. 2017 Jan 23:12(1):e0170438. doi: 10.1371/journal.pone.0170438.
+PMID: 28114343: PMCID: PMC5256894.
+
+5. Biessmann H. Molecular analysis of the yellow gene (y) region of Drosophila
+melanogaster. Proc Natl Acad Sci U S A. 1985 Nov;82(21):7369-73. doi:
+10.1073/pnas.82.21.7369. PMID: 3933004; PMCID: PMC391346.
+
+6. Marianes, Alexis, and Allan C Spradling. “Physiological and stem cell
+compartmentalization within the Drosophila midgut.” eLife vol. 2 e00886. 27
+Aug. 2013, doi:10.7554/eLife.00886

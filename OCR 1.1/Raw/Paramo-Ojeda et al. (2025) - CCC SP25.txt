@@ -1,0 +1,244 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Ras85D Expression in Drosophila Midgut Highlights a
+~~ Model for KRAS-Driven Colon Cancer
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Katya Paramo-QOjeda, Randeep Johal, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+KRAS mutations drive many human cancers by promoting
+uncontrolled cell growth. Ras85D, the Drosophila homolog of
+KRAS, allows for studying Ras pathway regulation in a simple
+model system. We found that Ras85D is highly expressed and
+differentially regulated in the Drosophila midgut, especially in
+the Copper region. Other genes in the cell cycle regulation,
+including BRCA2, APC, Pi3K92E (PIK3CA), MLH]1, and PMS2,
+showed no significant regional differences. The KRAS gene
+encodes a protein that controls cell growth signals. When
+mutated, it becomes permanently active, causing uncontrolled
+cell division and leading to cancer. Given that Ras85D the fly
+homolog of the KRAS gene, it would serve as a great model for
+gene changes in Drosophila.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Cancer is a complex disease driven by mutations in genes
+that regulate cell growth, survival, and DNA repair. One of the
+most frequently mutated oncogenes in human cancers is
+KRAS, which plays a critical role in controlling cell proliferation
+through the RAS signaling pathway. Mutations in KRAS can
+lead to tumor development and are often associated with poor
+survival rates, sparking our interest in this particular oncogene.
+Oncogenes are mutated genes that promote uncontrolled cell
+growth. In contrast, tumor suppressor genes act to prevent
+cancer by regulating cell division and repairing DNA damage.
+Mismatch repair genes maintain genomic stability by
+correcting replication errors and preventing the accumulation
+of mutations.
+
+Drosophila melanogaster is an ideal model system for this
+purpose because it shares many conserved signaling pathways
+with humans and allows for region-specific gene expression
+analysis. In Drosophila, Ras85D serves as the homolog of KRAS
+and is involved in similar growth and survival mechanisms. Our
+research focuses on analyzing Ras85D expression across
+different regions of the Drosophila midgut to identify areas of
+heightened activity that could model Ras85D's role in cancer.
+
+To better understand Ras85D's behavior, we also compared
+its expression to tumor suppressors (BRCA2, APC), other
+oncogenes (Pi3K92E (PIK3CA)), and mismatch repair genes
+(MLH1, PMS2). This study highlights Ras85D's potential role in
+tissue-specific regulation and demonstrates the usefulness of
+Drosophila as a model for exploring Ras-driven cancer
+pathways.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+We used FlyBase as a primary resource to explore the GenelD, orthologs,
+pathologs, pathways, and gene interactions related to the genes we
+selected for our research.
+
+The GenelD helped us examine gene expression, showing where a
+specific gene is more highly expressed. We also used it to check the padj
+cutoff for each gene. All of this analysis was done through SciServer
+C-MOOR, with the “R" coding space given that gives us results.
+
+For pathway analysis, we focused on KEGG pathways. We specifically
+looked into cancer-related pathways, which helped us identify tumor
+suppressors, oncogenes, and mismatch repair genes that are directly
+involved in cancer.
+
+The Human Protein Atlas was used to look at the protein expression in
+the tissues of the body.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+BRCA2
+
+Tumor suppressor that
+repairs double stranded
+DNA breakage
+
+High expression in p2_4
+region, between
+10,000-50,000
+
+No Differential Expression
+
+APC
+
+Tumor suppressor that
+repairs double stranded
+DNA breakage
+
+High expression in Copper
+region in midgut, between
+5,000-15,000
+
+No Differential Expression
+
+MLHI
+
+Fixes errors during DNA
+replication
+
+Expressed at low levels in all
+region between 150-500
+counts
+
+No Differential Expression
+
+PMS2
+
+Works with MLH] to fix error
+during DNA Replication
+Expressed at low levels in all
+region between 100-800
+counts
+
+No Differential Expression
+
+Ras85D (KRAS)
+
+Protein involved in cell
+proliferation and survival
+High expression in the
+Copper region of mid-gut,
+between
+
+2,000-12,000
+
+Differentially Expressed
+
+Pi3K92E (PIK3CA)
+
+Protein involved in cell
+proliferation and survival
+High expression in the all
+regions, between
+2,000-6,000
+
+No Differential Expression
+
+Figure 1. The expression levels of genes across the midgut of
+the drosophila, APC, Ras85D, and PI3K92E all have significantly
+high expression in the Copper region, potentially implying
+correlation in that region.
+
+Figure 2. KRAS Protein expression across the human organ
+presenting with high expression in the gastrointestinal tract.
+
+Our study analyzed RasB85D expression across different regions of the Drosophila midgut and found the highest transcript
+levels in the Copper region, ranging from 10,000 to 12,000. This differential expression suggests that Ras85D may have a
+region-specific role in regulating cell growth and survival within the Copper region. Similarly, we observed that Ras85D (KRAS)
+shows high expression in the human gastrointestinal (Gl) tract, particularly in the small intestine, colon, and rectum. These
+findings indicate that KRAS likely plays a critical role in Gl tissue function and may help explain its frequent mutation in
+Gl-related cancers. Further research is needed to uncover the mechanisms by which KRAS contributes to tumor development
+in these tissues.
+
+In contrast, BRCA2 and APC, both tumor suppressors, were highly expressed but did not show differential expression,
+indicating a more uniform role across midgut regions. PI3K92E, another oncogene involved in survival pathways, was highly
+expressed but similarly lacked differential expression.
+
+For mismatch repair genes, MLH1 and PMS2 were expressed at low levels across all regions and showed no significant
+differential expression, suggesting limited activity in this tissue. Overall, Ras85D was the only gene analyzed that combined
+both high expression and region-specific variation, highlighting its potential importance in localized midgut regulation and its
+relevance for modeling RAS-driven pathways in Drosophila.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+KRAS is one of the most commonly mutated oncogenes in
+human cancers. Normally, KRAS proteins cycle between
+active and inactive states, but mutations lock KRAS in an
+active form, driving uncontrolled cellular behavior that can
+lead to tumor formation. Ras85D, the Drosophila homolog of
+KRAS, shares similar signaling roles, making it a valuable
+model for studying Ras pathways.
+
+Our analysis revealed that Ras85D is highly expressed and
+differentially regulated across midgut regions, with the
+highest expression in the Copper region, suggesting that
+certain midgut areas may be see more changes. Areas such
+as the gastrointestinal tract are more susceptible to
+mutations due to high gene expression of KRAS in humans.
+In contrast, genes involved in DNA repair and tumor
+suppression, such as BRCA2, APC, Pi3K92E (PIK3CA), MLH],
+and PMS2, showed low or uniform expression, highlighting
+Ras85D's unique regional activity.
+
+These findings suggest that differential Ras85D expression
+could model how genes expressed actively in certain regions
+can contribute to cancer development in that region. Further
+investigation into Ras85D mutations or overactivation in
+Drosophila could provide insight into the steps of tumor
+initiation and the mechanisms by which KRAS mutations
+promote cancer in humans. Since Ras85D controls cell
+growth, studying mutation causation to the gene, causing it
+to multiply would be insightful. Ras85D serves as a powerful
+tool for exploring the dynamics of Ras-signaling and its role
+in driving oncogenic changes.
+
+Figure 3. Pathway regions in the midgut of the drosophila.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+Zhang P, Holowatyj AN, Ulrich CM, Edgar BA. Tumor suppressive
+autophagy in intestinal stem cells controls gut homeostasis.
+Autophagy 2019 Sep;15(9).1668-1670. doi:
+10.1080/15548627.2019.1633863. Epub 2019 Jun 20. PMID: 31213134;
+PMCID: PMCE693466.
+
+Zhu, G,, Pei, L., Xia, H. et al. Role of oncogenic KRAS in the
+prognosis, diagnosis and treatment of colorectal cancer, Mol
+Cancer 20, 143 (2021). https:/doi.org/10.1186/512943-021-01441-4
+Alexis Marianes, Allan C Spradling (2013) Physiological and stem
+cell compartmentalization within the Drosophila midgut eLife
+2:e00886 https://doi.org/
+
+Yang Y, Zhang H, Huang S, Chu Q. KRAS Mutations in Solid
+Tumors: Characteristics, Current Therapeutic Strategy, and
+Potential Treatment Exploration. J Clin Med. 2023 Jan 16;12(2):709.
+doi: 10.3390/jcm12020709. PMID: 36675641; PMCID: PMC9861148.

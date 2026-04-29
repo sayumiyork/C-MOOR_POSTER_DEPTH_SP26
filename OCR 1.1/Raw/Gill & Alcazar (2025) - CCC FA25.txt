@@ -1,0 +1,174 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Differential Expression of Serotonin Receptor Genes Htrla and Htr2a
+in the Prefrontal Cortex and Striatum
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Amandeep Gill, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+In this poster, I examined two serotonin receptor genes, those
+being Htrla and Hir2a to analyze how strongly expressed they
+were between the prefrontal cortex and the striatum in mice
+using RNA-seq data. The purpose of this study was to test if
+serotonin receptor signaling is higher in the PFC compared to
+the STR as hypothesized. Gene counts and DESeq2 analysis
+were used to express the level of how differentially expressed
+these two genes were. Results showed that the Hirla showed a
+strong differential expression level in the PFC due to its strong
+expressed but not to the same degree as Htla. Overall, this
+analysis demonstrates a pattern in which that shows that the
+PFC compared to the STR will display a higher level of being
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+ies the prefrontal cortex and the striatum In the brain the role of the
+prefrontal cortex is decision making and emotional regulation (5).
+Whereas the striatum role is mainly motor coordination and reward
+essing (2).Seeing how each region serves a different purpose and
+Serotonin is one of the major chemical messengers in the brain that
+through receptors genes (6). Amongst all the receptors I will be
+focusing on Hirla and HirZa and how these two genes are important
+Hirla, plays a significant role in mood and anxiety in the brain and
+multiple studies regarding how it plays a major role in helping us
+understand mental health disorders (1). Htr2a on the otherhand isa
+receptor gene who plays a key role in cognition and higher order
+differentially in the prefrontal cortex (PFC) compared to the striatum
+(STR).
+© examine this, I examined RNA-seq data from the C-MOOR mouse
+brain dataset Alongside C-Moor I used Mouse Genome Informatics
+(MGI) to confirm gene roles in the mouse brain . In this dataset I
+ompared the expression levels of the Hirla and the HirZa to see how
+differentially expressed they were. I predicted that both of the genes
+would be more differentially expressed in the FFC due to the
+prefrontal cortex’s main role being cognition and emotional
+regulation.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+this project I used a multitude of materials and methods to get our
+desired results. To start off I used Anyi] which is a workspace used
+gene analysis; I used it to access RNA-seq files, run DESeqZ2 and to
+generate expression plots for Figures 1 and 2. In this project I also
+usec ie rm i iteebon oe he erly
+gene ids as well as verifying what Hirla and Htr2a's functions were in
+the sertagonic pathway. In this project the last thing I used was a
+KEGG Pathway Map: KEGG is a platform that provides biological
+pathway maps. I used their Sertagonic Pathways map to display the
+ole my genes play in the overall sertagonic pathway.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Hrla
+(ENsMUsGo0O
+00021721)
+
+Htrla is a serotonin receptor that
+helps regulates mood and anxiety
+in the brain.
+
+Fig 1: Htrla
+in STR vs
+PFC.
+
+This graph displays that HirlA s is differentially
+expressed at a higher rate in the PFC compared
+to STR showing stronger Serotonergic
+signaling in this region of the brain.
+
+The low adjusted p-value of (87
+= 10%) and strong positive log:
+fold change (1.37) indicate that
+more expressed in the PFC than
+in the striatum
+
+Htr2a
+(ENSMUSG000
+0003499)
+
+Htr2a is a serotonin receptor that
+plays a key role in cognition and
+higher level thinking.
+
+Fig 2: Ho2a
+in STRvs
+PFC.
+
+This graph displays that Hir2 s is differentially
+expressed at a higher rate in the PFC compared
+to STR showing stronger Serotonergic
+signaling in this region of the brain, butata
+more moderate rate compared to Hirla
+
+Although Hitr2a shows a
+smaller fold change of 0.47
+of 47 = 10” confirms that itis
+with Hir2a being higher in the
+PFC than in the striatum.
+
+Fiaure 3 This KEGG map displays HirlA and Hir2A and how these
+gu genes play their respective roles in the Sertagonic Pathway.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Htrla and Htr2a both showed a higher expression rate in the prefrontal cortex
+compared to the striatum as seen in our RNA-seq dataset. This implies that there are
+stronger setagonic signaling in the PFC circuits which are involved in cognition and
+emotional regulation. Studies prior support this aswell with work showing that
+5-HTR1A receptors which are encoded by HT1A are expressed more in cortical
+regions (3 & 4). However these studies do not directly compare the PFC to the STR at
+our gene expression level like I did in my poster. This is where I came in and filled
+the gap to show that through RNA-SEQ evidence there is enough data to show how
+both gene receptors HTRIA and HIR2A are more significantly expressed in the PFC
+compared to the STR. My results clearly exemplify sertagonic signaling differs
+between the prefrontal cortex and striatum and how receptor genes play a
+significantly stronger role in the PFC compared to the STR. Although Hir2a showed
+a more moderate fold change compared to Hir2a which was a unexpected result,
+this could simply be deduced to Htr2a having involvement in a wider pathways in
+the brain compared to Hirla which doesn’t vary as much. Overall the Hirla pathway
+did have a higher differential results in the PFC compared to Hir2a although both
+were differentially expressed.. For future experiments, I would see if these trends
+are maintained as the mice grow older.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Albert, P. R (2012). “Transcriptional regulation of the 5-HT1A receptor: Implications for mental
+illness” Frontiers in Neuroscience, §, 135. doi10.3389/fnins 2012 00135
+
+2. Balleine, B.W., & O'Doherty, J. P. (2007). “Human and rodent homologies in action control:
+Corticostriatal determinants of goal-directed and habitual action” Neuropsychopharmacalogy.
+
+3. Burnet, P.W.,, Eastwood, S. L, Lacey, K, & Harrison, P. J. (1995). “The distribution of 5-HT1A and
+5-HI2A receptor mRNA in the human brain” Brain Research, 676(1-2), 157-168.
+doi-10.1016/0006-8993(95)00104-X
+
+4. Chalmers, D. T., & Watson, S. J. (1991). “Comparative anatomical distribution of 5-HT1A receptor
+mRNA and 5-HT1A binding in rat brain” Brain Research, 561(1), 51-60.
+doi-10.1016/0006-8993(91)30748-K
+
+5. - Friedman, N. P, & Robbins, T. W. (2022). “The role of prefrontal cortex in cognitive control and
+executive function” Neuropsychopharmacology, 47, 72-89. doi-10.1038/541386-021-01132-0
+
+6. Nichols, DE, & Nichols, C. D. (2008). “Serotonin receptors.” Chemical Reviews, 108(5), 1614-1641
+doi-101021/cr0782240

@@ -1,0 +1,175 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Exploring DRD2: The Association of PD Risk with Dopamine
+Receptors in the Dopaminergic Synapse
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Samantha Haubelt, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+I was interested in the genes, pathways, and mechanisms related
+to the neuropsychiatric disorder Parkinson's Disease and wanted
+to investigate the specific genes involved in the dopaminergic
+synapse. Abnormal variants of the Drd2 gene has been implicated
+in many neurological disorders including Parkinson's Disease in
+humans (Noble, E). The dopaminergic synapse involves genes,
+including tyrosine hydroxylase (Th), catechol-O-methyltransferase
+(Comt), dopamine receptor D2 (Drd2), and dopa decarboxylase
+(Ddc). These genes provide instructions for making enzymes
+responsible for regulating dopamine levels and are differentially
+expressed in the striatum part of the mice brain. The striatum is a
+critical component of the brain that controls motor, reward, and
+executive function (Bamford, I, N). This indicates that the
+correlation between these genes and neuropsychiatric disorders
+including Parkinson's Disease. The differential expression and
+KEGG Map data further support the relation and offer possible
+treatments or regulation.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Many neuropsychiatric disorders including Parkinson's
+Disease, Schizophrenia, and Post-traumatic Stress Disorder are
+seen to have direct correlation to dopamine receptor D2 (Drd2)
+and its variants. The dopaminergic synapse pathways releases the neurotransmitter dopamine, which binds to dopamine
+receptors, including Drd2, on the postsynaptic neuron located
+in the striatum (STR) to influence various brain functions.
+Many research articles express that people suffering from
+Parkinson's Disease show symptoms including rest tremor,
+bradykinesia, rigidity and loss of postural reflexes (Jankovic,
+J). I wanted to investigate the expression of genes involved in
+the dopaminergic synapse pathways in the STR and how they
+affect the increased risk of Parkinson's Disease using mice as
+the model system due to their close genetic and physiological
+similarity to humans
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
++» KEGG is a database containing various biological pathways
+and systems involved in different organisms along with their
+corresponding genes. This was utilized to locate the
+Dopaminergic synapse. + Anvil was used to obtain Figures 1 and 2. + Mouse Genome Informatics was used to extract information
+about the genes
+
+Drd2
+ENSMUSG00000032259
+
+Gene that provides instructions for
+making the dopamine D2 receptor, a
+protein that regulates dopamine
+signaling in the brain by affecting
+dopamine synthesis, storage, and
+
+Highly expressed in the
+STR region (p value of
+8.9232446-32)
+
+Ddc
+ENSMUSG00000020182
+
+Gene that provides instructions for
+making the AADC enzyme, which is
+crucial for producing the
+neurotransmitters dopamine and
+serotonin.
+
+Highly expressed in the
+STR region (p value of
+0.0004543003)
+
+Th
+ENSMUSG00000000214
+
+Gene that provides instructions for
+making the enzyme crucial for the
+nervous system's function and is the
+rate-limiting enzyme in the production
+of dopamine and epinephrine.
+
+Highly expressed
+in the STR region
+(p value of
+7780232e-07)
+
+Comt
+ENSMUSG00000000526
+
+Gene that provides instructions for
+making an enzyme which breaks down
+certain neurotransmitters and
+hormones, including dopamine.
+
+Highly expressed in
+the STR region (p
+value of
+7.0680805e-14)
+
+Figure 1: Models of Differential Expression
+
+
+
+Figure 3: Cluster plot of pathways in STR and PFC
+and a list of differentially expressed genes in the
+dopaminergic synapse
+
+I studied the direct correlation between Drd2 gene and other
+genes in the dopaminergic synapse. A list of differentially
+expressed genes were obtained using a STR vs PFC clusters.
+Significant differential expression was observed for Drd2, Ddc,
+Th, and Comt. All of these genes provide instructions for making
+enzymes responsible for regulating dopamine levels. The
+expression for all of the genes reveal that they are highly
+expressed in the striatum region of the mice brain.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Studies have shown that people who suffer from parkinson’s
+disease show symptoms of rest tremor, bradykinesia
+(slowness of movement), rigidity and loss of postural reflexes.
+These symptoms are closely related to the function of the
+striatum and are related to the dopaminergic synapse. This
+indicates that genes differentially expressed the striatum can
+have a possible role in Parkinson's Disease and its symptoms.
+The uniform distribution of expression shown by all the
+related genes indicate the involvement of the portion of the
+brain responsible for movement (including voluntary or
+involuntary) and coordination. Therefore focusing attention on
+the genes involved in the dopaminergic synapse in the brain
+can help us better understand neuropsychiatric disorders like
+Parkinson's Disease. Observing differential expression in the
+brain, specifically the striatum with mice as the model system
+due to their close genetic and physiological similarity to
+humans, will illustrate what cells or mechanisms are
+expressed and show their role in the relationship between the
+dopaminergic synapse and neuropsychiatric disorders.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+L Bamford, I. J., & Bamford, N. S. (2019). The
+Striatum’s role in executing rational and irrational
+economic behaviors. The Neuroscientist, 255),
+475-490. https://doi.org/10.1177/10738584188242568 2. Jankovic, J. (2008). Parkinson's disease: clinical
+features and diagnosis. Journal of Neurology
+Neurosurgery & Psychiatry, 74), 368-378.
+https:/doi.org/10.1136/jnnp.2007.131045 3. Noble, E. P. (2000). The DRD2 gene in psychiatric
+and neurological disorders and its phenotypes.
+Pharmacogenomics, 3), 309-333.
+https:/idoi.org/10.1517/14622416.1.3.309

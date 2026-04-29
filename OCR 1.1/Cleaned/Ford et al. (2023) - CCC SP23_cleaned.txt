@@ -1,0 +1,202 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Cytochrome P450 genes providing insecticide resistance
+found in al, p1 and p2 4 midgut regions of Drosophila
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Cooper Ford", Landin Burdeshaw!", Bryan Gracia', Kashlyn Siharath'", Rosa Alcazar, PhD."
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Some Cytochrome P450 genes play an important role in the development
+of insecticide resistance in Drosophila Melanogaster. Cyp6gl
+(FBgn0025454) appears to play an especially influential role in these
+processes. In this study, we examine the levels of expression of multiple
+genes in this gene group in order to determine which sections of the
+Drosophila midgut have high levels of coexpression. DDT is used as the
+insecticide of interest as it is a known to affect insects through the
+midgut. Using the FlyBase database and DESeq2, we examined several
+different genes from the Cytochrome P450 gene family that were known
+to have roles in insecticide resistance in the al, pl and p2_4 midgut
+sections. After examining many Cytochrome P450 genes, we selected five
+genes based on their high levels of coexpression and known roles in
+insecticide resistance and plotted expression levels across each region of
+the midgut. The graphs had shown that the levels of expression for each
+gene was highest in regions al and/or p1/p2_4. The data suggests that
+these genes play a key role in a metabolism of insecticides. Insecticide
+resistance via Cytochrome P450’s is largely polygenic in that multiple
+genes of the same gene family may cooperate in the function of
+insecticide resistance, and may be coexpressed.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Since it is known that some Cytochrome P450 genes have been shown to
+play a role in insecticide resistance, especially to DDT, we can deduce that
+particular sections of the midgut, which have high levels of expression of
+these genes, have an important role in insecticide resistance. Previous
+studies find that Drosophila melanogaster individuals with higher levels
+of expression for these genes have greater insecticide resistance.
+Additionally, within the Cytochrome P450 gene group, there are distinct
+clans of genes. We determined that the CYP3 CLAN and CYP4 CLAN
+include the Cytochrome P450 genes relevant to insecticide resistance,
+and selected genes from these clans to gather our data. We predict that sections al, pl and p2_4 of the midgut have the highest
+levels of expression for the Cytochrome P450 genes and the Cytochrome
+P450 genes related to insecticide resistance are coexpressed.
+
+The Drosophila melanogaster midgut is
+used as a model system for studying human
+gut function. This relationship may be used
+to investigate similarities between humans
+and Drosophila relating to the action of
+Cytochrome P450 genes in insecticide
+resistance and metabolism.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+FlyBase: FlyBase was used to find Cytochrome P450 genes
+relevant to insecticide resistance, and discover literature on the
+topic of Cytochrome P450 insecticide resistance. Sciserver: Sciserver was used to plot the selected genes across all
+regions of the Drosophila melanogaster midgut using DEseq2
+data. This function allowed us to compare levels of expression
+for each gene, and infer if they were coexpressed. NCBI and ResearchGate: The National Center for Biotechnology
+Information and ResearchGate were used to reference previously
+conducted studies related to the investigation of the role of
+Cytochrome P450 gene expression in insecticide resistance.
+These sources were also used to explore the possibility of using
+the Drosophila melanogaster midgut as a model system for
+analyzing insecticide response in humans.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+CYP3A7-CYP3AS5
+1P
+
+Cytochrome P450
+6g1
+FBgn0025454
+
+Necessary and sufficient for
+resistance to insecticides DDT
+and imidacioprid. May be
+involved in the metabolism of
+insect hormones, Levels of Expression were
+highest inal, pland p2 dona
+scale from 0-30,000. This is most
+likely due to potential need for
+gene translating in both regions
+to begin breakdown of
+insecticides.
+
+CYP4V2
+
+Cytochrome P450
+4ad1
+FBgn0033292
+
+May be involved in the
+metabolism of insect
+hormones and in the
+breakdown of synthetic
+insecticides. Levels of Expression
+were highest in p1 and
+p2_4 on a scale from
+0-40,000.
+
+CYP4V?2
+
+Cytochrome P450
+4d1
+FBgn0005670
+
+Involved in the metabolism
+of insect hormones and in
+the breakdown of synthetic
+insecticides. Levels of Expression were
+highest in p1 and p2_4 on
+a scale on 0-20000.
+
+CYP4F2
+
+Cytochrome P450
+4d8
+FBgn0015033
+
+May be involved in the
+metabolism of insect
+hormones and in the
+breakdown of synthetic
+insecticides. Levels of Expression for
+this gene were highest
+inplandp2 40na
+scale from 0-15000.
+
+CYP3A4
+
+Cytochrome
+P450 6d5
+FBgn0038194
+
+May be involved in the
+metabolism of insect hormones
+and in the breakdown of
+synihotic insecticides. Levels of Expression were
+highest in p1 and p2_4, but
+there was also noticeable
+expression in Fe region mostly
+due to support in metal jon
+transport.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+From our data, we conclude that many Cytochrome P450 genes
+involved in insecticide resistance, particularly those in the the
+CYP3 and CYP4 CLANs, are most highly expressed in the al, pl
+and p2_4 regions. Additionally, it can be seen that these genes
+may be coexpressed, which calls for further study, especially
+considering each gene’s effect on insecticide resistance may
+compound on other Cytochrome P450 genes to achieve higher
+levels of insecticide resistance. Because the Drosophila melanogaster midgut is closely
+analogous to the human midgut, further study should be
+conducted to investigate if humans process and respond to
+insecticides in the gut in a similar way to Drosophila
+melanogaster.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+Gearnates LS. Agape J, Altnll H. Cai BR, Crosby M, dos Santos G Goodman JL. Goutie-Gatiat D, Jenkins V. Kaufman T, Larkin A. Matthews B, Milbumn G,
+Strolets VB, and the FlyBase Consortium (2022) Flyiase: a guided tour of highlighted features. Genatics, Volume 220, sue 4, April 2022. lyactds
+Daten PJ, Yen JU, Bogwitz MR, Le Goft G, Fed E. Joffors S, Tiet N. Perry T, Heckel D, Battetham P. Feyersisen R. Wilson TG, firanch-Constant RH. A single
+p450 akele associated with insecticide resistance in Drosophila Science. 2002 Sep 27,297(5580):2253-6. dot: 10.1125acence. 1074170. PMID: 12351787,
+Lo Goff G, Bouncy 5, Daborn PJ, Yen JL. Sofer L. Lind R, Sabournutt C, Mack-Ravazzl 1. french-Constant RH. Microanay analyss of cytochrome P50
+mediated i jo teslntance in Dr : Insect Biochem Mol Biol. 2000 Jul: INT) 701-8, dot: 10. 1016/509651748(03)00064-x. PMID: 12826097,
+Dabotn PJ, Lumb C, Boey A, Wong W, Firench-Comtant RH, Batterham P. Evaluating the inseciicids resistances potential of sich Drosantils melasogasies
+gyiochepens PASO genes by ransgenic oversapressce. Insect Biochem Mol Biol 2007 May 37(5).512-0. dol: 10.1018/.bmé 2007.02. 008. Epub 2007 Mar 2.
+PMID. 17456446
+McCart C, Flrench-Constant RH. Dizsscting the insecticide oo § ctochome PAS gene Cypfigl. Post Manag Sci. 2008 Jun 64(6).639-45,
+dol: 10. 1002/ps. 1567. PMID: 18338336
+Schmit JM, Battlay P. Gledhil-Smah RS, Good RT, Lumb C, Fourmser-Lavel A. Robin C. laughs into DOT Resistance froen the Drosophila melanogasser tic Rol Panel Genetics. 2017 Nov207(31 1181-1193. dor 10, 1534/genetics. 117 300310. Epub 2017 Sep 21, PMID: 28035601; PMCID!
+PMCS6TE240
+Apidanakis ¥, Rahme LG. Diosopta melancgasior 89 8 model for human intestal infecson snd pathology. Dis Model Mech, 2011 Jand(1):21-30. dex:
+10.124 2/dmm 003670, PMID: 21183453; PMCID: PMC3014340. =
+Sadagat, Zoha & Kaushik, Shivam & Kan, Pinky. (2021) Gul F Benn f hia Gut an Ao Mode for Medians to Understand Mechans i
+Mediatng Food Pre! guy 10.577 2Ansechopen B8503. onl

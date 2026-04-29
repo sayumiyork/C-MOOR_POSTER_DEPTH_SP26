@@ -1,0 +1,136 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Albinism and Melanogenesis Pathway:
+Analysis of Differential Gene Expression
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Adrianne Paderna, Noah Farfan, Sara Partridge, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+In humans, the gene SLC45A2 is associated
+with oculocutaneous albinism type 4, a
+condition that affects the skin, eyes, and hair (Le
+et al). The Drosophila melanogaster gene
+Slc45-1, is an ortholog of SLC45A2, and we
+were curious about its role in Drosophila as well
+as its role in the specific region of the midgut in
+which it was most highly expressed. To do our
+research, we used FlyBase, Human Protein
+Atlas, and PubMed. We hypothesized that the
+Mcol gene was related to the production of
+melanin; results were negative.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+In humans, oculocutaneous albinism type 4
+(OCA4) manifests as reduced pigment in the skin,
+eyes, and hair (Hayashi). OCA4 can result from
+mutations in the gene SLC45A2, a proton
+transporter that increases the pH in lysosomes to
+promote melanogenesis (Le et al.). In Drosophila
+melanogaster, the gene Slc45-1, an ortholog for
+SLC45A2, is differentially expressed in the iron
+region of the midgut. We wanted to investigate the
+role of Slc45-1 in the iron region as well as the
+significance of the region.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+We utilized various biological databases and
+biotechnology. FlyBase allowed us to find orthologs of
+SLC45A2 in flies, namely Slc45-1, as well as basic
+information about the latter. To learn more about
+SLC45A2, we used Human Protein Atlas. Maps on the
+KEGG database allowed us to better understand the
+roles of enzymes that are relevant to the Drosophila
+midgut; journal entries from PubMed allowed us to gain
+deeper insight on the roles of related genes and regions
+of Drosophila midgut.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure I: Expression of SkedS-1 (FBgnD03396R) in the D. melanogaster
+midgut based on RNA-seq
+
+Figure 2: Expression of Multicopper oxidase I (FBgn0032116) in the D.
+melanogaster midgut based on RNA seq.
+
+Figure 3: Cluster graph of pathways in which the al region is most involved
+compared to the Fe region
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Figure 4: The iron region has been suspected to show high levels of MC01 gene expression (Mandilaras et al).
+
+Figures 5-6: In X tropicalis, the CP gene is an ortholog for the Mcol gene in D. melanogaster
+and oxidizes iron in porphyrin metabolism and ferroptosis.
+
+The Slc45-1 gene is differentially expressed in the iron
+region of Drosophila. In humans, the gene is related to
+melanin synthesis (Le et al.). Its ortholog in humans,
+SLC45A2, is associated with melanin synthesis, and
+mutations can result in albinism (Le et al.). The iron region
+was found to be associated with the storage of ferritin, a
+form of iron, and potentially high levels of expression of
+the gene Mcol (Mandilaras et al). For greater
+understanding of the iron region, we investigated the Mcol
+gene, which was not differentially expressed in the iron
+region of the midgut as we had expected; however, Mcol
+was differentially expressed in the al region of the midgut
+with an adjusted p-value of approximately 8.7e-35. Mcol
+has an ortholog in Xenopus tropicalis, Western clawed
+frogs, that is known as CP and is responsible for oxidizing
+iron in the processes of ferroptosis and porphyrin oxidation.
+Similarly, in D. melanogaster, Mcol oxidizes ferrous iron
+(Mandilaras et al.). In Drosophila, the iron region is known
+to contain the most and produce ferritin, whose metabolism
+supports the immune system (Mandilaras et al.; Tang &
+Zhou). The role of the Slc45-1 gene in the iron region is
+unclear; however, as the production of melanin allows for
+protection from light damage, melanogenesis may be
+connected to the involvement of ferritin metabolism in
+Drosophila immune response. The role of Mcol in the al
+region is also not fully clear; it may play a part in oxidizing
+ferrous iron in the al region of the midgut as part of the
+metabolism of drugs, xenobiotics, and/or purines.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+I Tang. X. & Zhou, B. (n.d). Iron homeostasis in sects: Insights from drosophila studies. IUBMB.
+hts dolore 10.1002 ub L211 2 University of Oregon. (2016). GENE slot Sa2. ZFIN. htape/ofin orp ZDB-GENE0S0208.97 3 Hayashi, M. (2008, November 17) Oculocutancous albisteen type 4. Nathonal Libeary of Medicine. Retrieved
+Sepeember 7, 2017, from higpe www nchi nlm nib gov books NBK 1510! 4 Mandilaras, K., Pathmanathan, T., & Missizhis, F. (2013). Iron absorption in Drosophila melanogaster, Nugrients,
+95), 1622-1647, batons) doi ong/ 10 3300 ay sS08 I 622 5. Tang X. and Zhou, B. (2013), lron homeostasis in insects: Insights from Drosophila stedies. IUBMB Life, 65:
+$63-572. https doi org/ 10,100 iub, 1211 6 Tung X. & Zhow, B. (2013). Ferrites is the key to dietary iron absorption and tissue (ron detoxification in
+Drosophila melanogaster. FASER journal © official publication of the Federation of American Societies for
+Experimental Sology, 2701), 258-298. hips dol org’ 10 10065 12-21 3595 7. Nikoo, A. Bahrami. A. & Meiboda, N. T. (2010). Maligsam melanoma of sevold type in a patient with
+octlocutancoas albinism: A case report. framdan Journal of Pathology, (4), 193-196.
+Ditton anche nasil gos posc articles PMCIOI0I1E § Le L. Escobar, I E, Ho, T., Lefkovith, A.J, Laven, E., Haltsufderhyde, K. DD, Dennis, M. K., Plowright, I,
+Sviderskaya, EV. Bennett, D. C., Osices, E.. & Marks, M.S. (2020). SLC4SA2 protein stability and regulation
+of melanosome pH determine melanocyte pigmentation, Molecwdar Blodagy of the Cell, F124), 2687-2702.
+hittesudob one 10.109 I yb £20.82 0200 9. Mandilarus, K_, Pathmanathan, T., & Missicho, F. (2013). Iron absorption m Dvosophila melanogaster. Nutrients,
+(5), 1622-1647, bain ot up 10 LINO my SS 1620 10. National Center for Biotechnology Information (NCBI). (2025, April 25). Moo! mudnicopper aidan /
+[Dvosophita mehanagaster (fruit fiv)] (Gene TD: 34258). NCBI Gene. Luge www neti nlo mh gon pone 1250 11. Lang. M, Braun, C. L, Kanost, M. R, & Gorman, M. J. (2012). Multicopper oxidase-1 is a ferrondase
+essential for iron homeostasis in Drosophila melanogaster, Proceedings of the National Academy of
+Sciences of the United States of America, 10933), 13337-13342
+ton idol 01/10 1073/0090 1 208703109

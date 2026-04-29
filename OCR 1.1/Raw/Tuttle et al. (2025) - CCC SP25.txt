@@ -1,0 +1,156 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Gene Expression Patterns in the Tryptophan-Kynurenine
+Pathway in Drosophila Melanogaster
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Jack S Tuttle, Christopher K Arshakyan, Jayvn B Aiyabei, and Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+This study investigates the differential expression of
+genes regulating Tryptophan and its metabolism
+pathways in Drosophila Melanogaster. The genes white
+and vermillion are essential for tryptophan metabolism,
+as well as the pigmentation found in the eyes of
+Drosophila. White affects the uptake of compounds that
+use tryptophan as a precursor, and vermillion is directly
+involved in the tryptophan to kynurenine pathway. We
+also analyzed the genes Speck (Fig 1.3) and Ddc (Fig 1.4)
+for their roles in tryptophan metabolism. Mutations to
+these genes, known as w'''® (for white) (Fig 1.1), v¢ and v*5
+(for vermillion) (Fig 1.2) affect the ways that the flies
+metabolize tryptophan. They have also been found to
+disrupt the tryptophan to kynurenine pathway that has
+been found to have links to the degradation and aging of
+organisms. From previous studies that we referenced, we
+know Drosophila with the aforementioned mutations
+have increased lifespans. What we have found is that
+these genes are highly expressed in the Copper (Cu)
+region of the midgut of Drosophila. The expression of
+these mutations in the midgut must have a direct effect
+on the aging of Drosophila Melanogaster.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+In Drosophila melanogaster, tryptophan is
+metabolized through the kynurenine pathway,
+this process has been linked to aging not just in
+Drosophila, but in all organisms. This pathway
+plays a crucial role in regulating aging, stress
+responses, and neural function. The genes known
+as white and vermillion play a vital role in the
+metabolism of tryptophan. These genes both have
+mutations(w'® for white, and v? and v*** for
+vermillion) that affect their ability to aid in the
+metabolization of tryptophan.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+We did research on multiple genes including
+white and vermillion which both affect eye color
+as well as the metabolization of tryptophan. We
+compared both these genes using data from
+Flybase.org. We then used SciServer to create the
+graphs for our results.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Fig 1.1 Differential
+Expression of white in the
+midgut of Drosophila
+Melanogaster
+
+(padj 1.38907e-20)
+
+Fig 1.2 Differential Expression
+of vermillion in the midgut of
+Drosophila Melanogaster
+(padj 0.3460042)
+
+Fig 1.3 Differential Expression
+of Ddc in the midgut (pad)
+0.0008247876)
+
+Ddc decarboxylates L-dopa
+to make dopamine and is
+also linked to the immune
+response and wound
+healing in the fly.
+
+Fig 1.4 Differential Expression
+of Speck in the midgut (padj
+0.55)
+
+Speck encodes an enzyme
+that converts serotonin to
+N-acetylserotonin to
+regulate melatonin daily
+cycles.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Our results indicate that TRY metabolism varies across different
+regions of the Drosophila midgut, with higher expression of
+related genes in the Cu region (Fig 1.1)(2). The white and vermilion
+genes, both involved in the KYN pathway, showed differential
+activity that may impact not only eye color but also key processes
+like aging, immune response, and energy metabolism. The
+concentration of gene expression suggests regional specialization
+in TRY processing, which could influence how flies respond to
+stress or maintain cellular health.
+
+White encodes a key piece of the ABC transporter which is
+involved in the uptake of eye pigment precursors including TRY
+which is converted to KYN by vermillion to make pigment (1). KYN
+is associated with aging and mutations of vermillion (v? and v*%?)
+as well as white (W''®) have been found to increase lifespan (3)(4).
+Dde and Speck are involved in TRY metabolism. Ddc converts
+5-hydroxytryptophan to serotonin; Speck uses the serotonin to
+make N-acetylserotonin. L-dopa is derived from tyrosine. Ddec is
+likely highly expressed in the al region of the midgut (Fig 1.3)
+because tyrosine is a dietary amino acid. White and vermillion
+mutations leave more TRY available for these processes, which
+may contribute to increased health and lifespan.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Mackenzie, Susan M., et al. “Mutations in the white gene of drosophila
+melanogaster affecting ABC transporters that determine eye
+colouration.” Biochimica et Biophysica Acta (BBA) - Biomembranes, vol.
+1419, no. 2, 15 July 1999, pp. 173-185,
+https://doi.org/10.1016/s0005-2736(99)00064-4.
+
+2. Marianes, Alexis, and Allan C Spradling. “Physiological and stem cell
+compartmentalization within the Drosophila midgut.” eLife vol. 2
+e00886. 27 Aug. 2013, doi:10.7554/eLife.00886
+
+3. Oxenkrug, Gregory F. “The extended life span of Drosophila
+melanogaster eye-color (white and vermilion) mutants with impaired
+formation of kynurenine.” Journal of neural transmission (Vienna,
+Austria : 1996) vol. 117,1 (2010): 23-6. d0i:10.1007/s00702-009-0341-7
+
+4. van der Goot, Annemieke T, and Ellen A A Nollen. “Tryptophan
+metabolism: entering the field of aging and age-related pathologies.”
+Trends in molecular medicine vol. 19,6 (2013): 336-44.
+doi:10.1016/j.molmed.2013.02.007

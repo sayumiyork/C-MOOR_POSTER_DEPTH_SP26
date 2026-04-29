@@ -1,0 +1,180 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Macromolecule Breakdown and Absorption: Analysis of
+Differential Expression Using Single Cell and Bulk RNA-seq Data
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Camila Lemus, Karla Ramirez, Angelina Wilson, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Productive macromolecule breakdown relies on certain genes expressed in
+specific regions of the Drosophila midgut. Understanding differential gene
+expression in particular regions can uncover processes relevant to human
+digestion as well as metabolic disorders. Our researched aimed to compare
+the regional expression patterns of two genes both involved in starch and
+sucrose metabolism using single-cell as well as bulk RNA-sequencing
+datasets. After analyzing distinct genes responsible for starch and sucrose metabolism,
+we hypothesized that Amy-P and Amyrel would be enriched in the same
+region of the midgut. We found that Amy-P, a gene known to be associated
+with the hydrolysis of dietary starch, is significantly differentially expressed in
+the Al region of the Drosophila midgut, which is involved with carbohydrate
+metabolism(Marianes, A. & Spradling, A. C. 2013). Unexpectedly, the Amyrel
+gene was enriched in the P1 region of the midgut which is responsible for
+absorbing nutrients from digested food(Marianes, A., & Spradling, A. C. 2013).
+Although these findings contradicted our hypothesis, they indicate that
+starch and sucrose are spatially separated rather than co-localized. This
+organization may allow for sequential processing of carbohydrates potentially
+suggest that spatial separation prevents wasted enzyme activity. Overall, our
+work highlights the importance of combining single-cell and bulk RNA-seq
+data, in order to identify gene expression patterns of and its possible
+relevance to the digestive biology of humans.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+The Drosophila Melanogaster js a species of fruit fly that is commonly used as
+a_model organism in laboratory settings. This is due to the species high
+reproduction rate, short lifespan, cost effectiveness, as well as the numerous
+similarities the Drosophila model holds in comparison to humans. It is
+through the study of the Drosophila Melanogaster that we have been able to
+better understand the molecular complexities and health conditions in other
+organisms. Thanks to the genetic similarities displayed between the
+Drosophila model and humans, we are able to use data collected from these
+simplistic organisms and apply that to human medicine. For our research, we
+compared two segments of the Drosophila midgut and sought out which
+genes are predominately expressed. The segments that we compared against
+included the Al and P2_4 regions of the midgut. The Al, or anterior region,_is
+tasked with macromolecule breakdown while the P2_4& segment, or posterior
+region, controls molecule absorption (Marianes, A, & Spradling, A. C. (2013). We
+found that our selected gene, Amy-p, showed high levels of genetic
+expression in the Al region of the midgut as well as being highly expressed in
+pancreatic tissue in humans. This led us to hypothesize that all genes within
+the amylase family would share a similar function given their lineage. Upon
+further analysis, we found that each gene within the amylase family serve
+varying roles in molecular degradation and absorption. Their expression
+throughout a given system varies depending on the specific gene and targets
+differing tissues, rather than those pertaining the pancreas as seen with
+Amv-D
+
+Figure 1: Shows the labeled segments of the Drosophila midgut.
+Figure 2: Shows the Drosophila intestine in comparison to the
+human intestine, Similar structures between the two are shown in
+the same color
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+Programs and websites utilized during our research include: ElyBase: Allowed for identification of specific flybase gene IDs. General information pertaining to
+the gene such as location, function, and expression. It also displayed shared orthologs between
+the Drosophila Melanogaster model and humans. Human Protein Atlas: Gathering human orthologs of our specified gene, the Human Protein Atlas
+allowed for us to view data on the human equivalent to our chosen gene. Similarly to the FlyBase,
+information including location of the gene, function, and expression of the gene could be
+determined. Anvil: This program allowed for access to a RNA-sequencing library. With R-coding, our group was
+able to view relevant expression data of a variety of genes. This program allowed for a broad
+analysis of related genes and helped to narrow down our findings to a gene that met our criteria.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+RNA-sequencing analysis conducted through Anvil revealed that the FBgn00000000000079 and
+FBgn0020506 genes exhibit highly region-specific expression across the Drosophila melanogaster
+midgut. Through R-coding, the function plotAcrossRegions demonstrated that the EBgn0000079 gene is
+strongly expressed in the Al region, with very low expression in posterior midgut zones such as
+P2_4 (Figure 3) and that the EBgn0020506 gene is strongly expressed in the P1 region compared
+to Al (Figure 4). The function formatDESeq2Results(temp), was then used to determine the
+differential expression between Al and P2_4 for FBgn0000079, and between Al and P1 for
+EBgn0020506. This analysis showed an adjusted p-value of 2.0197766e*” for FBgn0000079 and of
+3.364346e° for FBgn0020506 (Figures 5 and 6). These values are far below 0.05, indicating the
+differences in expression are statistically significant and unlikely to have occurred by random
+chance.
+
+Figure 3. Expression of FBgn0000079 across midgut regions. The plot
+generated using plotAcrossRegions("FBgn0000079") shows high
+expression of FBgn0000079 in the anterior (Al) region and very low
+expression in posterior (P2_4) region.
+
+Figure 4. Expression of FBgn0020506 across midgut regions. The plot
+generated using plotAcrossRegions(*FBgn0020506%) shows high
+expression of FBgn0020506 in the posterior (Pl) region and very low
+expression in the anterior (Al) and posterior (P2_4) region.
+
+Figure 5, Differential expression of
+FBgn0000079 between Al and
+P2_4. The gene ranks among the
+top differentially expressed genes,
+with an adjusted p-value of
+2019776¢
+
+Figure 6. Differential expression of
+FBgn0020506 between Al and Pl
+showing an adjusted p-value of
+336347e*.
+
+Tables for both figures were
+generated from DESeq2 output
+showing the log2 fold change,
+p-value, and adjusted p-value for
+each gene.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+The RNA-seq analysis showed that FBgn00000000000079, also referred to as Amy-p, is highly and
+significantly expressed in the Al region of the Drosophila melanogaster midgut, compared
+to the lower expression in the posterior P2_4 region. Because the Al region is associated
+with macromolecule digestion and the P2_4& region is more specialized for molecule
+absorption (RNA-seq: Fruit-fly, 2019), these expression differences align with the known
+function of FBgn00000079. The gene encodes alpha-amylase, an enzyme that catalyzes
+starch hydrolysis, the breakdown of starch into glucose and maltose through the addition of
+water molecules (Gene: Dmel\Amy-p, 2025). The extremely low adjusted p-value further
+supports the conclusion that this region-specific expression is meaningful and not due to
+random variation. In addition, the RNA-seq analysis showed that Amyrel (FBgn0020506), another member of
+the amylase family, is highly expressed in the posterior P1 region compared to low
+expression in the anterior Al region. Biochemical studies indicate that Amyrel is not limited
+to starch hydrolysis, as it also “produces a complex mixture of maltooligosaccharides”
+before generating glucose and maltose, which is “in sharp contrast with canonical animal
+a-amylases” (Feller et al, 2021). This demonstrates that even when an amylase gene is
+expressed in a digestive region, it may perform several other functions beyond simple
+breakdown. To extend these findings to a broader biological context, we examined the human ortholog
+AMY2B, which also encodes an alpha-amylase enzyme involved in carbohydrate digestion.
+According to the Human Protein Atlas, AMY2B is pancreas-enriched and functions primarily
+in digestive enzyme secretion. It has also been reported as a prognostic marker in rectum
+adenocarcinoma, suggesting a potential association with human gastrointestinal disease.
+While Drosophila and human digestive systems differ structurally, the shared enzymatic
+role of Amy-p and AMY2B highlights how model organisms can provide insights into gene
+function that may be relevant to human digestive biology and disease. Overall, the results obtained from the RNA-seq analysis challenge our initial hypothesis that
+all amylase-family genes share a similar function. Instead, these results reveal functional
+diversity within the amylase-family, with Amy-p primarily contributing to molecule
+breakdown in the anterior region, and Amyrel contributing to carbohydrate modification in
+the posterior region (Feller et al, 2021). This indicates that amylase-family genes are not
+limited to molecular breakdown and reinforces the observation that carbohydrate
+processing in the midgut is a compartmentalized process. To determine whether the
+functional differences between Amyrel and Amy-P resulted from compartment-specific
+evolutionary pressures within the midgut, additional biochemical study is needed. Similarly,
+further clinical and experimental evidence will be necessary to clarify the specific role of
+AMY2B in rectum adenocarcinoma.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1Feller, G, Bonneau, M,, & Da Lage, J.-L (2021). Amyrel, a novel glucose-forming alpha-amylase from Drosophila with
+4-alpha-glucanotransferase activity by disproportionation and hydrolysis of maltooligosaccharides. <em>Clycobiology, 3l</om> (9), 134-1144.
+doi10.1093/glycoblowab036 2Gene: Dmel\Amy-p. (2025, October 2). FlyBase. Retrieved November 20, 2025, from 3Marianes, A. & Spradling, A. C. (2013). Physiological and stem cell compartmentalization within the Drosophila midgut. eLife, 2, «00886.
+httpsfdol org/10.7554 /eLife.00886 4RNA-seq: Fruit-fly Midgut Regions. (2019, January 7). C-MOOR. Retrieved November 20, 2025, from https:fiscience c-moor.org/dataset/raseq-fly-midgut-regions/ 5The Human Protein Atlas. (nd.). AMY2B (ENSC00000240038) — Protein expression summary. Retrieved November 20, 2025, from 6eLife digest Marianes & Spradling (2013) 7Marianes, A, & Spradling, A. C. (2013), Physiological and stem cell compartmentalization within the Drosophila midgut, eLife, 2, e00886.
+http didoiong0 7554 Life 00886 Figure 3 Figure I: The Drosophila gut from Marianes & Spradling (2013) Figure 2: Image from Sadagat et al. 202)

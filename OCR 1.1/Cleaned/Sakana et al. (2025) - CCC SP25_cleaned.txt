@@ -1,0 +1,155 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Differential Expression of the TALE Homeobox Genes in
+Drosophila Midgut patterning
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Gugulethu Sakana, Sameeha Suliman,Madison Castillo, Kassandra Hernandez, and Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+The Three Amino acid Loop Extension (TALE) group of
+homeobox genes regulate cell and tissue-specific gene
+expression (Biirglin and Affolter, 2016). This project analyzed
+and explored the expression patterns of the 7 TALE genes in
+the Drosophila midgut, and how they might work together.
+Using R code to analyze RNA-seq data, we found that the gene
+homothorax was highly and differentially expressed in the Fe
+region of the midgut. The other six TALE genes showed low
+expression overall and two — achintya and vismay — were not
+differentially expressed among regions. Our results may help
+shed light on possible roles and hierarchy of how the TALE
+genes control patterning in the midgut.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Gene expression patterns that control development and
+differentiation are often orchestrated by transcription factors.
+Homothorax (hth) is a homeobox gene in Drosophila
+melanogaster known for its role in tissue patterning, stem cell
+maintenance, and organ development (Mann and Affolter, 2002).
+We were particularly interested in Myeloid Ectopic viral
+Integration Site genes (MEIS] and MEIS2), orthologs of
+homothorax that are involved in developmental patterning and
+limb growth in humans (Capdevila et al, 1999). This project
+investigates the expression patterns of homothorax and its TALE
+gene paralogs in Drosophila. Drosophila melanogaster serves as
+an ideal model organism for studying gene expression and
+function due to its genetic tractability, short lifecycle, and
+conserved molecular pathways. The Drosophila midgut shows
+distinct stem cell niches in the anterior-posterior axis, divided into
+10 subregions (Marianes, 2013). This provides a robust system for
+examining regional gene expression relevant to developmental
+patterning. In this project, we examined RNA-seq data to assess
+differential expression of the seven Three Amino acid Loop
+Extension (TALE) homeobox genes across the midgut regions.
+We compared the expression profiles of the other six TALE genes
+to that of homothorax. We hypothesized that the other six genes
+would be highly and differentially expressed anteriorly, given that
+homothorax showed high expression posteriorly.
+
+Fig. 1. Electron micrograph showing Drosophila melanogaster midgut
+regions in the anterior-posterior axis (A-J). (Marianes, 2013)
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+We used SciServer to access RNA-seq data of the Drosophila
+melanogaster midgut in order to investigate gene expression patterns
+across its different subregions. Data extraction and analysis were
+conducted in the CMOOR container R workspace, where we generated
+bar plots to visualize and compare gene expression levels. We selected
+candidate genes using FlyBase, focusing on the seven TALE homeobox
+genes and their human orthologs. To further characterize these genes,
+we utilized resources such as the Human Protein Atlas database to
+examine their tissue-specific expression patterns and developmental
+functions. R-code and each unique FlyBaselD per gene were used to
+extract and filter gene expression data for homothorax and all other
+TALE genes.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Il. homothorax (hth) FBegn0001235 Highly expressed in Fe region (counts >20000,
+P<0.001)
+
+2. extradenticle (exd) FBgn0000611 Highly expressed in Cu region (counts >15
+000, P=0.0137)
+
+3. mirror (mirr)
+FBgn0014343 Low expression, highest in al
+region (counts >750, P<0.001)
+
+4. araucan (ara) FBegn0015904 Low expression, highest in al region
+(counts ~500, P<0.001)
+
+5. caupolican (caup) FBegn0015919 Low expression, highest in al region
+(counts >750, P<0.001)
+
+6. vismay (vis) FBegn0033748 Not differentially expressed.(counts<50,
+P=0.0669)
+
+7. achintya (achi) FBgn0033749 Not differentially expressed. (counts<500,
+P=0.987)
+
+Fig. 2. Graphs 1-7, showing each member of the
+TALE class of homeobox genes plotted across all
+regions of the Drosophila midgut. Expression
+measured by readcounts. Differential expression
+measured between Fe and al regions for each
+gene, and filtered for padj.<0.05.
+
+Fig. 3. The model organism Drosophila
+Melanogaster (female) under 40x light
+microscope. Image by Gauri Paul.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Genes coding for homeodomain transcription factors play a key role
+in gene expression control. Regulation of gene expression is
+important because it ensures that cells and tissues carry out the right
+functions at the right time in development. In the midgut, enterocytes
+are constantly dividing to renew and replace old or damaged cells,
+according to their distinct regions in the anterior-posterior axis. Three
+of the genes in the class support our hypothesis, showing highest
+expression in anterior regions. While the TALE class of homeobox
+genes are not the only genes regulating gene expression in midgut
+cells, we now understand that the very high expression of
+homothorax, particularly in the Fe region compared to other
+members, may indicate an overall more dominant role in the
+patterning of the midgut. We also understand that each regulatory
+gene controls the expression of multiple genes, and the
+non-differential expression of Vismay and Achintva may indicate they
+play a greater role in tissues or developmental processes.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Alexis Marianes, Allan C Spradling (2013) “Physiological and stem
+cell compartmentalization within the Drosophila midgut” eLife
+2:¢00886 https://doi.org/10.7554/cLifc. 00886 2. Biirglin, T. R., Affolter, M. (2016). “Homeodomain proteins: an
+update.” Chromosoma, 125(3), 497-521. 3. Capdevila, J., Tsukui, T., Esteban, C. R., Zappavigna, V., &
+Belmonte, J. C. 1. (1999). Control of Vertebrate Limb Outgrowth by
+the Proximal Factor Meis2 and Distal Antagonism of BMPs by
+Gremlin. Molecular Cell, 4(5), 839-849. 4. Mann, Richard S. and Markus Affolter. “Hox Proteins Meet More
+Partners.” Current Opinion in Genetics & Development, Elsevier
+Current Trends, 19 Apr. 2002,
+www sciencedireet.convscience/article pil/S0959437X 98801 135%vi
+23Dihub.

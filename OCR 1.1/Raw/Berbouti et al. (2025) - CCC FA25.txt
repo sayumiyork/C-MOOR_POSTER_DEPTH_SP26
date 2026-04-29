@@ -1,0 +1,161 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Trehalase Expression in the Drosophila Midgut: Differential Expression
+across Anterior and Posterior regions Dy
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Hanaa Berbouti, Malia Chheng, Thomas Vann, Jeremy Cortez
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+‘Trehalose is a critical sugar in Drosophila melanogaster, in which its breakdown by
+trehalase provides glucose for energy metabolism. The pathway of trehalose
+catabolism involves two transporters (TRET1/GLUT1) and one (TREH) enzyme. In
+the midgut. In this study, we tested the hypothesis that TREH, TRET1, and GLUT1
+would show comparable regional expression. We analyzed gene expression
+patterns across midgut regions. TREH was highly expressed in the anterior and
+posterior midgut, TRET1 was enriched in the copper cell region, and GLUT1 was
+concentrated in central digestive regions with TREH activity. These results indicate
+that, contrary to our hypothesis, expression of trehalose catabolism genes is
+regionally specialized rather than uniform. Our findings highlight the organization
+of the trehalose catabolism pathway, demonstrating that trehalose uptake,
+hydrolysis, and glucose. Transport across different regions in the midgut. This
+study provides insight into the regulation of carbohydrate metabolism in flies and
+parallel sugar processing in humans.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Trehalose is a major sugar in insects. TREH breaks trehalose into glucose in the Drosophila
+midgut. Studies show that the midgut is divided into regions that carry out different
+digestive roles. These regions differ in pH, metal levels, and nutrient handling. Transport
+genes for trehalose and glucose respond to these regional differences, which create
+distinct expression patterns across the gut. The knowledge gap is the relationship
+between TREH expression and transport genes linked to trehalose and glucose
+movement. We do not yet know if these genes follow similar regional patterns or if the
+midgut separates digestion and transport across compartments. Our scientific question
+asks whether TREH, TRET1, and GLUT 1 show similar expression across the anterior and
+posterior midgut. Our hypothesis predicts similar patterns because these genes
+participate in linked steps of trehalose breakdown and glucose transport. Drosophilais a
+strong model for this work because its midgut is well mapped, its genetics are accessible
+and its carbohydrate metabolism is similar to over organisms, including humans.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+* The online database Flybase provided information about gene orthologs
+between Drosophila Melanogaster and humans, along with the expression of
+the genes for further research. This was also utilized to show the catabolism of
+TREH.
+
+* The Human Protein Atlas was used to study and do further research with the
+human orthologs found from Flybase.
+
+* In order to plot graphs of differential gene expression, Sciserver, which has a
+coding space called *R Studio,” was used. The studio generated graphs for the
+gene expression in the midgut of Drosophila.
+
+* PubMed was used to research databases comparing genes and gene
+expression
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+The gene plot across the region graph from figure 1 showed TREH is most expressed in the anterior
+and posterior regions. It matched supporting information because these regions are where
+macromolecule breakdown (Trehalose Catabolism) and absorption occur. Significant gene
+expression in the Cu region was observed for TRET1, but for GLUT, the higher expression was for
+the posterior region. The differential gene expression revealed the differences between each
+pathway. TRET 1's expression was due to the region's acidity and the need for trehalose to be
+transported into the cell into a more stable environment to be broken down. Trehalose does not
+function well in this region. GLUT 1 expression was because it is the final stage where absorption
+occurs and glucose is moved into cells to be absorbed. Trehalase doesn't function well in this region
+due to the acidity, and the trehalose must be transported inside the cell (a more stable environment)
+to be broken down.
+
+TREH
+FBgg0002052
+
+Encodes an enzyme that
+hydrolyzes Trehalose
+into two molecules of
+
+Glucose.
+
+TRET1
+FBgg0002052
+
+Encodes a transporter
+that mediates the
+transport of Trehalose
+into the cell
+
+GLUT1
+FBgg0264574
+
+Encodes a transporter
+that transports Glucose
+into the cell.
+
+Figure 1: Gene plots of Genes within Trehalose Catabolic Pathway
+
+Figure 2: Fly midgut processes and regions
+
+Figure 3: Cluster Plot of pathways in Al and
+P2_4 regions
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+The gene TREH (Trehalase) is expressed in the midgut of Drosophila melanogaster, where
+it breaks down trehalose into glucose. Our analysis shows that TRET1, the trehalose
+transporter, is highly expressed in the copper cell region, suggesting that trehalose uptake
+is specialized in this area. This supports local metabolic or metal handling functions. In
+contrast, GLUT? is a glucose transporter that is enriched in the far posterior digestive
+regions of the midgut. While we initially hypothesized that all genes in the trehalose
+catabolism pathway would show similar expression patterns, our data indicate a regionally
+specialized organization in TRET1 and GLUT? expressed in distinct midgut regions,
+reflecting their specific roles in transporting sugars. These findings highlight the
+importance of the enzyme transporter region in the midgut, providing insight into how
+carbohydrate metabolism is tuned in flies and offering similar data to sugar processing in
+other organisms, including humans. Future work could investigate how alternating TREH,
+TRET1, or GLUT? expression in specific midgut regions affects sugar metabolism, as well
+as additional trehalose pathway genes to complete the map of the pathway.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Morines A & Spradlins A. C. (2013, August 27) Physiological and stem cell comparomersalzarion
+within the drosophila miggur eLife. https-/'pmc ncbi nim nih gov articles PAMIC3 755342
+
+2. Yasugi, Tetsuo, et 21 4dapation to Dietary Conditions by Trehaiose Metadolizm in Drosophila 9 May
+2017, pmac nchi nim nih goviarticles PAIC343 1643/
+
+3. S Nelson Thompson Irehalose — the Brsect “Blood” Sugar. 1 Jan 2003, pp. 205-285,
+
+WWW. sciencedirect com science ‘chapter boolkseries abs pil S00652806033 10045 via %e3Dihub,
+https:/ ‘doi orz"10.101620063-2806(03)3 1004-5. Accessed 26 May 2023.
+
+4. Kiowada, T, Saito, A, Kanamori, Y, Nakahara, Y, Inata, K, Tanaka, D, Watanabe, M, & Okuda, T.
+(2007). Trehalose transporter 1, a facilitated and hizh-capacity trehalose transporter, allows exogenous
+trehalose uptake into cells. Procesdings of the National Academy of Sciences, 104(28), 11585-11500.
+https:/ ‘doi orz"10.1073 pas 0702538104
+
+5. Malita A Kubrak, O., Koyama, T. er al. A gut-derived hormone suppresses sugar appatite and
+regulates food choice in Drosophila Nox Metab 4, 1532-1330 2022)
+https:/ ‘doi orz'10.1038542255-022-00672-z

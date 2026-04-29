@@ -1,0 +1,181 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+V-ATPase Gene Expression Reveals Cellular Defense Zones in
+the Copper Region of the Drosophila Viidgut »
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Giovanna Diaz*, Mari Keymetlyan*, Keiren Pascua* and Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+To explore how different regions of the Drosophila
+melanogaster midgut contribute to immune defense, we
+examined the regional expression of V-ATPase genes
+involved in phagosome acidification. We used
+ClusterProfiler to compare on the Anterior 1 (Al) and
+Copper (Cu) regions of the midgut and identified several
+V-ATPase genes that were highly expressed in the Cu region,
+including Vhal6-1, Vha68-2, Vha55, VhaPPAl-1, and
+VhaSFD. We found that Vhal00-4 is almost exclusively
+expressed in the Cu region. In contrast, Vhal00-5 showed
+highest expression in the Posterior 2-4 (P2_4) midgut region
+and lowest in the Cu region. These genes encode subunits of
+the Vacuolar H" ATPase complex, playing a key role in
+acidifying phagosomes for breakdown of materials. Our
+results suggest that the Cu region of the midgut may be a
+specialized site for phagosome function in Drosophila.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Phagosomes are part of the cell’s internal defense and cleanup
+system, essential for immunity, tissue remodelling, and
+maintaining cellular health. Phagocytes (cells that undergo
+phagocytosis) engulf and digest harmful debris into the cell. If
+this system fails, it can lead to infections, disease, or
+inflammation — making phagocytosis an important process for
+helping protect the body. The midgut is exposed to ingested
+microbes, toxins and metals, making phagocytes essential for
+clearing harmful particles; the Copper (Cu) region’s role in
+metal absorption and processing may be particularly
+important for phagocytosis (3). Moreover, V-ATPase is
+comprised of several proteins that have different functions
+within phagosomes; thus, contributing to phagocytic
+processes within cells. Figure 2 demonstrates the complexity
+of the V-ATPase multisubunit structure and Figure 1
+illustrates the phagosomal maturation whose function are
+acidifying phagosomes and degrade pathogens (8)(9).
+
+Figure I: The three
+phases of phagosome
+maturation: (A) early
+stage; (B) late stage; and
+(C) phagolysosome.
+Throughout this process,
+V-ATPase atfracls
+enzymes which help with
+the degradation of
+pathogens. V-ATPase
+pump protons which alow
+the phagolysosome fo
+become acidic (8).
+
+Figure 2: The overall multisubunit
+
+complex structure of V-ATPase
+
+from bovine brain via Cryogenic
+
+Electron Microscopy (cryo-EM
+imaging) (9).
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+To understand the functions of phagosomes and their role
+in phagocytosis in Drosophila melanogaster, we referred
+to FlyBase, SciServer, and research publications.
+SciServer was used to obtain the cluster profile for Al
+versus Cu which then helped us get the necessary genes
+and data from FlyBase to expand our research. The
+research papers were used to get more information on
+phagosomes and its functions.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 3: The V-ATPase that were analyzed include
+Vha16-1 (A), Vha68-2 (B), Vha55 (C), VhaPPA1-1 (D),
+and VhaSFD (E) due to their expression levels in the
+Cu region. Cu counts: Vha16-1>1e06; Vha68-2>4e05;
+Vha55>4e05; VhaPPA1-1>1.5e5; and VhaSFD>1.5e5.
+It was noticed that the expression patterns of genes
+(A-l) look identical throughout the different midgut
+regions. In contrast to genes (A-l), V-ATPase genes
+(G-M) differ in expression patterns. Most notably:
+Vha100-5 (F) is most expressed in the P2_4 region and
+least expressed in the Cu region (Cu counts<2e5; P2_4
+counts>6e5); Vha100-4 (K) is almost exclusively
+expressed in the Cu region (Cu counts>2e5).
+
+Figure 4 illustrates the cluster profile on the A1 and Cu
+regions where we found a list of V-ATPase genes that are
+differentially expressed within those regions of the midgut
+involved in phagosomes (outlined in red).
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Our research shows evident expressions of V-ATPase
+within the Cu midgut region of the Drosophila (a.k.a. fruit
+fly). The Cu region of the Drosophila midgut contributes
+to immune defense by nurturing an acidic environment
+(analogous to the human stomach)(3). Thus, the low pH
+neutralizes pathogens, acting as a protective barrier, and
+manages the gut microbiome (3)(6).V-ATPase plays the
+crucial role of acidification within copper cells; therefore,
+essential for pH regulation, maintaining midgut immunity,
+and preventing potential infections (3). Strikingly,
+Vhal00-4 is almost exclusively expressed in the Cu
+midgut region. Low levels of Vhal00-4 lead to faulty
+acidification and proliferation of pathogenic and normal
+microflora, signifying exclusive target specialization of
+copper cells (6). In contrast, Vhal00-5 demonstrates a low
+expression in the Cu midgut region compared to most
+V-ATPase genes. Although Vhal00-5 provides minimal
+support in acidification of the Cu region, it may serve
+other functions in the basal membrane or endomembrane
+(6). Interestingly, the role of V-ATPase in acidification and
+cellular defense in Drosophila is analogous of H' ATPase
+in humans (6).
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+I. Alcazar, R. (n.d.). CMOOR data,
+
+2. FlyBase. (n.d.). Genes search. https://www.flybase.org
+
+3. Marianes, A, & Spradling, A. C. (2013). Physiological and stem cell
+compartmentalization within the Drosophila midgut. eLife, 2, c00886.
+https://doi.org/10.7554/eLife.00886
+
+4. Marshansky, V., & Futai, M. (2008). The V-type H-ATPase in vesicular trafficking:
+Targeting, regulation and function. Medical Research Reviews, 28(5), 744-780.
+https://doLorg/10.1002/med. 21782
+
+5S. Maxson, M. E,, & Grinstein, 8S. (2014). The vacuolar-type H*-ATPase at a glance —- More
+than a proton pump. Journal of Cell Science, 127(23), 4987-4993.
+https://dol.org/10.1242/jes. 158550
+
+6. Overend, G., Luo, Y., Henderson, L., Douglas, A., Davies, S., & Dow, J. (2016). Molecular
+mechanism and functional significance of acid generation In the Drosophila midgut.
+Scientific Reports, 6, 27242. https://doL.org/10.1038/srep27242
+
+7. Song, Q., Meng, L., Wang, J, Guo, T,, Li, W., Fan, W,, ... & Chen, Y. (2020). The emerging
+roles of vacuolar-type ATPase-dependent lysosomal acidification in neurodegenerative
+diseases. Translational Neurodegeneration, 91), 17.
+https://doLorg/10.1186/540035-020-00196-0
+
+8. Uribe-Querol, E., & Rosales, C. (2020). Phagocytosis: Our current understanding of a
+universal biological process. Frontiers in Immunology, 11, 1066,
+https://doLorg/10.3389/ fimmu.2020.01066
+
+9. Wang, R., Long, T,, Hassan, A., Wang, J., Sun, Y,, Xue, P., ... & Guo, F. (2020), Cryo-EM
+structures of intact V-ATPase from bovine brain. Nature Communications, 11, 3921.
+https://dol.org/10.1038/541467-020-17762-9

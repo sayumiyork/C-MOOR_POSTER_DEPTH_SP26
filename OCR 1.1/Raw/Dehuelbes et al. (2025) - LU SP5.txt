@@ -1,0 +1,114 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Regional Expression of Key Metabolic genes in Drosophila Midgut: CRAT, MANF, NPY and their relation to
+each other R
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Ahidali Dehuelbes, Marissa De La Rosa, Lily Wright, Mikaylah Jones, Joanna Lee
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Acetyl-CoA links carbohydrate, fat, & protein metabolism
+* Energy Production: Enters the Krebs Cycle to produce
+ATP
+* Precursor for synthesis of fatty acids, cholesterol, and
+acetylcholine
+* Carnitine O-Acetyltransferase (CRAT) is a
+mitochondrial enzyme involved in fatty acid
+metabolism
+* Regulates acetyl-CoA levels and mitochondrial energy
+balance
+* Plays a role in cellular energy homeostasis and may
+influence feeding behavior
+* MANF Promotes neuron survival, regulates ER stress
+response, supports protein folding; involved in cellular
+stress responses and have a coordinated role in
+cellular energy
+* NPY Controls appetite, energy balance, circadian
+rhythms, and stress response. Shared role in
+regulating metabolic adaptation and energy
+homeostasis
+* The Drosophila gut serves as a valuable model for
+studying the CRAT gene due to its conserved
+metabolic pathways
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+* Used Sci-server to examine the fly gut
+
+* Looked at different areas by using various
+expressions
+
+* Created a dot plot to determine which genes are
+homologous to humans.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure. 1: 3D Model of CRAT (Human Protein Atlas)
+
+Figure 2: The expression of CRAT (FBgn0037440) throughout the Drosophila
+midgut
+
+Figure 3: The expression of MANF (FBgn0027095) throughout the Drosophila midgut
+
+Figure 4: The expression of NPY (FBgn0027109) throughout the Drosophila midgut
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+* Functional Studies: Investigate the specific role of
+CRAT in Drosophila midgut and its impact on feeding
+behavior.
+
+* Comparative Analysis: Examine the similarities and
+differences in CRAT function between Drosophila and
+mammals.
+
+* Therapeutic Exploration: Explore CRAT as a potential
+target for treating metabolic disorders in humans.
+
+* Metabolic Disorders: Insights into obesity and
+metabolic syndrome. Fatty Acid Oxidation Disorders.
+* Therapeutic Targets: Regulating feeding behavior and
+
+energy balance.
+
+Figure 5: (A) and rebound weight gain during ad libitum refeeding (B). C, D) Changes
+in average 24-h food intake relative to baseline ad libitum fed conditions (C) and
+cumulative food intake during ad libitum refeeding (D). E-H) Changes relative to
+baseline in lean mass (E) and fat mass (G) after CR and ad libitum refeeding and gain
+in lean mass (F) and fat mass (H) during ad libitum refeeding. I-L) Correlation
+between changes in food intake and changes in fat mass (J, /) and correlation
+between changes in food intake and changes in body weight (K, L)
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+* Reichenbach, Alex et al. “Carnitine acetyltransferase (Crat) in hunger-sensing AgRP neurons
+permits adaptation to calorie restriction." FASEB journal : official publication of the Federation
+of American Societies for Experimental Biology, vol. 32,12 fj201800634R. 22 Jun. 2018,
+doi:10.1096/1].201800634R
+
+* Sousa-Victor, Pedro et al. “MANF regulates metabolic and immune homeostasis in ageing and
+protects against liver damage." Nature metabolism vol. 1,2 (2019): 276-290.
+doi:10.1038/s42255-018-0023-6
+
+* Khan Academy. (n.d.). Pyruvate oxidation. Khan Academy.
+https://www.khanacademy.org/science/biology/cellular-respiration-and-
+fermentation/pyruvate-oxidation-and-the-citric-acid-cycle/a/pyruvate-oxidation

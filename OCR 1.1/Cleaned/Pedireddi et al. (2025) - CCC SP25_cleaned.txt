@@ -1,0 +1,152 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Beyond the Anterior: Amylase Gene Expression Suggests Widespread
+Polysaccharide Digestion in the Drosophila Midgut I
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Sreeya Pedireddi, Daniel Martinez, Nicolo Boccasile, Gauri Paul, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+We were interested In genes involved in sugor metabolism since Drosophila
+melanogaster lives on a high sugar diet. We analyzed the expression profile of
+15 genes In the starch ond sucrose metabolic pathway. We found 7 genes
+showing differential expression in the midgut. Interestingly, some of these genes
+were highly expressed in the anterior (amyrel, mal-Al, mal-A8) end the
+posterior regions (amyrel, mal-Ad, hex-C) as well as a gene that is expressed in
+both regions (treh), We expected that polysaccharide breakdown would be
+concentrated in the anterior region; however, we found amyrel (involved in the
+breakdown of amylose) in the posterior end indicating that breakdown occurs
+oll along the midgut. This observation contradicted our original hypothesis that
+the breakdown of polysaccharides being isolated in the anterior region of the
+drosophilo midgut. The breaking down of these polysaccharides in the two
+different regions suggests that they were not completely broken down in the
+anterior region and later digested completely in the posterior region.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Our group was interested in looking at how Drosophila Melanogaster
+digested polysaccharides and the genes that were involved in this
+process. We hypothesized that the polysaccharides ingested would be
+broken down completely in the anterior region of the fly midgut and the
+genes that were involved in the digestion of these polysaccharides would
+be highly expressed in the anterior region as well. The anterior region,
+specifically the al region, Is responsible for the digestion of starch and
+sucrose molecules that have been ingested by the fly. This region is where
+macromolecules like carbohydrates are broken down. Looking at the
+regions of the fly midgut that digest the majority of sugars and
+carbohydrates, we can determine the genes, and their human orthologs,
+responsible for facilitating the digestion of polysaccharides.
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+Drosophila Melanogaster is a species of common fruit
+fly that is the subject of genetic testing. Due to their
+short life cycle, large clutches of offspring, low cost
+for maintenance, and the sharing of 60% of the
+protein coding genes of humans, the drosophila
+melanogaster serves as an ethical way to research
+the effects of diseases found in humans without
+endangering the lives of human beings. Drosophila
+Melanogaster also only has 4 pairs of chromosomes
+compared to a human's 23 pairs, which allows the
+mapping of genes to be far easier in the fly. In
+addition, the structure of the midgut in Drosophila
+also Is similar to the small intestine in humans.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+e FlyBase: for identifying the flybase gene ID, the function of the
+gene in Drosophila Melanogaster, and orthologs shared with
+human beings e Human Protein Atlas: for identifying the human equivalent of
+the flybase gene being examined and the function of that gene
+in the human body e Sciserver: for identifying genes that were highly expressed
+among the genes that are present in the function of
+metabolising sugars in the midgut; provided graphs of gene
+expression for analysis
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+The dot plot shown here visualizes how
+many genes are significantly and
+differentially expressed In different
+metabolic biological processes between
+the regions Al and P1 of the midgut in
+Drosophila melanogaster.
+
+In the dot plot of differentially
+expressed genes (Figure 1)
+between the A and P regions of
+the midgut, we delved deeper to
+investigate the genes related to
+starch and sucrose metabolism
+since it would relate to sugar
+metabolism. We took those genes
+and plotted them across all
+regions to see where they are
+differentially expressed along the
+midgut of Drosophila
+melanogaster.
+
+The graphs of the genes (Figure 2) shown above were the most
+differentially expressed with a low p adjusted value (<0.01) and a
+relatively high count out of the 15 genes plotted. These graphs show
+that most of the genes that are involved in starch and sucrose
+metabolism are the most differentially expressed in the A and P
+regions of the midgut of Drosophila melanogaster.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+The genes that we researched mostly showed up in the A and P regions
+in the Drosophila midgut as seen in Figure 2. The A region hos been
+found to have been responsible for the breakdown of polysaccharides
+that have been consumed by the fly, such os starch and sucrose, and
+the P region was also responsible for nutrient absorption (Marianes,
+2013). Although Drosophila melanogaster consumes and metabolizes
+different sugars thon the human body, the process should be similar to
+that of the human body because of these genes being present In the
+same areas of the midgut that share the same structure in both
+Drosophila and humans. Our findings suggest that not only
+carbohydrate breakdown occurs in the anterior region, but the
+posterior region as well. This goes against our initial hypothesis of the
+breakdown of polysaccharides being isolated in the anterior region.
+The potential reason behind this is because the sugar breakdown was
+Incomplete in the anterior region, therefore more breakdown needs to
+occur in the posterior region for the nutrients from those sugars to be
+absorbed more; however, more research needs to be done to give
+conclusive answers.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+[2 Marwan Ares ond Alan [ Lreding Phycumge ot and ure cod I momma tmr etoile mn athe (be Orewnphin mdpd “nde wl J rODEBA I Meg DTIE de 33 TEMG wl fv 00RD Ea More OAon Cuish, Vows I Marygebd. Gada Avbemaos Wows Msll, Dumas Sods Collet, Valin Cokin, Srvertey § MoThrw Gian Vis Gilles Sut bortaot Clrviagter I Talore Fylow Cotas lee vpdsies ba [he Orosophiy
+Pett id grins Satan, Caettal. Wobone FIT, Mowe 1 May ODA hyed 215 Mn JJ 80d deg! 18 200 Lf paw pdt 1 1
+BUNGE VA enamne whi Masar tien analy oF peoteln Oi panes I human Bhoad cel Somes (MELE)
+Pahied JLREMSL DOx 38 LI wowace sand i 4 Con, Samhain § Cnfiman, Ssaptanie DiSvrvated [nperssion wah DOS” Sonerver. Basan lS Sen coanc.ony 5 Sependn I Ohandio W, Bamana F, Kumar I, Carutoms I 0rmnie § Mammon Gl, Bal © Gash ML Virmses 6, Dhatri WM, Ggmar §
+Adarar in a Vanagremass of Cubates MeSiton & Voc on Porusnsiond Veda re Corwen 33170 hag 13 ME od MAT de
+ITI Gerrn AMAT PAD. ITIIATIE PACD PACITY. A a, Th Bhan GO, Bert 2, Det, T, TaN KL, Ga, I, Gani, AL 2, Gh 5, Onan, I, ae, E Lewy BD, Codon,
+Trdgott, BA Wang 1. 6 Wien, I 6 (THT) Shard paren Mpuiemory metmonts for Confiovasoniar Sinem snd trie 2 Sabetes in
+ip gaged atams of Gare Ei ay on the United Semen Mal Consens, I IOV 13S
+Bean fe sep deact i suk arn! 18 LIT LU mermal sere 1S TIG To atin N Beidevah NOAA Leader, B (3001) Dveripiide mulatagader 81 8 inde! Nor hums ie sional bed Taint ad
+Pehobogy Dione Vaden & Mahasiens, M15 21-50 dma J ded aval 30 3 140 men DOIN

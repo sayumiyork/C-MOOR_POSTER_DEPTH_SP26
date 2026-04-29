@@ -1,0 +1,160 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+ScpX: A Peroxisomal Gene and its Distinctive Paralogs
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Michael Zlaket, Maia Xiong, Priscilla Gonzalez, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+For this research project, we researched the the ScpX gene and its paralogs,
+which are homologous genes arisen from duplication events in the genome
+and produce proteins with different functions. This was done using Drosophila
+Melanogaster as this model organism is an excellent representative of human
+genes, and, due to its fast reproductive rate, many generations can be made
+to examine mutational effects and gene expression in many developmental
+stages. Utilizing C-MOOR Tutorials, FlyBase, and the Human Protein Atlas,
+we analyzed ScpX, CG17597, GC11151, euc, and Hsdl2. Their expression
+across the midgut demonstrated high expression in the posterior area, but the
+paralogs illustrated significantly higher expression in the anterior and
+Cu-LFC-Fe regions than ScpX. Creating a cluster profile and researching
+their function in flies and human orthologs, we were able to identify
+differences in function and expression in flies and entire different functions in
+humans. Our group discovered that even though they have an extremely
+similar gene sequence, they can still have vast differences in both Drosophila
+M. and in humans that tie into other pathways showing complete separation.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+In humans, the SCP2 gene is bifunctional as it expresses SCPx, functioning
+in I oxidation of fatty acid chains within peroxisomes, and SCP2, a sterol and
+glucose transporter (Fig.1). This gene is essential as it produces the digestive
+fluid necessary for processing waste in our bodies. Errors within this gene
+can cause Zellweger's Syndrome, a buildup in several fatty acids like
+a-linoleic acid and arachidonic acid in the liver and brain, and issues in
+cholesterol uptake (Ezzat, 2022. Venugopal, 2022). Moreover, ScpX is
+essential in transporting cholesterol due to its increased production when
+trypsin and chymotrypsin are inhibited to combat the threat to protein
+degradation and fatty acid catabolism (Li, 2007). Seeing how this gene is
+essential in humans, we decided to inspect further using Drosophila
+Melanogaster and noticed that its paralogs demonstrated differential
+expression in the midgut compared to ScpX when it was suspected to be no
+significant difference. Additionally, the cluster profile of the Drosophila M.
+illustrated only one of the four paralogs, CG17597, to be in the same cluster
+as ScpX. Paralogs pose issues in functional annotation of gene sequences
+causing problems in gene family identification and mislabeling gene function
+(Zallot, 2016). Are these other paralogs expressed highly anywhere else in
+the midgut? Are they regulatory genes for other processes in Drosophila?
+How does this translate over to humans? Are they a part of different tissues,
+cellular components, and pathways? Do they function similarly? We predict
+that paralog CG17597 is going to show the most similarities with ScpX as it is
+involved in the same peroxisome cluster; however, we expect CG11151, euc,
+and Hsdl2 to differ in function and area specificity in both flies and humans as
+it is not involved in the peroxisomal cluster. a
+
+Figure 1. A model of the
+bifunctional SCP2 gene
+transporting cholesterol (ch
+molecules) and being involved in
+I oxidation within the plasma
+membrane and cell organelles.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+- Use C-MOOR tutorials on Sci-Server to research differential gene expression
+from the Mariane and Spradling Scientific Paper. - Research genes on FlyBase and collect information on Human Orthologs. - Use Human Protein Atlas for main function and expression of Human genes. - Use Kegg Pathways to research and collect information on the peroxisome
+pathway which ScpX is involved in. - Use Ebscohost and PubMed databases to research articles on the ScpX gene
+and pathways it is involved in.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 2. A cluster profile of
+the posterior regions, pl
+and p2_4, in the midgut of
+the Drosophila M. and the
+genes involved in the
+peroxisome cluster.
+
+Table 1. Drosophila M. genes and
+functions along with their differential
+gene expression across the
+Drosophila M. midgut. These genes
+shown are paralogous to ScpX, but
+expressed differently across the
+midgut regions, particularly the
+anterior region.
+
+Table 2. Drosophila M. genes
+and their human orthologs and
+functions in the human body. The Drosophila
+M. genes shown are ScpX and
+its paralogs.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Our research gave way to the division between ScpX and its paralogs. The
+cluster profiler demonstrated the gene clusters against the regions p1 and
+p2-4 illustrates ScpX and CG17597 having relation in peroxisomal function
+as they appear in the same cluster. However, CG11151, euc, and HsdI2
+are paralogous to ScpX, but do not appear in the cluster (Fig. 2). This is
+contrasted by the differential expression graphs in Table 1 as they
+demonstrate every paralog to be highly expressed in the posterior region.
+Additionally, it shows higher expressions in the anterior and Cu-LFC-Fe
+region compared to ScpX leading us to believe in differential functions in
+the paralogs. To make a point, euc could be deemed as dysfunctional as its
+gene count is significantly low where it is not necessary for a functioning
+cell. Moreover, in Drosophila M., all were located in peroxisomes, but only
+CG17597 shared cholesterol transport function. CG11151 functions in the
+mitochondrion as well, and Hsdl2 is active in the germ layer and circulatory
+system (Table 1). Additionally, to show their difference in function, human
+ortholog location and function was analyzed: CG17597 acts in negative
+regulation of RNA polymerase II transcription and CG11151 forms
+3-ketoacyl-CoA intermediates. Hsdl2 is the most distinct as it can be found
+in the esophagus, urinary bladder, breasts, vesicles, and kidneys along with
+the liver for a variety of functions unrelated to SCP2 (Table 2). This string of
+evidence confirmed our hypothesis that the paralogs are distinct from ScpX
+as they have different tissue specificity and functions in humans. It also ties
+back into the issue of gene function annotation due to their similar gene
+sequences hiding novel gene functions that could potentially expand our
+ability to understand human diseases in order to better treat them. Further
+research could be done on the metabolic pathways the genes are involved
+in within flies to explain why they differ in function when the posterior is their
+highest expression. [pre sc ee pm: pa: von. ioe, moe. rm. pene PS
+
+Figure 3. A diagram of
+all areas of the
+Drosophila
+Melanogaster midgut
+and the localized
+enzymes (Mariane,
+Spradling, 2013).
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+doi: 10.1186/s40246-022-00408-w 2. Galano M, Venugopal S, Papadopoulos V. Role of STAR and SCP2/SCPx in the Transport of
+Cholesterol and Other Lipids. Int J Mol Sci. 2022 Oct 11:23(20):12115. doi:
+10.3390/iims232012115. PMID: 36292972; PMCID: PMC9602805. 3. Li H-M, Margam V, Muir WM, Murdock LL, Pittendrigh BR. Changes in Drosophila melanogaster
+midgut proteins in response to dictary Bowman-Birk inhibitor. Insect molecular biology.
+2007:16(5):539-549. doi: 10.1111/).1365-2583.2007.00750.x 4. Marianes, A. and A. C. Spradling (2013) “Physiological and stem cell compartmentalization within
+the Drosophila midgut.” eLife, doi:10.7554/¢cLifc 00886 5. Zallot R, Harrison KJ, Kolaczkowski B, de Crécy-Lagard V. Functional Annotations of Paralogs: A
+Blessing and a Curse. Life (Basel, Switzerland). 2016:6(3). doi:10.3390/1ifc6030039

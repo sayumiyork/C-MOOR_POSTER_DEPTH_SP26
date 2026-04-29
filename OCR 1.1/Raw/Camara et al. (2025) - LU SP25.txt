@@ -1,0 +1,110 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Functional Difference Between Amy-D, Amy-P and Amyrel in
+Drosophila Midgut
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Alyssa Camara, Tris Pham, JC Moura, Maeve Taylor, Allison Eckard, Joanna Lee
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+* The Drosophila midgut has distinct regions and pH zones that may
+affect enzyme activity.
+* We studied expression of three fly amylase genes: Amy-d, Amy-p,
+and Amyrel.
+* These are orthologs to human amylases and may relate to diseases
+like diabetes and Alzheimer’s (Leue, 2016).
+* We hypothesized differential expression of these genes across the
+midgut.
+* Amy-d and Amy-p are tandem duplicates with shared regulation
+but different roles:
+
+— Amy-d: Linked to gut-brain axis (Leue, 2016).
+
+— Amy-p: Related to gut microbiota (Patangia, 2022).
+» Amyrel is understudied but tied to blood sugar regulation (Da Lage,
+2025).
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+* Gene expression was analyzed with DESeq2 (Love et al.,
+2014).
+
+* Regions compared: anterior (al) vs. copper cell (Cu).
+
+* Significance set at p < 0.005.
+
+* Each member reviewed >2 primary sources.
+
+* Non-coding or well-studied genes were excluded.
+
+* Focused on FBgn0000078 and related genes.
+
+*Data sourced from FlyBase (Thurmond et al., 2019).
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1. Gene expression In the Drosophila midgut reveals distinct patterns for Amy-d, Amy-p, and Amyrel. Amy-d and Amy-p show region-
+specific expression, especially in Cu and al. Amyrel is more broadly expressed, suggesting a specialized but less localized function,
+
+Figure 2. Amyrel expression is detected across a broad pH range and gut regions, highlighting a potentially primary digestive role. Amyrel's
+expression profile may also suggest conditional or stress-related functions.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+* The Drosophila midgut tightly regulates amylase expression by gut region.
+* In contrast, human AMY1 regulation depends on gene copy number (Perry et al.,
+2007).
+* Amy-d and Amy-p are tandem duplicates with similar patterns, suggesting
+overlapping roles in digestion.
+* Amyrel is functionally distinct, indicating a different digestive role and possibly
+stress-linked regulation.
+* These findings suggest a specialization of enzyme function along the midgut.
+* Future Directions:
+
+— How is starch digestion regulated in the human gut—beyond just gene copy
+
+number?
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+aL NU ek EARL 15 CUNT, he AION 04: CROSS: Sructursl and Functional Characterization of Drosophila melnnogaster a-Amylase. Molecules, 2 14),
+hits idol org/ 10 X39 molecbes28145377
+ee EYat TE vm pvc LAMNG I 140 Br Coll Host & Microbe, 21(3), 200-
+301. hapa ww chi rim rh QOwipMG articles PAC 5654931
+SV ANP SRD 9070 SOC. SSI Apel: A
+«Fly Base. (nd.). FiyBase Gene Report: DmeiAmy-p. Retrieved Apri 24, 2025, from hits /iybase orgireports Bon00000TS himwaisles main
+Da Lage, Jean-Luc, of al. "Amyre/ , a Parslogous Gene of the Amylase Gene Family in Drosophila Meloncgaster and the Sophophors Subgenus.” Proceedings of the National Academy of
+Sciences. hiips:/ipenc nei rim rh goviar icles PMC22658/ , Accessed 25 Apr. 2025.
+~Patangia, D. V., Anthony Ryan, C., Dempsey, £E., Paul Ross, R., & Stanton, C, (2022). Impact of Antibiotics on the Human Mcrobiome and Consequences for Host
+Hoalth. MicrobiologyOpen, 11(1) National Library of Medicine. hitps-//dol ceg/ 10 1002/mbo3. 1260
+lous, C Knmed, J, Viljens, D. et al. Functional urological disorders. 8 sensiized defonce response in the bladder-gut-birain axis. Nat Rev Urol 14, 153-183
+(2017). hitpa: Hiddel ory'10. 1038Mmurnl 2016.227
+hips: www. sclencediect comscience/article/sbe/piVS0065280608601022
+«Love, M1, Huber, W. & Anders, S. Moderated estenation of fold change and dispersion for RNA-seq data with DESeq2. Genome Bid 15, 550 (2014)_hitps ido org/10 1186/4 13058-014-
+2508
+onion rendparing (2009). Epithelial ultrastructure and cellular mechanisms of acid and base transport In the Drosophila midgut. Jounal of Experimental Biology, 21211), 1731
+1 https Jidol org/10.1242/jeb 027664
+SENSI, = EAD, 4 MPAA, £1 35 CHR 1 CHIVES. U0 EMRIs Sd SUID Srunsssr of (Dares Grmmon Smet 1 Summon Journal of Molecular Evolution, 54(6), 675
+Parry, G. H., Dominy, N. J Claw, K. G. Lee, A. S_, Fiegler, H., Redon, R_, .__ & Stone, A. C. (2007). Diet and the evolution of human amylase gene copy number varation. Nature Genetics,
+3010), 1256-1260.
+sMandol, A. L, & Breslin, P. A. 5, (2010). High endogenous salvary amylase actly is associalod with improved glycemic homeostasis foflowing starch ingestion in adults. Obesity, 158(4),
+Zhu, Y., Hasegawa, A. & Ota, M. (2020). Amylase and the gut-brain axis: A new perspective linking digestive enzymes fo newodegenerathve diseases. Neuroscience Letters, 738, 135300.

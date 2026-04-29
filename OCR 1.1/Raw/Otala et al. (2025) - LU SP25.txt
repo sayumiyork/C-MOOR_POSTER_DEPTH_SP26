@@ -1,0 +1,156 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Fly Gut is a good model for fatty acid metabolism disorders
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Malcolm Otala, Christian Castro, Antwone Peralta, Joanna Lee
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
++ Fatty acid metabolism is essential for energy production,
+membrane structure, and cellular signaling. Related disorders
+and symptoms include: MCADD and Carnitine transporter
+deficiency, hypoglycemia, liver dysfunction, and muscle
+weakness. (Ibrahim et al., 2024)
+
+« ACOX3 breaks down very long-chain fatty acids in
+peroxisomes; dysfunction may lead to fat accumulation,
+liver disease, and inflammation. (Moreno-Fernandez et al.,
+2018)
+
+» MUC genes (like MUC68E homologs) regulate mucus
+barriers and are implicated in diseases like cystic fibrosis,
+COPD, and cancer .(Kufe, 2009)
+
+» MDH1 supports energy production and redox balance;
+mutations may contribute to metabolic and
+neurodegenerative diseases. (Broeks et al., 2019)
+
+* The Drosophila melanogaster (fruit fly) gut shares conserved
+pathways with humans, including lipid absorption and 8-
+oxidation. Studies show that gene manipulation in the fly gut
+can mimic human fatty acid oxidation disorders.(Palanker et
+al., 2009)
+
+« This model enhances our understanding of disease
+mechanisms and supports the development of therapeutic
+strategies.
+
++ We studied the gene expression of Acox3, Muc683 and Mdh1
+across the Drosophila midgut to gain a better understanding
+of how their functions in the fly gut relate to the human body.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+« Used DESeq2 to identify differentially expressed genes of
+interest. [Love, et al. 2014]
+
+» Compared gene expression between al (anterior midgut)
+and p1 (posterior midgut) regions
+
+» Applied adjusted p-value cutoff (p_adj < 0.05) to determine
+significance
+
+= Used ClustrProfiler to generate a dotplot of biological
+functions [Yu, et al. 2012]
+
+» Selected 3 unique genes involved in “fatty acid
+metabolism”
+
++ Retrieved corresponding FlyBase gene IDs for selected
+genes [Marygold, et al. 2016]
+
+» Generated expression graphs in R using FlyBase IDs of
+Acox3, Muc68e and Mdh1,
+
+= Each group member focused on one gene's story
+
++ Used the Human Protein Atlas (HPA) to obtain expression
+data for human orthologs [Chintapalli, et al. 2007]
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Fig. 1 ClustrProfiler results for differential expression analysis between a1 (anterior
+midgut) and p1 (posterior midgut) regions
+
+Fig 2 Acox3 expression across the Drosophila midgut regions. Acox3 expression
+reflects the posterior midguts role in nutrient absorption and energy production.
+
+Fig 3 Muct8e expression across the Drosophila midgut regions. MucG8e plays a key
+role in barrier protection and immune defense. This aligns with the anterior gut's
+function in initial food processing and pathogen exposure.
+
+Fig 4 Mdh1 expression across the Drosophila midgut regions. Mdh1
+expression reflects the increased metabolic demands of the posterior midgut.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
++ Acox3 helps break down fatty acids in specific gut regions, aiding in
+nutrient absorption and waste management, particularly in the
+posterior gut. Though flies lack bile, Acox3 may serve a similar
+emulsifying role, converting fats into usable energy and maintaining
+gut health.
+
+» Muc68E encodes a mucin protein vital for lubricating food passage,
+protecting gut lining, and supporting stress tolerance and metabolism.
+
+» Mdh1 is critical for the citric acid cycle, powering enterocytes and
+supporting gut homeostasis during metabolic stress.
+
+* Future research could explore how stressors like infection, diet, or
+temperature affect genes like Acox3, Muc68E, and Mdh1 in different
+gut regions.
+
+» Based on our results, we can conclude that the fly gut is a good model
+for fatty acid metabolism.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Callahan, A, P., Laonard, H. P.. & Pawel, T. M. (2022, August 7). Digestion and absavptan af foids. Nutrition Science and Everyday Application.
+hitpeciopsnroneg On. pressboo ke. putty nutH sc lence Ze heg bs Sd-dig salon -sbearption pods
+
+2. R:The R Project for Statistics) Computing. {n..), 7778 A Aect for SEitstcal Comping. [1s Save [Lest on
+
+A. Sadoqat, Z, Kaushik, £., & Kain, P. (2021, April 8). Gut fading the hain: <am>dmsaahile<iom: gut an animal model for medicine t understand
+
+ inechavnisnis mediating od pvefevences. InkechDpen. Pitlpe swe inlechopen conchae para 75628
+
+4. Alsxs Mananes, Aan C Spradling (2013) Physiological and stem call compartmemstzation within the Drosophila midgut slife 200886
+hit pectidai omg M0 7554 el de 058A
+
+5. Iteahim, 5. Y., Vagar, S., & Temtam, T, (2024, Fabrusry 29). Macikom-Chain Acp-COA dehpvogensse csilancy. SlPearts - NCBI Backsher.
+fips tfwenw neh rim nih gon bocksd KN BKGEORI TY [® 04s
+
+8. Marena-Femandez. M. E., Giles, D. A., Stankiewicz. T. E., Sheridan, R. Kams, R.. Cappelet, M., Lampe, K., Mdtherjes, R., Sina, C. Salese. A.
+Bridgee, J. P., Hogen, S. P., Aroraw, B. J., Hoabe, K., & Dvanowc, S. (2018). Perodeoms! B-cxidation ragulstes whale body metabollam,
+rfiammatery vigor, and pathoganasis of nonalcoholc fatty [ver dana. Sof Irsigin, 26). https idol arg/10, 11727 ck Insight S36206
+
+7. Kufe, D, W. (2009), Mucins in cancer: function, prognasis and therspy, Metre enews. Cancer, 12). 874.865, http dol orp! 0. 038 rnc 781
+
+3. Love, M1, Huber, W. & Anders, 5, Moderated estimation of fold change end dispersion for ANA-8eq dels wiih DESeq2. Gamame Sia 15, 550
+(2014), httae-didal org 10.1190 1 083.014.0550.)
+
+8, Broeks, MH, Shemselin, H, E, Aheshem, A. Hasheri, M., Abdubwshab, F., Alahedi, T,, Alobsid, |. Zwarthrus, F, Wesllsnd, D., Fuchs, S.,
+Veihoeven-Dulf, N. M., Jans, J. J. M., & Alkurays, F. 5. [2019]. MOH deficiency Is & metabolic disorder of the malkste-aspanats shuttie sssociated
+with carly pnset severe encsphalopathy, Human Genetics, 1381-12), 1247-1267. bps (dol cr 109007500439.019. 920802
+
+10. Palarier, L., Tennessean, J. M., Lam, G., & Thuminel, C. 5, (2008), Dreeaphils HNF4 reguistes lipid mabslization snd B-Oxidation. Cad Metabolism,
+&3), 228-230, httns-iidol.orm 10 1010 cnet 2000.01 GU

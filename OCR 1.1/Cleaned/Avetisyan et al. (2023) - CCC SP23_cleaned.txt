@@ -1,0 +1,230 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Expression Analysis of Autism Related Genes Across the D. Melanogaster Midgut
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Cristy Avetisyan, Tayah Scott, Aneet Toor, Dr. Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Genes such as dve, KCNQ, Ssadh, Hem, ebi, and glo can be found in
+the central nervous system as well as the midgut of drosophila
+melanogaster. These genes, which play a role in the upkeep of the
+gut-microbiome-brain axis, have been identified as autism related.
+Genes such as these are being studied to further research aufism,
+and how treatment of the midgut can affect autism management. In
+our research of autism related-genes we found that those genes
+which are expressed more evenly between the CNS and midgut
+have similar tends when plotted across all regions of the midgut.
+Likewise, ASD-related genes which are primarily expressed in the
+midgut display similar trends when plotted across all regions of the
+midgut.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+The Gut-microbiome-brain axis (GUMBA) refers to the
+body communication between the gut and the brain and how they
+work in tandem to uphold homeostasis. This connection has
+linked disorders such as Aufism (ASD) to genes expressed within the
+midgut. When communication between the midgut and the brain
+is disrupted, there is a higher probability of autism in an
+individual organism. Research shows a possible link between ASD,
+commonly known as autism, and the midgut. SATB1, KCNQ3, ALDH5AT1,
+NCKAP1, TBL1XR1, HNRNPH2 are genes in humans that correlate with
+ASD. They are found in both the Cenfral Nervous System and the
+midgut. Out of the various genes expressed in both the CNS and
+midgut, dve and KCNQ showed the highest gene enrichment in the
+midgut. Other genes such as Ssadh, Hem, ebi, and glo are expressed
+more evenly among the CNS and midgut. Our goal is to research how
+autism related genes are expressed in the D. Melanogaster midgut.
+We believe that autism related genes similarly enriched among the
+midgut and CNS will be similarly expressed across the regions of the
+midgut.
+Top ASD-Related genes highly enriched in the drosophila midgut
+[Reference 6)
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+The fruit fly (Drosophila
+melanogaster) is a
+popular model organism used
+fo study a developmental
+genetics due to its similarifies fo
+humans. We share many
+anatomical structures,
+physiological systems,
+and developmental patterns.
+Many Drosophila genes
+have parallels (“orthologs”) in
+humans that perform
+similar functions. Almost every
+organ in humans has a
+match in flies, and the genes
+that control their
+development and functions are
+often shared across species.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+While researching our chosen ASD-related genes we utilized websites such as
+SciServer, FlyBase, and The Human Protein Atlas. SciServer gave us access to an
+RNA-sequencing library on C-MOOR Tutorials. Through using this RNA-sequencing
+library we were able to plot our chosen genes across all regions of the midgut.
+FlyBase allowed us to obtain the specific interactions between our ASD-Related
+genes, or rather lack thereof. FlyBase also led us to the gene symbol of human
+orthologs of each of our Drosophila genes. With these Homo Sapien gene symbols,
+we were able to further explore their expression within the human body by utilizing
+The Human Protein Atlas. Further research done in The Human Protein Atlas
+confirmed the expression of ASD-related genes expression in both the central
+nervous system and the gut of humans. Other context and information used during
+our research was found in scientific articles and journals which can be found in our
+designated reference column.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1.
+The expression of
+the gene "Ssadh”
+(FBgn00000000039349), in
+drosophila
+melanogaster,
+throughout the
+regions of the
+midgut.
+
+Figure 2. The interactions of
+the gene "Ssadh”
+[FBgn0039349) in drosophila
+Melanogaster.
+
+Figure 3. The expression of
+the gene "Hem"
+(FBgn0000000011771),in
+drosophila
+melanogaster,
+throughout the
+regions of the
+midgut.
+
+Figure 4.
+The interactions of
+the gene "Hem"
+(FBgnO011771) in
+drosophila
+Melanogaster,
+
+Figure 5. The expression of
+the gene "eb"
+(FBgn0263933). in
+drosophila
+melanogaster,
+throughout the
+regions of the
+midgut.
+
+Figure é. The interactions of
+the gene "ebi”
+(FBgn0263933) in
+drosophila
+Melanogaster.
+
+Figure 7. The expression of
+the gene “glo”
+(FBgn0259139). in
+drosophila
+melanogaster,
+throughout the
+regions of the
+midgut.
+
+Figure 8. The interactions of
+the gene "glo"
+(FBgn0259139) in
+drosophila
+Melanogaster,
+
+Figure 9. The expression of
+the gene "dve"
+(FBgn0020307). in
+drosophila
+melanogaster,
+throughout the
+regions of the
+midgut.
+
+Figure 10.
+The interactions of
+the gene "dve”
+[FBgn0020307) in
+drosophila
+Melanogaster.
+
+Figure 11.
+The expression of
+the gene "KCNQ"
+(FBgn0000000D033494), in
+drosophila
+melanogaster,
+throughout the
+regions of the
+midgut,
+
+Figure 12. The interactions of
+the gene "KCNQ"
+(FBgn0000000D033474) in drosophila
+Melanogaster.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+The results show a series of genes, expressed in both the central nervous system
+and midgut of drosophila melanogaster, and how they express and interact
+within the midgut. Genes similarly enriched in both the central nervous system
+and the midgut all followed a similar trend. The graphs showing expression across
+midgut regions for genes Ssadh, Hem, ebi, and glo show an increase from region
+al to Cu. a drop in the LFCFe region, then another rise and fall through the
+remaining regions. The genes dve and HCNQ were greally expressed in the
+midgut, but had low enrichment scores for the CNS: expression across the midgut
+regions for these genes greatly vary from the previously set trendline. Looking
+through the data it would be assumed that the genes similarly expressed within
+the midgut would interact with each other, however results proved otherwise.
+Although there are no apparent overlapping genes within the interactions
+shown, it can be assumed that these genes still work together in some way. The
+gut-microbiota-brain axis promotes homeostasis between the brain and midgut,
+so further research may show an increase in ASD when these gene interactions
+are interrupted.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+- (1) Allen AF, Clarke G., Cryan JF. and Dinan 1.G. (2017) "A psychology of the human brain-gut-microbiome axis.”
+Soc Personal Psychol Compass, Vol. 11, doi: 10,1111/5pc3,12309 - (2) Chen K, Luan X, Uu Q, Wang J, Chang X. Snijders AM, Mao J.H., Secombe J, Dan Z, Chen JH., Wang Z, Dong X.
+Qiu C, Chang X. Zhang D, Celniker SE.. and Uu X. (2019) "Drosophila Histone Demethylase KDMS regulates social
+behavior through Immune control and gut microbiota maintenance.” Celi Host
+Microbe, doi: 10.1016/j.chom.2019,02.003 « (3) Niesler B., ond Roppold G.A, (2020) "Emerging evidence for gene mutations driving both brain and gut
+dysfunction in autism spectrum disceder.” Molecular Psychology, Vol. 26, pages 1442-1444, dol: 10.1038/541380-0200778-3 - (4) Bansal P., Galande S.Mehrotra 5.00 N., and PHial S.J. (2020) "Defective Proventriculus Regulates Cell
+Specification in the Gastric Region of Drosophila Intestine” Frontiers In Physiology, Vol. 11, dol:
+10.3389/fphys.2020.00711 - [5) Taylor MW., Montogomery JM., and Wong G.C. (2021) "The Gut-Microbiota-Bralin Axis In Autlsm Spectrum
+Disorder.” Exon Publications,
+dol: https://dol.org/10,36255/exonpublications.autismspectumdisorders, 2021 .gutmicroblotg - (6) Alwa A. Banu A., Gowda S.B.M., Mohammad F.. and Salim S. (2021) "The gut-microbiota-beain axis in autism:
+what Drosophila models can offer?” Journal of Neurcdavelopment Disorder, Vol. 13, dol: 10,1 186/51 14689-021-09378-x

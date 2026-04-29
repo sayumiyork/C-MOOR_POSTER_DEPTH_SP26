@@ -1,0 +1,163 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+6 Immune Pathways Exhibit Similar Patterns of Gene Expressions
+in Drosophila melanogaster Midgut
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+EVER A. HENRIQUEZ", KAILEY H. KIM", SOPHIA PEREZ", CHRISTOPHER WEIGEL", ALEXA SAWA PhD"
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Measurement of gene expression in six immune pathways
+(Toll, JAK/STAT, IMD, CGAS-Sting, TNF alpha, Hippo) suggests
+similar levels of immune pathway protein expression in the 10
+midgut regions of Drosophila melanogaster characterized by
+Marianes and Spradling. The data indicates the copper and
+posterior regions are the most immunologically active
+suggesting a need for additional immune response in these
+regions. This may be due to bacterial invasion, pH levels, or
+other unidentified factors.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+The central dogma of molecular and cell biology states that DNA is
+transcribed into RNA and then that RNA is translated into protein.
+In order to identify the functions of specific cells RNA sequencing
+(RNAseq) techniques are used to measure the amount of a
+particular portion of the genome is expressed within a cell. Using
+RNAseq techniques to characterize expression levels of genes
+related to specific immune responses may help further uncover
+their functions in each of the 10 regions and role in the midgut of
+the fly. 10 different regions have been identified within the midgut,
+all which likely perform different functions. The specific functions
+that each region performs have not been thoroughly characterized.
+The different cell types that reside within the midgut may play
+specific roles in gut immune responses. Measuring levels of region
+specific gene expression may also help in understanding human
+immune disorders that reside within the gut such as Crohn's disease
+and many other related Inflammatory Bowel Diseases.
+
+Figure 4: Schematic of the 10 samples
+collected. Bars represent isolated
+portions of gut tissue, either
+containing single regions (Al, Cu, Fe,
+P1) or pooled regions (Al1-3, Cu-LFCFe,
+P1-4, A2-3, LFC-Fe, P2-4) (Marianes,
+2013)
+
+Figure 5: Parallel between
+Mammalian and Drosophila digestive
+tract (Houtkooper, 2012) Drosophila
+melanogaster midgut is analogous to
+the human small intestine
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+Hypothesis: Not all 10 regions of gut will use the same
+immune pathways to regulate the gut microbiome.
+
+Prediction: If different pathways are used, then we will
+observe differential gene expression of core immune
+pathways genes. |
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+Htseq files provided by Marianes (2017) containing readcount
+data analyzed using R programing language. Cluster Plots
+(Figure 3) generated using “runClusterPlot()” command and
+filtered for log2 fold change (greater than 0) and adjusted
+p-value (less than or equal to 0.05). After identifying
+categories of interest, immune pathways involved in
+regulating the gut microbiome were identified (core genes
+identified via flybase). Using R, the readcount for each of
+these genes was determined across all ten regions.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1: Levels of Gene Expression In Six Immune Pathways in D.mel Midgut
+
+(A):Gene expression levels of nine genes (eff, TAB2, TAK1, Diap2, PGRP-LC, IMD, FADD, ikk beta, and Dredd) in the IMD Pathway suggests peak expression in copper and
+posterior regions
+
+(B): Gene expression levels of eight genes in the JAK/STAT Pathway suggests constant UPD expression and increased expression of other genes (dome, hop, sarm, stat92E,
+and Soc36E) in copper and posterior region
+
+(C): Gene expression Levels of eight genes (Spz, Toll, Myd88, Tub, Pelle, Cat, DI, and Dif)in the Toll Pathway suggests peak expression in the copper and posterior 1 region
+(D): Gene expression Levels of six genes (HPO, MATS, Rael, Sav, Wts, and Yki) in the HIPPO Pathway suggests peak expression in the copper and posterior 1 region
+
+(E): Gene expression Levels of six genes (Mkk4, Tab2, Tace, Takl, Traf, Wgn) in the TNFa-Eiger Pathway suggest peak expression in the copper and posterior 1 regions
+
+(F): Gene expression Levels of three genes (Sting, CGIr2, CGIr2) in the cGAS-STING Pathway suggests peak expression in the posterior region
+
+Figure 2: “Overall Trends of Gene Expression in D.Mel Midgut” demonstrates expression
+trends of six immune pathways in D.melanogaster (HIPPO, JAK/STAT, TOLL, IMD,
+c¢GAS-STING, TNFa-Eiger). Region specific read counts suggest high levels of immune
+pathway activity in both the Copper and Posterior 1 regions.
+
+Figure 3: Cluster Plot used in identifying gene
+categories of interest
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Most genes in the immune pathways have higher gene
+expression copper and posterior 1 region. In the process of
+analysing the data the pathway activated by viral dsRNA
+shows a much higher expression in posterior in comparison
+to the copper region, unlike the rest of the pathways. Due to
+the lower pH levels, specifically in the copper region, there
+will be higher levels of immune gene expression likely due to
+the need for tissue repair, which is controlled by various
+immune pathways. In addition there are also high levels of
+antimicrobial peptide (AMP) expression in the copper region
+suggesting a possible need for additional immune defenses in
+a region that may be susceptible to infection due to constant
+damage as a result of the low pH. However, the expression of
+AMPs may be wide spread throughout the midgut and
+further investigation is required to identify the regions in
+which these peptides are most expressed within.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+Capo, Florence, et al. "The Intestine of Drosophila Melanogaster: An Emerging Versatile Model
+System to Study Intestinal Epithelial Homeostasis and Host-Microbial Interactions in humans The
+Intestine of Drosophila Melanogaster: An Emerging Versatile Model System to Study Intestinal
+Epithelial Homeostasis and Host-Microbial Interactions in Humans.” MDPJ, Multidisciplinary Digital
+Publishing Institute, 9 Sept. 2019, www.mdpi.com/2076-2607/7/9/336.
+
+De Gregorio, Ennio, et al. “The Toll and IMD Pathways Are the Major Regulators of the Immune
+Response in Drosophila™ The EMBO Journal, U.S. National Library of Medicine, 3 June 2002,
+pme.ncbinlm.nih.gov/articles/PMC126042/,
+
+“Flybase Homepage.” Fly Base , flybase.org/. Accessed 20 Jan. 2025.
+
+S8;, Kukurba KR; Montgomery. “RNA Sequencing and Analysis.” Cold Spring Harbor Protocols, U.S.
+National Library of Medicine, pubmed.ncbi.nlm.nih.gov/25870306/. Accessed 20 Jan. 2025.
+Zhang Q;Zhou R;Xu. "The Hippo Pathway in Innate Anti-Microbial Immunity and Anti-Tumor
+Immunity.” Frontiers in Immunology, U.S. National Library of Medicine,
+
+pubmed.ncbinim.nih gov/32849504/. Accessed 20 Jan. 2025.
+
+Alexis Marianes, Allan C Spradling (2013) Physiological and stem cell compartmentalization within
+the Drosophila midgut elife 2:e00886 https://dol.org/10.7554/eLife. 00886

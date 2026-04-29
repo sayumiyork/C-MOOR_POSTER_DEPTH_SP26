@@ -1,0 +1,145 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Region-Specific NPF/NPFR Signaling
+in the Drosophila Midgut
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Bre Luera, Madelyn Ansel, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+We analyzed Neuropeptide F (NPF) and its receptor NPFR mm Drosophila
+melanogaster to explore ther role m gut-mediated feeding behavior Usmg
+regional and single-cell RNA-seq datasets, we found that NPF 1s highest in the
+Copper (Cu) region and second-highest in the Iron (Fe) region, while NPFR 1s
+homeostasis. These results support a model in which the bram-gut axis modulates
+feeding through region-specific NPF/NPFR mteractions. Future experiments
+could test the predicted behavioral effects usms feeding assays or targeted gene
+kmockdowns.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Neuropeptide F (NPF) is a conserved neuropeptide that regulates feeding, stress,
+and sleep behaviors m Drosophila melanogaster and 1s analogous to mammalian
+neuropeptide Y (NPY). Its receptor, NPFR, mediates downstream signaling in
+While NPF's behavioral roles are well-characterized, the spatial and
+cell-type-specific expression of NPF and NPFR in the midgut remams unclear.
+We hypothesized that NPF is highly expressed in cells that also express
+NPFR, and it enables local paracrine signaling. Using RNA-seq zene
+expression data from midsut regions and enteroendocrine cells, we aim to
+determine whether coordinated NPF/NPFR expression suggests a localized
++ emaline across :
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+Gene Identification: Using FlyBase, orthologs of mammalian NPY and its
+receptor were identified in Drosophila melanogaster as NPF and NPFR. This
+Expression Analvels: RNA-seq datasets from the Drosophila midsut were
+analyzad to determme region-specific expression of NPF and NPFR. Data were
+visualized using Sciserver, which provides an R-based enmviromment for plotting
+Pathway Context: KEGG and other pathway databases were consulted to place
+NPF/NPFR expression in the context of neuropeptide signaling and feeding
+regulation pathways.
+differentially expressed genes between mudzut regions or cell types. Genes were
+considered significant if adjusted p-value < 0.05 and [log2FC| > 1.
+
+Call- Type Specificity Smgle-cell RNA-zeq datasets were used to confirm
+expression in specific cell types, such as entercendocrine cells and gut neurons.
+Vahdation: Key findings were validated usmg RT-PCR wath at least three
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+We analyzed RNA-seq datasets from Drosophila melanogaster midgut to examme the region- and cell-type-specific expression of NPF and NPFR. NPF showed the
+highest expression in the Copper (Cu) region, with the Iron (Fe) region showing the next-highest expression levels, while NPFR expression was enriched in gut
+neurons- suggesting a potential local signaling axis. Single-cell RNA-seq data confirmed that NPF expression was largely restricted to entercendocrme cells, with
+Differential expression analysis revealed that NPF and NPFR were among the most sigmficantly regulated genes across mudzut regions (adjusted p-value < 0.03,
+log2FC = 1). Correlation analysis showed that regions wath high NPF expression also had elevated levels of candidate downstream targets, such as msulin-like
+peptides and other neuropeptides mvolved in feeding behavior. These findings highlight a spatially organized network of ligand-receptor signaling in the midgut, where
+NPF acts through NPFR to potentially regulate local feeding responses. Future studies could test whether modulating NPF expression alters feeding behavior or
+metabolic activity.
+
+NPF
+
+FBen0027109
+
+Encodes a 36-residue amidated neuropeptide
+that signals through its receptor NPFR.
+Functions in feeding, courtship, metabolism,
+leohol sensitivity,
+leaming/memory, and circadian regulation.
+
+NPFR
+
+FBen0037408
+
+G-protem coupled receptor for NF,
+; inhibi enali
+
+Figure 1: Model of Differential Expression
+
+Figure 2:
+Illustrated,
+labeled map
+of midgut
+regions.
+
+================================================================================
+SECTION: OTHER
+================================================================================
+
+Our results demonstrate that NPF and its receptor NPFR exhibit region- and
+
+expression in the Copper (Cu) region and second-highest mn the Iron (Fe) region, and
+NPFR enriched m gut neurons. This spatial organization supports a model of local
+
+NPFR -expressing neurons to modulate feeding behavior. The coordmated expression of
+NPF with other enteroendocrine markers, and feeding-related genes, suggests that NPF 1s
+mtegrated mto a broader neuroendocrine network- regulating nutrient sensing and energy
+may serve as fimctional hubs for feeding regulation. Unexpectedly, some midgut regions
+m response to local nutrient signals or gut microbiota composition. Future experiments
+could mchade RNAi knockdown of NPF or NPFR m specific cell types, feeding behavior
+assays, or m situ hybridization to visualize spatial patterns more precisely. Overall, these
+highlighting the Drosophila midgut as a model to study ligand-receptor mteractions in
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Chung, B. Y, Ro, J, Hwang, S., et al. (2017). Drosophila Neuropeptide F signaling
+mdependently regulates feeding and sleep-wake behavior. PLoS Genetics, 13(3), e1006789.
+hitps:/doiore/10. 137] ioumal peen 1006789
+
+2.The Genome Education Partnership. (nd.). Mouse guz-brain axis, differential expression.
+GEMS: Genomics Education Modules.
+3. Mananes, A, & Sprading A C. (2013). Physiological and stem cell
+compartmentalization within the Drosophila midgut eljfs 2, 200886.
+https: //doi ore/10.75 54/eLife 00886
+
+4. Nissel D. R, & Wegener, C. (2011). A comparative review of short and long
+Neuropeptide F signaling in mvertebrates: Any smulanties to vertebrate neuropeptide Y
+signaling? Peptides, 32(6), 1335-1335. hitps://doi.or=/10.1016/). peptides 2011.03.013
+5Wu, Q., Zhao, Z,, & Shen, P. (2016). A new role for Neuropeptide F signaling m
+controlling developmental timms and body size in Drosophila melanogaster. Genetics,
+216(1), 135-147. https://doi.ore/10.1534/zenetics 116.195208
+
+6. Williams, M. J, Akram M., Barkauskaite D_, Patil, S_, Kotsidou, E., Kheder, S., Vitale,
+G., Filaferro, M., Blemings, S. W., Maestri, G_, Hazim N_ Vergomi, A. V,, & Scluéth, H B.
+(2020). CCAP regulates feeding behavior via the NPF pathway in Drosophila adults.
+Proceedings of the National Academy of Sciences of the United States of America, 117(13),
+7401-7408. hitps://doi.or=/10.1073/pnas 1914037117

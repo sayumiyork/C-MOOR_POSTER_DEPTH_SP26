@@ -1,0 +1,180 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Briana Logan, Adriana Fontanez, Taylor Resweber and Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+The ANCE gene plays a role in processing biological active peptides. In
+this project we focused on the Drosophila Melanogaster ANCE gene the
+fly ortholog of the human ACE gene. We analyzed four ANCE paralogs
+-ANCE 2, ANCE 3, ANCE 4, ANCE 5and examined their differentially
+expression patterns. Across different midgut regions, we observed distinct
+expression patterns. Within the posterior adult midgut, there 1s a high
+ANCE gene expression of the Epithelium enterocyte indicating potential
+activity related to the bloodstream. Our results suggest that studying
+ANCE gene expression and functional studies may offer insights into
+cardiovascular-related pathways and potential therapeutic directions..
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Cardiovascular disorders are a prominent and widespread disease
+caused by genetic predispositions and environmental conditions.
+The ACE gene found within humans 1s an angiotensin converting
+enzyme, which 1s a critical regulator of blood pressure and fluid
+balance. This sparked an interest to research the ANCE gene
+within Drosophila melanogaster to find a correlation between the
+ACE gene and cardiovascular disorders. Drosophila melanogaster is a model organism and by further
+investigating this gene we could relate our findings to the ACE
+gene within humans. The ACE gene, which regulates blood
+pressure and cardiovascular function in humans, has functional
+analogs in Drosophila. These analogs help us study conserved
+functions in a simpler system. The fruit fly 1s a powerful tool for
+understanding the genetic basis of cardiovascular diseases. Using the ANCE gene expressed in the Drosophila, it can be
+determined if the ANCE gene is differentially expressed.
+Specifically, we analyzed four paralogs of the ANCE geneANCE 2, ANCE 3, ANCE 4, ANCE 5, and found that only the
+ANCE and ANCE 3 genes were differentially expressed in a
+specific region. This demonstrated a potential functional link
+between the ACE gene and the ANCE gene. To better understand
+this correlation, single cell RNA sequence data graphs (FIGURE
+1.) were uploaded via SciServer which indicated the specific
+regions of expression. These regions were within the post interior
+region of the midgut highlighting the epithelium enterocyte. Our
+research focused heavily on the areas that showed differential
+expression within the fruit fly and how these findings might
+inform understanding of similar processes in human
+development. Since the ACE gene 1s a regulator of fluidity and
+the bloodstream, we further analyzed and researched whether or
+not cardiovascular disorders could relate to the lack of the ACE
+gene expression.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+- Used FlyBase to locate the main gene ANCE, from there we obtained its 4
+group members. Ance-2. Ance-3, Ance-4, and Ance-5. - Gather each gene's function. - Used Human Protein Atlas to determine the function of ACE and ACE-2 as
+homologs to the ANCE gene. - Utilized SciServer, under Differential Expression with DESeq2, to find if the
+group members were differentially expressed. - To gather more supporting information, we looked at the different cell types
+for each group member, though we only found it for Ance and Ance-3. - Navigated through PubMed to find supporting references.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+ANCE
+
+Catalyzes the conversion
+of angiotensin I into
+angiotensin Il, which acts
+as a vasopressor and
+stimulates aldosterone.
+Both of these peptides
+regulate blood pressure,
+
+High gene expression in
+the epithelial enterocyte of
+the posterior adult midgut
+and crop region
+
+ANCE-2
+
+Encodes for a protein to
+catalyze the cleavage of
+angiotensin I into
+angiotensin 1-9, which
+then functions in reducing
+hypertension
+
+Gene not available in
+CellXGene.
+
+ANCE-3
+
+Required for regular
+reproductive behavior.
+Necessary for ¢VA
+pheromone reception and
+olfactory neuron
+regulation
+
+High gene expression in
+the crop region and the
+adult midgut-hindgut
+hybrid zone
+
+ANCE-4
+
+Human orthologs of this
+gene are implicated in
+artery disease,
+autoimmune disease,
+gastrointestinal system
+cancer, heart valve
+discase, and lung discase
+
+Gene not available in
+CellXGene.
+
+ANCE-5
+
+Human orthologs of this
+gene are implicated in
+artery disease,
+autoimmune discase,
+gastrointestinal system
+cancer, heart valve
+discase, and lung discase
+
+Gene not available in
+CellxGene.
+
+FIGURE 1. Chart showcasing the four gene members from the ANCE gene, with their
+gene expression plot, function, and if available single cell RNA Seq map.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Our results suggest that certain ANCE genes in Drosophila
+melanogaster show region-specific expression patterns in the
+midgut, particularly ANCE and ANCE-3, which are active in the
+posterior midgut and epithelial enterocytes. These findings
+indicate that the ANCE gene family may play a localized role in
+peptide processing or fluid balance within the fly’s digestive
+system.While the human ACE gene 1s a well-known regulator of
+blood pressure and cardiovascular function, we cannot directly
+conclude from our Drosophila data that ANCE genes affect
+human hypertension or obesity. However, by using Drosophila as
+a model organism, we can explore conserved biological pathways
+that might contribute to cardiovascular health. Our research
+highlights how studies in fruit flies can offer insights into gene
+families related to human health, including the potential roles of
+ACE-related genes in regulating fluid balance and cardiovascular
+function. Future work could include functional experiments to test how
+manipulating ANCE expression in Drosophila affects
+physiology, providing a foundation for exploring therapeutic
+targets in human cardiovascular disease.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Akif, Mohd et al. “Structural basis of peptide recognition by the angiotensin-1
+converting enzyme homologue AnCE from Drosophila melanogaster.” The FEBS journal
+vol. 279,24 (2012): 4525-34. doi:10.1111/febs.12038 2. Coates, D., Isaac, R.E., Cotton, J., Siviter, R., Williams, T.A., Shirras, A., Corvol, P.,
+Dive, V. (2000). Functional conservation of the active sites of human and Drosophila
+angiotensin I-converting enzyme. Biochemistry 39(30): 8963--8969. 3. Nesci, Antonio et al. “Gut Microbiota and Cardiovascular Disease: Evidence on the
+Metabolic and Inflammatory Background of a Complex Relationship.” International
+journal of molecular sciences vol. 24,10 9087. 22 May. 2023, doi:10.3390/ijms24109087
+4. Li, Xu-Ming et al. “Association between childhood obesity and gut microbiota: 16S
+rRNA gene sequencing-based cohort study.” World journal of gastroenterology vol. 30,16
+(2024): 2249-2257. d01:10.3748/w)g.v30.116.2249

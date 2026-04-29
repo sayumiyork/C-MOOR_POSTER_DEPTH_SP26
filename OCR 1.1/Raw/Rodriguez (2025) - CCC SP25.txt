@@ -1,0 +1,143 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Differential Gene Expression of Galm1 in the Drosophila Midgut
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Isabella Rodriguez'", Rosa Alcazar!"
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Mutations in the protein galactose mutarotase, or GALM, are associated with
+the disease galactosemia, which prevents the body from properly metabolising
+the sugar galactose. However, the expression of the gene in specific regions is
+less reported. By analyzing the gene, Galm1, present in Drosophila
+Melanogaster, | was able to determine areas of high expression of this gene in
+the Drosophila midgut. | found that Galm1 is most highly expressed in the p2_4
+region of the Drosophila midgut. This indicates that this gene is highly important
+in the p2_4 region of the midgut, and therefore a deficiency of this gene in this
+region could cause significant harm.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Galactosemia is a rare metabolic disorder that results from deficiencies in the
+GALM gene. This gene encodes for the protein galactose mutarotase, which
+catalyzes the interconversion of beta-d-galactose and alpha-d-galactose. This
+process is necessary for the Leloir pathway to metabolize galactose into
+glucose-1-phosphate.
+
+Since the GALM gene is associated with galactose metabolism, | hypothesized
+that the Drosophila ortholog, Galm1, would be expressed most highly in the
+p2_4 region of the Drosophila midgut, which specializes in hexose metabolism.
+By analyzing the gene expression of Galm1 across different regions of the
+Drosophila midgut, | can determine areas of high expression of this gene in
+humans, and therefore which tissues will be more susceptible to mutations that
+may result in galactosemia.
+
+Drosophila Melanogaster are a type of fruit fly. They are great model organisms
+for genetic testing, largely due to the fact that they have a short life cycle,
+reproduce often, and share many genes with humans. In fact, about 75% of
+human genes are found in fruit flies as well. Utilizing drosophila melanogaster
+allows scientists to conduct ethical experiments at a cheaper cost.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+® | utilized clusterProfiler on SciServer to identify pathways of genes with a padj
+value of less than 0.05 and with high count values.
+
+e From the given pathways, | chose to look into galactose metabolism, specifically
+the Leloir pathway
+
+e | then used flybase to find genes associated with galactose metabolism and the
+human ortholog of that gene.
+
+e Once | identified my genes, | utilized the gene id from flybase to examine the
+gene expression of the Galm1 gene across the midgut of the Drosophila.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+Figure 1. The graph shows the gene
+expression of the Galm 1 gene in
+the Drosophila midgut. According
+to the data, the Galm1 gene is
+most highly expressed in the p2_4
+region of the midgut.
+
+Figure 2. The
+graph shows gene
+pathways with a
+padj value less
+than 0.05.
+
+Figure 3. This chart shows the expression of GALM throughout human tissues.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+The data shows that the greatest expression of the Galm1 gene occurs in the p2_4 region of the
+Drosophila midgut, confirming the hypothesis that gene expression of this gene would be highest
+in the p2_4 region. As seen in Figure 4. below, this region of the midgut specializes in hexose
+metabolism. As galactose is a six carbon monosaccharide, it makes sense that the Galm1 gene
+would be most highly expressed in the region of the midgut that metabolizes hexoses. Because
+Galm1 is expressed the most in areas specializing in hexose metabolism, areas such as the kidneys
+in humans, which filter substances like galactose from the bloodstream, would be more affected
+by deficiencies in the GALM gene. Figure 3. shows that the GALM gene is in fact expressed most
+greatly in human kidney tissues than in any other area.
+
+This differential gene expression throughout the Drosophila midgut suggests that certain areas,
+such as the p2_4 region in Drosophila and the kidneys in humans, are at a greater risk for
+damaging mutations to the GALM gene. Because this gene is so highly expressed in these regions,
+they will not only have a higher risk of developing galactosemia, but are also susceptible to greater
+damage if mutations are to occur. Further investigation could analyze how common mutations in
+this gene are by analyzing dna sequences amongst Drosophila Melanogaster with different
+genomes.
+
+Figure 4. This
+image shows
+the functions
+of the different
+regions of the
+Drosophila
+midgut.
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. Daenzer JM, Fridovich-Keil JL. Drosophila melanogaster Models of Galactosemia. Curr Top Dev Biol.
+2017;121:377-395. doi: 10.1016/bs.ctdb.2016.07.009. Epub 2016 Aug 3. PMID: 28057307; PMCID:
+PMC5683716
+
+2. Daenzer JMI, Druss JJ, Fridovich-Keil JL. Restoring galactose metabolism without restoring GALT rescues
+both compromised survival in larvae and an adult climbing deficit in a GALT-null D. Melanogaster model
+of classic galactosemia. J Inherit Metab Dis. 2024 Sep;47(5):991-1000. doi: 10.1002/jimd.12774. Epub
+2024 Jul 3. PMID: 38960603; PMCID: PMC11563841..
+
+3. Daenzer JM, Jumbo-Lucioni PP, Hopson ML, Garza KR, Ryan EL, Fridovich-Keil JL. Acute and long-term
+outcomes in a Drosophila melanogaster model of classic galactosemia occur independently of
+galactose-1-phosphate accumulation. Dis Model Mech. 2016 Nov 1;9(11):1375-1382. doi:
+10.1242/dmm.022988. Epub 2016 Aug 24. PMID: 27562100; PMCID: PMC5117221.
+
+4. Jumbo-Lucioni PP, Parkinson WM, Kopke DL, Broadie K. Coordinated movement, neuromuscular
+synaptogenesis and trans-synaptic signaling defects in Drosophila galactosemia models. Hum Mol Genet.
+2016 Sep 1;25(17):3699-3714. doi: 10.1093/hmg/ddw217. Epub 2016 Jul 27. PMID: 27466186; PMCID:
+PMC5216615.
+
+5. Demirbas D, Coelho Al, Rubio-Gozalbo ME, Berry GT. Hereditary galactosemia. Metabolism. 2018
+Jun;83:188-196. doi: 10.1016/j.metabol.2018.01.025. Epub 2018 Jan 31. PMID: 29409891.

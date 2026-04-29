@@ -1,0 +1,194 @@
+RESEARCH POSTER OCR RESULTS
+================================================================================
+
+================================================================================
+SECTION: TITLE
+================================================================================
+
+Iron-Induced Modulation of Acetyl-CoA Carboxylase (ACC) in Drosophila
+Melanogaster : Impacts on Lipid Metabolism and Energy Storage
+
+================================================================================
+SECTION: AUTHORS
+================================================================================
+
+Jenna Nii, Alyssa Ware, Rosa Alcazar
+
+================================================================================
+SECTION: ABSTRACT
+================================================================================
+
+Elevated ron eves can alter metaoolic sgnaling and axidative balance, yet
+tne r effects on ipogenic regulation in Omosoph 2 melanogaster remain
+unexplored. Acetyl-Cod carboxylase (ACC) sthe rate mit ng enzyme that
+converts acetyl-Cod to malony’-Cod, committing cells to fatty acid synthess.
+We nypotnesize that excess iron actvates acety!-Col carooxy ase, Increasing
+maloryi-Cod production and driving fatty acid synthess To determine
+whether ron influences this cathway, we analyzed regiona Midgut exoression
+of ACC in Crasophila melanogaster, an desl model arganism for studying
+eolut onary conserved metaoolic responses Using ANA-seq data, FlyEase
+ortnolog MEpoINg, 2nd segment specific expression analyss, we tested
+whether ron exgosure nduces ipogen c remodel ng consistent with patterns
+oosened in mamma 5 ACC showed 2 strong, region-specific increase inthe =
+segment, wh le the comparison gene ATF ctrate lyase (ATPCL exhibited re stvely uniform expression, Indicating that iron does not globally elevate al
+lod re ated enzymes. This contrast suggests that iron se ectively enhances
+ACC actwvity ratner than glcoal yeevating 2 I pd related enzymes. Together,
+tnese findings suooort the hypothesis that iron induces targeted pogenic
+remodeling, which may contribute to lipid accumulation and altered energy
+storage. Studying this relationship in Drasophila is especially important
+because Drosophila sa powerfu model organism with highly conserved
+metzbol c genes, rapid generat on times and wel character zed nutrient
+responsive pathways. This 2llows us to determine whetner iron dependent
+metabolic regulation is evolutionarily conserved, providing insight that can
+extend to human metabo © diseases such as obesity, fathy~liver disease and
+iran over oad disorders.
+
+================================================================================
+SECTION: INTRODUCTION
+================================================================================
+
+Iron is an essential micronutnent involved in redox chemistry, mitochondrial
+function, and cellular metabolism. However, elevated iron levels can disrupt
+oxidative balance and alter key metabolic pathways. One enzyme potentially
+affected by iron status is acetyl-CoA carboxylase (ACC), the rate limiting
+enzyme in de novo fatty acid synthesis (1). ACC generates malonyl-Col, 2
+critical substrate for fatty acid elongation and a metabolic signal that
+suppresses fatty acd oxidation. A second key metabolic enzyme, ATP citrate
+lyase), produces cytosolic acetyl-CoA upstream of ACC and serves as a major
+entry point linking carbohydrate metabolism to lipid synthesis. While
+mammalian studies show that iron overload increases ACC and promotes
+liped accumulation, this relationship has not been examined in Drosophila
+melanogaster, a genetically tractable model organism widely used to study
+metabolism. Because many metabolic pathways are conserved between flies
+and mammals, Drosophila provides an ideal system to test whether the iron
+to ACC to lipid synthesis axis represents a conserved regulatory mechanism.
+This project investigates how elevated iron influences ACC and ATPCL
+expression and lipid storage in Drosophila. We hypothesize that iron exposure
+increased ACC activity and downstream fatty acid synthesis leading to greater
+triglycende (TAC) accumulation, while ATPCL may serve as a companson
+gene to determine whether iron regulates lipid related enzymes broadly or in
+a gene specific manner. In mammals, metabolic stress such as high-fat diet
+alters ACC activity, and pharmacological ACC inhibition improves
+obesity-related phenotypes by reducing tnglycende accumulation and
+restoring metabolic balance. These findings highlight ACC as a flexable
+metabolic control point. Because iron overload generates oxidative stress,
+another form of metabolic stress, we hypothesized that elevated iron may
+similarly modulate ACC expression in Drosophila, altering lipid metabolism
+and energy storage, and that ATPCL expression will help reveal whether this
+response is targeted or global at the level of lipid metabolic enzymes.
+
+================================================================================
+SECTION: METHODS
+================================================================================
+
+- EyBase was used to ident fy the Drosophila melanogaster genes of interest,
+including Acetyl-Cal carboxylase and ATR citrate yase =“uman metabolic
+Iterature was cross referenced to determ ne conserved pogen C pEthways
+andto guide select on of comparson genes - any Jers provided 2 cloud based computations environment for
+extract ng and analyzing ANA-seq datz from regional y d ssected Droscohi'a
+midguts Using preprocessed norma ized count mMistrices, gene expression Va ues were accessed and visualized through custom I scripts. In that, I, 2
+bioconductor too! was used to generate regiona expression plots. The function
+‘plotacrossreg ions’ was soo ed to compas the expression pattems of ACC
+and ATPCL across eight midgut regions (31, 32.3, Cu, LFC, Fe, 0, p24, R4_R5I.
+These plots allowed direct comparison of iron associated and non iron
+3350C ate segments. KECC meta oolic pathway maps were references to
+confirm the pasitions of ACC and ATRCL within the fatty acid synthesis
+patnway and to contextus Ze the r regu stony ro es, -SUNEn groan Aras Was used Io exam Ne tne express on patterns and
+functional annotations of mammalian orthologs, allowing comparison of iron
+lod metabolic Nieracti ons Cross species. Togetner, thess tools 2/lowed Integrated analysis of conserved metacolism
+reg onal midgut gene expression and iron rescorsive lipogenic regu ston.
+
+================================================================================
+SECTION: RESULTS
+================================================================================
+
+ACC Expression Across Midgut Regions
+
+Figure Z Expression of
+Acetyl-Coa carboxylase
+(ACC ; FEQNOQ33248), in
+dissected midgut regions
+using normalized
+RNA-seq counts. ACC
+shows a strong
+region-specific increase in
+the Fe segment, an iron
+associated region of the
+gut This Fe specific
+elevation suggests that
+iron availability selectively
+enhances ACC expression
+rather than inducing a
+global increase across the
+midgut.
+
+ATPCL Expression Across Midgut Regions
+
+Figure 3: Expression of
+ATP citrate lyase (ATPCL ;
+FBgNO020236), an
+upstream acetyl-CoA
+producing enzyme not
+known to be iron
+regulated. ATPCL
+displays relatively
+uniform expression
+across midgut regions
+and does not mirror the
+Fe specific increase
+observed for ACC. This
+contrast indicates that
+iron does not globally
+elevate all lipid metabolic
+enzymes and supports
+ACC as a key iron
+responsive regulatory
+step.
+
+================================================================================
+SECTION: DISCUSSION
+================================================================================
+
+Our results demonstrate that Acetyl-Col carboxylase (ACC) expression is
+strongly enriched in the Fe region of the Drosophila midgut. a segment
+associated with iron absorption and metal handling. This region specific
+elevation suggests that iron availability may selectively enhance ACC
+expression, consistent with mammalian studies in which iron overload
+increases ACC activity and promotes liped accumulation (2). In contrast, ATP
+citrate lyase (ATPCL), an upstream acetyl-Col producing enzyme not
+known to be iron responsive, displayed relatively uniform expression across
+the midgut and did not show a similar Fe specific increase. The divergent
+patterns between ACC and ATPCL indicate that iron does not broadly
+upregulate all lipid metabolic enzymes but instead appears to modulate a
+key regulatory step in fatty acid synthesis. The Fe specific upregulation of
+ACC supports our hypothesis that iron influences lipogenic pathways in
+Drosophila by enhancing ACC expression and potentially increasing
+malonyl-Coa production (3). Because ACC is the committed step in de novo
+fatty acid synthesis, elevated ACC levels in iron rich tissues may contribute
+to increased lipid storage and metabolic remodeling. These findings
+suggest a conserved iron dependent regulatory mechanism affecting ACC
+across species and highlight the fly midgut as a useful system for dissecting
+micronutrient drive metabolic changes. Future studies could pair regional
+gene expression with direct trighyceride (TAC) quantification or assess
+additional downstream genes to further validate the mechanistic link
+between iron exposure and pid accumulation
+
+================================================================================
+SECTION: REFERENCES
+================================================================================
+
+1. ZhouL, DuY, Zhang M et al REGULATOR OF FATTY ACID
+SYNTHESIS protems regulate de novo fatty acid synthesis by modulating
+hetACCase distnbution. The Plant Cell. 2024:37(1).
+doi:https://d01.org/10.1093/pleell koae295 2. Wang ¥, Yu W, Li S, Guo D, He J, Wang Y. Acety]-CoA Carboxylases and
+Diseases. Frontiers m Oncology. 202212.
+doi:https://doi.org/10.3389/fonc 2022 836058 3. LuT GoulL, Yan S, Huang T. Inhibition of acetyl-CoA carboxylase by
+PP-73 exerts beneficial effects on metabolic dysregulation m 2 mouse model of
+2020;20(1):521-529. doi:https://d01.org/10.3892/etm 20208700 4. Kohgo Y, Ikuta K. Ohtake T, Tonimoto Y, Kato J. Body ron metabolism
+and pathophysiology of ron overload. Intemational Jounal of Hematology.
+2008;88(1):7-15. dox-https://d01.org/10.1007/512185-008-0120-5 5. Scagha N, Chisholm JW, Izal RA. Inhibition of StearovlCoA Desaturase-1
+Inactivates Acetyl-CoA Carboxylase and Impairs Proliferation m Cancer Cells:
+Role of AMPK. Bonmi M, ed. PLoS ONE. 2009;4(8):e6812.
+doi:https://doi.org/10.1371/joumal pone. 0006812 6. The Genome Education Partnership. (n.d.). Mouse gut-brain axis,
+differential expression. GEMS: Genomics Education Modules.
+https://genomicseducation.org/module/mouse_gutbrain_de html
