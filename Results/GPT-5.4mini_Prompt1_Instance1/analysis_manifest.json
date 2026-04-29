@@ -1,0 +1,47 @@
+{
+  "source_dir": "/home/workspace/Documents/OCR 1.1/Raw",
+  "output_dir": "/home/workspace/Documents/OCR 1.1/AI_model5_Prompt2",
+  "source_files": [
+    "Avetisyan et al. (2023) - CCC SP23.txt",
+    "Berbouti et al. (2025) - CCC FA25.txt",
+    "Brown et al. (2025) - CCC SP25.txt",
+    "Cabral et al. (2025) - CCC FA25.txt",
+    "Camara et al. (2025) - LU SP25.txt",
+    "Dehuelbes et al. (2025) - LU SP5.txt",
+    "Diaz et al. (2025) - CCC SP25.txt",
+    "Ford et al. (2023) - CCC SP23.txt",
+    "Gill & Alcazar (2025) - CCC FA25.txt",
+    "Godoy-Pena et al. (2025) - CCC FA25.txt",
+    "Haubelt & Alcazar et al. (2025) - CCC FA25.txt",
+    "Henriquez et al. (2025) - COD WI24.txt",
+    "Holmes (2025) - CCC SP25.txt",
+    "Lemus et al. (2025) - FA25 CCC.txt",
+    "Logan et al. (2025) - CCC FA25.txt",
+    "Luera et al. (2025) - CCC FA25.txt",
+    "Meraz et al. (2023) - CCC SP23.txt",
+    "Nii et al. (2025) - CCC FA25.txt",
+    "Otala et al. (2025) - LU SP25.txt",
+    "Paderna et al. (2025) - CCC SP25.txt",
+    "Paramo-Ojeda et al. (2025) - CCC SP25.txt",
+    "Pedireddi et al. (2025) - CCC SP25.txt",
+    "Rodriguez (2025) - CCC SP25.txt",
+    "Sakana et al. (2025) - CCC SP25.txt",
+    "Trevino et al. (2022) - CCC SP22.txt",
+    "Tuttle et al. (2025) - CCC SP25.txt",
+    "Zlaket et al. (2023) - CCC SP23.txt"
+  ],
+  "outputs": [
+    "/home/workspace/Documents/OCR 1.1/AI_model5_Prompt2/motivation_thematic_analysis.pdf",
+    "/home/workspace/Documents/OCR 1.1/AI_model5_Prompt2/disease_thematic_analysis.pdf",
+    "/home/workspace/Documents/OCR 1.1/AI_model5_Prompt2/technical_report.pdf"
+  ],
+  "poster_count": 27,
+  "disease_named_count": 15,
+  "category_counts": {
+    "disease_model": 11,
+    "metabolism": 7,
+    "defense": 3,
+    "neurobiology": 3,
+    "basic_biology": 3
+  }
+}

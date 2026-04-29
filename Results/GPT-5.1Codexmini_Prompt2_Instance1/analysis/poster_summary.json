@@ -1,0 +1,424 @@
+[
+  {
+    "poster": "Avetisyan et al. (2023) - CCC SP23_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Infectious / Immune",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Autism spectrum disorder"
+    ]
+  },
+  {
+    "poster": "Berbouti et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Environmental/Population context",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cardiovascular / Circulatory",
+      "Metabolic / Endocrine"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Braga et al. (2025)- CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Cabral et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Camara et al. (2025) - LU SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cardiovascular / Circulatory",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Dehuelbes et al. (2025) - LU SP5_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Infectious / Immune",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Diaz et al. (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Environmental/Population context",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control",
+      "Infectious / Immune",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Infectious disease"
+    ]
+  },
+  {
+    "poster": "Ford et al. (2023) - CCC SP23_cleaned.txt",
+    "motivations": [
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [],
+    "diseases": []
+  },
+  {
+    "poster": "Gill & Alcazar (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Godoy-Pena et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Environmental/Population context",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Haubelt & Alcazar et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation"
+    ],
+    "categories": [
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Henriquez et al. (2025) - COD WI24_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control",
+      "Infectious / Immune"
+    ],
+    "diseases": [
+      "Cancer",
+      "Infectious disease"
+    ]
+  },
+  {
+    "poster": "Holmes (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Environmental/Population context",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Lemus et al. (2025) - FA25 CCC_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Metabolic / Endocrine"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Logan et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Environmental/Population context",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control",
+      "Cardiovascular / Circulatory",
+      "Infectious / Immune",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Cancer",
+      "Cardiovascular disease",
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Luera et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Meraz et al. (2023) - CCC SP23_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control"
+    ],
+    "diseases": [
+      "Cancer"
+    ]
+  },
+  {
+    "poster": "Nii et al. (2025) - CCC FA25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Environmental/Population context",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Cancer",
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Otala et al. (2025) - LU SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control",
+      "Infectious / Immune",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Cancer",
+      "Diabetes / metabolic syndrome",
+      "Infectious disease"
+    ]
+  },
+  {
+    "poster": "Paderna et al. (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Infectious / Immune"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Paramo-Ojeda et al. (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cancer / Growth control",
+      "Metabolic / Endocrine"
+    ],
+    "diseases": [
+      "Cancer"
+    ]
+  },
+  {
+    "poster": "Pedireddi et al. (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Rodriguez (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cardiovascular / Circulatory",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  },
+  {
+    "poster": "Sakana et al. (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [],
+    "diseases": []
+  },
+  {
+    "poster": "Trevino et al. (2022) - CCC SP22_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Cardiovascular / Circulatory",
+      "Infectious / Immune",
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Cardiovascular disease",
+      "Diabetes / metabolic syndrome",
+      "Infectious disease"
+    ]
+  },
+  {
+    "poster": "Tuttle et al. (2025) - CCC SP25_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Infectious / Immune"
+    ],
+    "diseases": []
+  },
+  {
+    "poster": "Zlaket et al. (2023) - CCC SP23_cleaned.txt",
+    "motivations": [
+      "Disease mechanism",
+      "Human health application",
+      "Model organism validation",
+      "Technology demonstration"
+    ],
+    "categories": [
+      "Metabolic / Endocrine",
+      "Neurological / Neurodevelopmental"
+    ],
+    "diseases": [
+      "Diabetes / metabolic syndrome"
+    ]
+  }
+]

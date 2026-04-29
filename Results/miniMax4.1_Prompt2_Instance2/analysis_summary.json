@@ -1,0 +1,502 @@
+{
+  "n_posters": 27,
+  "n_themes": 28,
+  "n_diseases": 25,
+  "poster_titles": [
+    "Avetisyan et al. (2023)",
+    "Berbouti et al. (2025)",
+    "Brown et al. (2025) - CCC SP25.txt",
+    "Cabral et al. (2025)",
+    "Camara et al. (2025)",
+    "Dehuelbes et al. (2025)",
+    "Diaz et al. (2025) - CCC SP25.txt",
+    "Ford et al. (2023)",
+    "Gill & Alcazar (2025)",
+    "Godoy-Pena et al. (2025)",
+    "Haubelt & Alcazar et al. (2025)",
+    "Henriquez et al. (2025)",
+    "Holmes (2025) - CCC SP25.txt",
+    "Lemus et al. (2025)",
+    "Logan et al. (2025)",
+    "Luera et al. (2025)",
+    "Meraz et al. (2023)",
+    "Nii et al. (2025)",
+    "Otala et al. (2025)",
+    "Paderna et al. (2025) - CCC SP25.txt",
+    "Paramo-Ojeda et al. (2025) - CCC SP25.txt",
+    "Pedireddi et al. (2025) - CCC SP25.txt",
+    "Rodriguez (2025) - CCC SP25.txt",
+    "Sakana et al. (2025) - CCC SP25.txt",
+    "Trevino et al. (2022)",
+    "Tuttle et al. (2025) - CCC SP25.txt",
+    "Zlaket et al. (2023)"
+  ],
+  "sorted_themes": [
+    [
+      "MOD-GI",
+      "Gastrointestinal / Gut Biology",
+      774,
+      25
+    ],
+    [
+      "MOD-OX",
+      "Oxidative Biology",
+      442,
+      27
+    ],
+    [
+      "MOD-METAB",
+      "Metabolism & Energy",
+      354,
+      17
+    ],
+    [
+      "MOD-NEURO",
+      "Neuroscience / Neurobiology",
+      256,
+      18
+    ],
+    [
+      "MOD-ORG",
+      "Model Organism Justification",
+      216,
+      26
+    ],
+    [
+      "MOD-DISEASE",
+      "Disease/Disorder Focus",
+      191,
+      24
+    ],
+    [
+      "MOD-COMP-BIO",
+      "Comparative / Computational Biology",
+      179,
+      27
+    ],
+    [
+      "MOD-DEV",
+      "Development & Differentiation",
+      170,
+      25
+    ],
+    [
+      "MOD-GENE-EXPR",
+      "Gene Expression & Regulation",
+      170,
+      26
+    ],
+    [
+      "MOD-IMM",
+      "Immune Response & Stress",
+      107,
+      16
+    ],
+    [
+      "MOD-DB",
+      "Database & Resource Use",
+      103,
+      25
+    ],
+    [
+      "MOD-METH",
+      "Methodology & Workflow",
+      97,
+      26
+    ],
+    [
+      "MOD-AMINO",
+      "Amino Acid Metabolism",
+      85,
+      6
+    ],
+    [
+      "MOD-IRON",
+      "Iron Metabolism",
+      84,
+      7
+    ],
+    [
+      "MOD-PIGM",
+      "Pigmentation",
+      70,
+      3
+    ],
+    [
+      "MOD-TRANS",
+      "Transport Biology",
+      66,
+      7
+    ],
+    [
+      "MOD-PEROX",
+      "Peroxisome Biology",
+      63,
+      3
+    ],
+    [
+      "MOD-CANCER",
+      "Cancer Biology",
+      58,
+      8
+    ],
+    [
+      "MOD-FATTY",
+      "Lipid / Fatty Acid Biology",
+      44,
+      6
+    ],
+    [
+      "MOD-DRUG",
+      "Xenobiotic / Drug Metabolism",
+      43,
+      2
+    ],
+    [
+      "MOD-THERAPY",
+      "Therapeutic / Drug Targeting",
+      32,
+      18
+    ],
+    [
+      "MOD-CELL-DEATH",
+      "Cell Death / Aging / Longevity",
+      19,
+      7
+    ],
+    [
+      "MOD-NUTR",
+      "Nutrient Absorption & Malnutrition",
+      11,
+      3
+    ],
+    [
+      "MOD-CIT",
+      "Cytoskeleton / Cell Structure",
+      8,
+      5
+    ],
+    [
+      "MOD-MITO",
+      "Mitochondrial Biology",
+      7,
+      3
+    ],
+    [
+      "MOD-JUXTA",
+      "Juxtacrine / Cell-Cell Signaling",
+      5,
+      3
+    ],
+    [
+      "MOD-REP",
+      "Reproduction & Maternal Effect",
+      3,
+      3
+    ],
+    [
+      "MOD-THERM",
+      "Thermal / Temperature Response",
+      1,
+      1
+    ]
+  ],
+  "sorted_diseases": [
+    [
+      "Neurodegenerative Disease",
+      25
+    ],
+    [
+      "Cancer (General / Specific)",
+      8
+    ],
+    [
+      "Thyroid / Metabolic Disorders",
+      5
+    ],
+    [
+      "Intellectual Disability / Neurodevelopmental Disorder",
+      3
+    ],
+    [
+      "Aging / Age-Related Decline",
+      3
+    ],
+    [
+      "Nutrient Absorption / Malabsorption",
+      3
+    ],
+    [
+      "Cardiovascular Disease",
+      2
+    ],
+    [
+      "Liver Dysfunction",
+      2
+    ],
+    [
+      "Zellweger Spectrum Disorder / Peroxisome Biogenesis",
+      2
+    ],
+    [
+      "Peroxisomal Dystrophy (ZSD-specific)",
+      2
+    ],
+    [
+      "Diabetes Mellitus",
+      1
+    ],
+    [
+      "Mitochondrial Disease",
+      1
+    ],
+    [
+      "Psychiatric / Mood Disorder",
+      1
+    ],
+    [
+      "Gastrointestinal / Gut Disorder",
+      1
+    ],
+    [
+      "Inflammatory Disease",
+      1
+    ],
+    [
+      "Iron Metabolism Disorder / Hemochromatosis",
+      1
+    ],
+    [
+      "Lipid Storage Disease",
+      1
+    ],
+    [
+      "Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+      1
+    ],
+    [
+      "Carnitine Transporter Deficiency",
+      1
+    ],
+    [
+      "Cystic Fibrosis",
+      1
+    ],
+    [
+      "Oculocutaneous Albinism (OCA4)",
+      1
+    ],
+    [
+      "Sensory / Retinal Disease",
+      1
+    ],
+    [
+      "Hearing Loss",
+      1
+    ],
+    [
+      "Hypotonia",
+      1
+    ],
+    [
+      "Other Rare Genetic Disorder",
+      1
+    ]
+  ],
+  "top_genes": [
+    [
+      "expression",
+      78
+    ],
+    [
+      "and",
+      37
+    ],
+    [
+      "that",
+      29
+    ],
+    [
+      "the",
+      29
+    ],
+    [
+      "are",
+      20
+    ],
+    [
+      "expressed",
+      12
+    ],
+    [
+      "involved",
+      12
+    ],
+    [
+      "were",
+      11
+    ],
+    [
+      "within",
+      10
+    ],
+    [
+      "Expression",
+      10
+    ],
+    [
+      "humans",
+      8
+    ],
+    [
+      "across",
+      8
+    ],
+    [
+      "for",
+      7
+    ],
+    [
+      "which",
+      6
+    ],
+    [
+      "found",
+      6
+    ],
+    [
+      "between",
+      6
+    ],
+    [
+      "Drosophila",
+      6
+    ],
+    [
+      "was",
+      6
+    ],
+    [
+      "related",
+      6
+    ],
+    [
+      "function",
+      6
+    ],
+    [
+      "with",
+      6
+    ],
+    [
+      "may",
+      5
+    ],
+    [
+      "play",
+      5
+    ],
+    [
+      "would",
+      5
+    ],
+    [
+      "flies",
+      5
+    ]
+  ],
+  "pathways": [
+    [
+      "Fatty Acid Metabolism / \u03b2-Oxidation",
+      6
+    ],
+    [
+      "Gut-Brain Axis",
+      3
+    ],
+    [
+      "Peroxisomal Pathways",
+      3
+    ],
+    [
+      "V-ATPase / Proton Transport",
+      2
+    ],
+    [
+      "Pyruvate / TCA Cycle",
+      2
+    ],
+    [
+      "Melanin / Melanogenesis Pathway",
+      2
+    ],
+    [
+      "Cytokine / Immune Signaling",
+      1
+    ],
+    [
+      "mTOR / AMPK Signaling",
+      1
+    ],
+    [
+      "Iron Metabolism",
+      1
+    ],
+    [
+      "DNA Damage / p53 Pathway",
+      1
+    ],
+    [
+      "Tryptophan-Kynurenine Pathway",
+      1
+    ],
+    [
+      "ABC Transporter Pathway",
+      1
+    ]
+  ],
+  "section_presence": [
+    [
+      "AUTHORS",
+      27
+    ],
+    [
+      "RESULTS",
+      27
+    ],
+    [
+      "INTRODUCTION",
+      26
+    ],
+    [
+      "METHODS",
+      26
+    ],
+    [
+      "REFERENCES",
+      26
+    ],
+    [
+      "TITLE",
+      25
+    ],
+    [
+      "DISCUSSION",
+      25
+    ],
+    [
+      "ABSTRACT",
+      24
+    ],
+    [
+      "OTHER",
+      6
+    ]
+  ],
+  "citations": {
+    "total_dois": 32,
+    "total_pmids": 26,
+    "posters_with_dois": 11,
+    "posters_with_pmids": 8
+  }
+}

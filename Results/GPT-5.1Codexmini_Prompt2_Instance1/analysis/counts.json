@@ -1,0 +1,23 @@
+{
+  "motivations": {
+    "Technology demonstration": 26,
+    "Human health application": 25,
+    "Disease mechanism": 26,
+    "Model organism validation": 27,
+    "Environmental/Population context": 6
+  },
+  "categories": {
+    "Infectious / Immune": 9,
+    "Neurological / Neurodevelopmental": 18,
+    "Cardiovascular / Circulatory": 5,
+    "Metabolic / Endocrine": 15,
+    "Cancer / Growth control": 7
+  },
+  "diseases": {
+    "Autism spectrum disorder": 1,
+    "Diabetes / metabolic syndrome": 13,
+    "Infectious disease": 4,
+    "Cancer": 6,
+    "Cardiovascular disease": 2
+  }
+}

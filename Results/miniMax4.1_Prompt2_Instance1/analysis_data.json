@@ -1,0 +1,279 @@
+{
+  "Avetisyan et al. (2023) - CCC SP23": {
+    "category": "Neurological & Psychiatric Disease",
+    "scores": {
+      "Neurological & Psychiatric Disease": 2,
+      "Basic Biology": 4
+    },
+    "diseases": [
+      "Autism Spectrum Disorder (ASD)"
+    ]
+  },
+  "Berbouti et al. (2025) - CCC FA25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 4,
+      "Basic Biology": 7
+    },
+    "diseases": []
+  },
+  "Brown et al. (2025) - CCC SP25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 3,
+      "Basic Biology": 5
+    },
+    "diseases": [
+      "Acid Reflux / GERD",
+      "Metabolic Disorder"
+    ]
+  },
+  "Cabral et al. (2025) - CCC FA25": {
+    "category": "Neurological & Psychiatric Disease",
+    "scores": {
+      "Neurological & Psychiatric Disease": 7,
+      "Basic Biology": 2
+    },
+    "diseases": [
+      "Neurodevelopmental Disorder",
+      "Rett Syndrome"
+    ]
+  },
+  "Camara et al. (2025) - LU SP25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 3,
+      "Basic Biology": 4
+    },
+    "diseases": [
+      "Alzheimer's Disease",
+      "Diabetes"
+    ]
+  },
+  "Dehuelbes et al. (2025) - LU SP5": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 2
+    },
+    "diseases": [
+      "Fatty Acid Metabolism Disorder",
+      "Metabolic Disorder"
+    ]
+  },
+  "Diaz et al. (2025) - CCC SP25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 5
+    },
+    "diseases": [
+      "Aging (linked to disease)"
+    ]
+  },
+  "Ford et al. (2023) - CCC SP23": {
+    "category": "Basic Biology",
+    "scores": {
+      "Basic Biology": 3
+    },
+    "diseases": []
+  },
+  "Gill & Alcazar (2025) - CCC FA25": {
+    "category": "Neurological & Psychiatric Disease",
+    "scores": {
+      "Neurological & Psychiatric Disease": 8,
+      "Basic Biology": 1
+    },
+    "diseases": []
+  },
+  "Godoy-Pena et al. (2025) - CCC FA25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Neurological & Psychiatric Disease": 1,
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 9
+    },
+    "diseases": []
+  },
+  "Haubelt & Alcazar et al. (2025) - CCC FA25": {
+    "category": "Neurological & Psychiatric Disease",
+    "scores": {
+      "Neurological & Psychiatric Disease": 10,
+      "Basic Biology": 3
+    },
+    "diseases": [
+      "Parkinson's Disease",
+      "Post-Traumatic Stress Disorder (PTSD)",
+      "Schizophrenia"
+    ]
+  },
+  "Henriquez et al. (2025) - COD WI24": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 6
+    },
+    "diseases": [
+      "Inflammatory Bowel Disease"
+    ]
+  },
+  "Holmes (2025) - CCC SP25": {
+    "category": "Neurological & Psychiatric Disease",
+    "scores": {
+      "Neurological & Psychiatric Disease": 2,
+      "Basic Biology": 8
+    },
+    "diseases": [
+      "Neurodegenerative Disease",
+      "Parkinson's Disease"
+    ]
+  },
+  "Lemus et al. (2025) - FA25 CCC": {
+    "category": "Metabolic & Digestive Disease",
+    "scores": {
+      "Cancer": 1,
+      "Metabolic & Digestive Disease": 6,
+      "Basic Biology": 6
+    },
+    "diseases": [
+      "Metabolic Disorder"
+    ]
+  },
+  "Logan et al. (2025) - CCC FA25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Cancer": 1,
+      "Basic Biology": 8
+    },
+    "diseases": [
+      "Cancer (general)",
+      "Cardiovascular Disease"
+    ]
+  },
+  "Luera et al. (2025) - CCC FA25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Basic Biology": 10
+    },
+    "diseases": []
+  },
+  "Meraz et al. (2023) - CCC SP23": {
+    "category": "Cancer",
+    "scores": {
+      "Cancer": 2,
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 5
+    },
+    "diseases": []
+  },
+  "Nii et al. (2025) - CCC FA25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Metabolic & Digestive Disease": 2,
+      "Basic Biology": 3
+    },
+    "diseases": []
+  },
+  "Otala et al. (2025) - LU SP25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Cancer": 1,
+      "Metabolic & Digestive Disease": 6,
+      "Inherited / Genetic Disorder": 1,
+      "Basic Biology": 7
+    },
+    "diseases": [
+      "Cancer (general)",
+      "Cystic Fibrosis",
+      "Fatty Acid Metabolism Disorder",
+      "Hypoglycemia",
+      "Liver Dysfunction",
+      "MCADD (Medium-Chain Acyl-CoA Dehydrogenase Deficiency)",
+      "Neurodegenerative Disease"
+    ]
+  },
+  "Paderna et al. (2025) - CCC SP25": {
+    "category": "Inherited / Genetic Disorder",
+    "scores": {
+      "Inherited / Genetic Disorder": 3,
+      "Basic Biology": 5
+    },
+    "diseases": [
+      "Oculocutaneous Albinism Type 4 (OCA4)"
+    ]
+  },
+  "Paramo-Ojeda et al. (2025) - CCC SP25": {
+    "category": "Cancer",
+    "scores": {
+      "Cancer": 18,
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 6
+    },
+    "diseases": [
+      "Cancer (general)",
+      "Colon Cancer",
+      "KRAS-Driven Cancer"
+    ]
+  },
+  "Pedireddi et al. (2025) - CCC SP25": {
+    "category": "Metabolic & Digestive Disease",
+    "scores": {
+      "Metabolic & Digestive Disease": 5,
+      "Basic Biology": 2
+    },
+    "diseases": []
+  },
+  "Rodriguez (2025) - CCC SP25": {
+    "category": "Metabolic & Digestive Disease",
+    "scores": {
+      "Metabolic & Digestive Disease": 3,
+      "Inherited / Genetic Disorder": 1,
+      "Basic Biology": 1
+    },
+    "diseases": [
+      "Aging (linked to disease)",
+      "Galactosemia",
+      "Metabolic Disorder"
+    ]
+  },
+  "Sakana et al. (2025) - CCC SP25": {
+    "category": "Basic Biology",
+    "scores": {
+      "Basic Biology": 9
+    },
+    "diseases": []
+  },
+  "Trevino et al. (2022) - CCC SP22": {
+    "category": "Inherited / Genetic Disorder",
+    "scores": {
+      "Metabolic & Digestive Disease": 3,
+      "Inherited / Genetic Disorder": 6,
+      "Basic Biology": 7
+    },
+    "diseases": [
+      "Zellweger Spectrum Disorder (ZSD)"
+    ]
+  },
+  "Tuttle et al. (2025) - CCC SP25": {
+    "category": "Neurological & Psychiatric Disease",
+    "scores": {
+      "Neurological & Psychiatric Disease": 2,
+      "Metabolic & Digestive Disease": 1,
+      "Basic Biology": 5
+    },
+    "diseases": [
+      "Aging (linked to disease)"
+    ]
+  },
+  "Zlaket et al. (2023) - CCC SP23": {
+    "category": "Inherited / Genetic Disorder",
+    "scores": {
+      "Metabolic & Digestive Disease": 2,
+      "Inherited / Genetic Disorder": 3,
+      "Basic Biology": 8
+    },
+    "diseases": [
+      "Zellweger Spectrum Disorder (ZSD)"
+    ]
+  }
+}
