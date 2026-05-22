@@ -1,0 +1,31 @@
+Database,Scorer,Score
+HPA,SY,0.66
+FlyBase,SY,0.72
+MGI,SY,0.17
+PubMed,SY,0.17
+EbscoHost,SY,0.03
+CellxGene,SY,0.03
+NCBI,SY,0.03
+Google Scholar,SY,0
+ResearchGate,SY,0.03
+KEGG,SY,0.24
+HPA,LS,0.62
+FlyBase,LS,0.79
+MGI,LS,0.17
+PubMed,LS,0
+EbscoHost,LS,0
+CellxGene,LS,0
+NCBI,LS,0
+Google Scholar,LS,0
+ResearchGate,LS,0
+KEGG,LS,0.28
+HPA,FT,0.59
+FlyBase,FT,0.76
+MGI,FT,0.17
+PubMed,FT,0.28
+EbscoHost,FT,0.03
+CellxGene,FT,0
+NCBI,FT,0.03
+Google Scholar,FT,0.07
+ResearchGate,FT,0.03
+KEGG,FT,0.28

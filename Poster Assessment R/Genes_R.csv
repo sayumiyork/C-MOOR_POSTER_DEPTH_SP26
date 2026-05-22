@@ -1,0 +1,7 @@
+Scorer,Category,Avg,Stdev
+SY,Genes_Count,4.45,3.29
+LS,Genes_Count,4.93,6.28
+FT,Genes_Count,5.66,6.99
+SY,Major_Genes_Count,2.59,1.78
+LS,Major_Genes_Count,2.31,1.63
+FT,Major_Genes_Count,4.17,7.20
